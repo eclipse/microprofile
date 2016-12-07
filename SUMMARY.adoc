@@ -2,7 +2,7 @@
 
 . link:README.adoc[Introduction]
 . link:faq.adoc[FAQ]
-. link:Processes/README.adoc[Processes]
+. Processes
 .. link:Processes/eclipse.adoc[Eclipse Foundation]
 .. link:Processes/evolution.adoc[Evolution Process]
 
