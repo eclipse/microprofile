@@ -1,4 +1,18 @@
-# Summary
+= Summary
 
-* [What is XYZ?](first-question.md)
-* [How can I do X?](second-question.md)
+. link:README.adoc[Introduction]
+. link:faq.adoc[FAQ]
+. link:Processes/README.adoc[Processes]
+.. link:Processes/eclipse.adoc[Eclipse Foundation]
+.. link:Processes/evolution.adoc[Evolution Process]
+
+. link:proposals/README.adoc[Proposals]
+.. link:proposals/config.adoc[MP-0001: Configuration]
+.. link:proposals/circuit-breaker.adoc[MP-0002: Circuit Breaker]
+.. link:proposals/monitoring.adoc[MP-0003: Monitoring]
+
+. link:infrastructure/README.adoc[Infrastructure]
+.. link:infrastructure/website.adoc[Website]
+.. link:infrastructure/example-code/README.adoc[Example Code]
+... link:infrastructure/example-code/conference.adoc[Microprofile Conference]
+... link:infrastructure/example-code/samples.adoc[MicroProfile Samples]
