@@ -1,2 +1,7 @@
 = Proposals
 
+List of proposals and associated links
+
+. link:https://github.com/microprofile/evolution/blob/master/proposals/0001-config.md[MP-0001: Service Configuration]
+.. link:https://groups.google.com/forum/#!topic/microprofile/JRJXHqXpHZA[Discussion thread] that motivated the proposal
+.. link:https://groups.google.com/forum/#!topic/microprofile/VJEEAOsVj5E[Formal proposal discussion]
