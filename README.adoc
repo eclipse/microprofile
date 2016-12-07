@@ -1,3 +1,5 @@
+= MicroProfile Documentation
+
 The Microprofile project has several sources of information and collaboration. Since there is a large volume of activity, there is a need for important decisions to be recorded in one place for future reference. This is the aim of this repository.
 
 === Current Resources
