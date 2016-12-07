@@ -1,2 +1,0 @@
-= MP-0001: Configuration
-
