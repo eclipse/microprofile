@@ -6,7 +6,6 @@
 .. link:Processes/eclipse.adoc[Eclipse Foundation]
 .. link:Processes/evolution.adoc[Evolution Process]
 . link:proposals/readme.adoc[Proposals]
-.. link:proposals/config.adoc[MP-0001: Configuration]
 . link:infrastructure/README.adoc[Infrastructure]
 .. link:infrastructure/website.adoc[Website]
 .. link:infrastructure/example-code/README.adoc[Example Code]
