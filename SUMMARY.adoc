@@ -8,8 +8,6 @@
 
 . link:proposals/README.adoc[Proposals]
 .. link:proposals/config.adoc[MP-0001: Configuration]
-.. link:proposals/circuit-breaker.adoc[MP-0002: Circuit Breaker]
-.. link:proposals/monitoring.adoc[MP-0003: Monitoring]
 
 . link:infrastructure/README.adoc[Infrastructure]
 .. link:infrastructure/website.adoc[Website]
