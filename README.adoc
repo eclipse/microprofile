@@ -1,1 +1,40 @@
-This file serves as an introduction to your Knowledge Base, it is displayed on the homepage of your website. Use it to provide more context to your visitors.
+The Microprofile project has several sources of information and collaboration. Since there is a large volume of activity, there is a need for important decisions to be recorded in one place for future reference. This is the aim of this repository.
+
+=== Current Resources
+The Microprofile project is community-focused at its heart and aims to engage and encourage lively discussion through as many channels as possible.
+
+===== Google Group
+The link:https://groups.google.com/forum/#!forum/microprofile[Microprofile Google Group] is the preferred place for discussions to take place.
+
+===== Microprofile.io
+There is a static website set up at link:http://microprofile.io[microprofile.io] which has a small FAQ along with a breif introduction to the project. It is not currently intended to be an exhaustive source of documentation for the project.
+
+=== Notable Persons Involved
+There is a very large number of people involved already at this early stage of the project. The following is a list of contributors from vendors as well as individuals which have given significant input to the project.
+
+
+.Contributors With Vendor Associations
+[options="header"]
+|=======================
+|Vendor Association|Name|Twitter
+|Red Hat   |John Clingan     |@jclingan
+|Red Hat   |Mark Little      |@nmcl
+|Tomitribe |David Blevins    |@dblevins
+|Payara    |Mike Croft       |@croft
+|Payara    |Steve Millidge   |@l33tj4v4
+|IBM       |Kevin Sutter     |@kwsutter
+|Hammock   |John Ament       |@johnament
+|Payara    |Ondrej Mihalyi   |@omihalyi
+|Red Hat   |Heiko Braun      |@heiko_braun
+|IBM       |Alasdair Nottingham |@nottycode
+|=======================
+
+.Individual Contributors
+[options="header"]
+|=======================
+|Name|Twitter
+|Martijn Verburg     |@karianna
+|Antonio Goncalves   |@agoncal
+|Werner Keil         |@wernerkeil
+|Mark Struberg       |@struberg
+|=======================
