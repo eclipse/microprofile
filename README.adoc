@@ -25,7 +25,6 @@ There is a very large number of people involved already at this early stage of t
 |Payara    |Mike Croft       |@croft
 |Payara    |Steve Millidge   |@l33tj4v4
 |IBM       |Kevin Sutter     |@kwsutter
-|Hammock   |John Ament       |@johnament
 |Payara    |Ondrej Mihalyi   |@omihalyi
 |Red Hat   |Heiko Braun      |@heiko_braun
 |IBM       |Alasdair Nottingham |@nottycode
