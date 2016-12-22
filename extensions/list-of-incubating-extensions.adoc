@@ -1,0 +1,11 @@
+# The list of incubating extensions
+
+The extensions being developed in external repositories by the MicroProfile community. 
+If you want to register your extension, send a pull request that adds a link to the project repository to this page.
+
+[options="header"]
+|=======
+| Name | Source code repository | A short description
+| | |
+| | |
+|=======
