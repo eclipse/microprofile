@@ -1,0 +1,17 @@
+= Glossary of common terms within MicroProfile
+
+[options="header"]
+|===
+| Term | Description
+| Evolution process | A formal process to evolve what is included the MicroProfile
+| Proposal | A proposal for a new addition to the MicroProfile (a formal document describing what should be added and why)
+| Candidate | The work in process after a new proposal within the evolution process was accepted, and before the proposal comes to a final version so that it can become part of MicroProfile. May also refer to the repository related to an accepted proposal. Should include the definition of the proposed API or behavior. May also include a reference implementation and a compatibility kit
+| Specification |  The final delivery of a "candidate" (see above), is a result of an accepted proposal, usually specifies an API or standard functionality,  may be included in MicroProfile
+| Implementation | In a similar sense as a JSR implementation - implementation of a certain API or behavior prescribed by a specification
+| Reference implementation | In a similar sense as a JSR reference implementation - an implementation provided and maintained by the MicroProfile project itself
+| MicroProfile implementation | An implementation of all API and behavior prescribed MicroProfile
+| MicroProfile Compatibility Kit (MCK) | compatibility suite/kit, which tests that an implementation is compatible with a specification or complete MicroProfile
+| Reference applications | applications maitained by the MicroProfile project to demonstrate usage of MicroProfile to develop a complete application or system architecture
+| MP | A shorthand for MicroProfile
+|===
+
