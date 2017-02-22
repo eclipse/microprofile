@@ -1,41 +1,34 @@
 = MicroProfile Documentation
 
-The Microprofile project has several sources of information and collaboration. Since there is a large volume of activity, there is a need for important decisions to be recorded in one place for future reference. This is the aim of this repository.
+The link:https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project] has several sources of information and collaboration. Since there is a large volume of activity, there is a need for important decisions to be recorded in one place for future reference. This is the aim of this repository.
 
 === Current Resources
-The Microprofile project is community-focused at its heart and aims to engage and encourage lively discussion through as many channels as possible.
+The MicroProfile project is community-focused at its heart and aims to engage and encourage lively discussion through as many channels as possible.
+
+===== Code, code, code
+Several Eclipse github repos exist for the development of MicroProfile features...
+
+link:https://github.com/eclipse/microprofile[MicroProfile] -- Top-level repo used to collect Microprofile-related information (this repo) +
+link:https://github.com/eclipse/microprofile-conference[MicroProfile Conference App] -- "Architectural Application" to demonstrate MicroProfile on a variety of vendors +
+link:https://github.com/eclipse/microprofile-samples[MicroProfile Samples] -- Simple sample application to demonstrate MicroProfile capabilities +
+link:https://github.com/eclipse/microprofile-config[MicroProfile Config] -- Proposal for MicroProfile application configuration +
+link:https://github.com/eclipse/microprofile-evolution-process[MicroProfile Evolution Process] -- Process for developing new features for MicroProfile (under construction) +
+
+===== Eclipse MicroProfile and Microprofile.io
+The MicroProfile community recently moved to the link:https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].  
+Although we now have this portal to our community at Eclipse, we will continue to maintain our external portal at link:http://microprofile.io[microprofile.io].
+Both sites will be maintained to promote the development and use of MicroProfile in the industry.
 
 ===== Google Group
 The link:https://groups.google.com/forum/#!forum/microprofile[Microprofile Google Group] is the preferred place for discussions to take place.
 
-===== Microprofile.io
-There is a static website set up at link:http://microprofile.io[microprofile.io] which has a small FAQ along with a breif introduction to the project. It is not currently intended to be an exhaustive source of documentation for the project.
+===== Mailing Lists
+Besides the Google Group threads (main source of communication), there is also a link:https://dev.eclipse.org/mailman/listinfo/microprofile-dev[microprofile-dev mailing list] which should be used for conversation specific to the Eclipse way of doing things.
+By using this mailing list, the Eclipse team can more quickly recognize and respond to our requests. +
 
-=== Notable Persons Involved
-There is a very large number of people involved already at this early stage of the project. The following is a list of contributors from vendors as well as individuals which have given significant input to the project.
+Since the link:https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project] is still in incubation, another useful mailing list is the link:https://dev.eclipse.org/mailman/listinfo/incubation[incubation mailing list].
 
-
-.Contributors With Vendor Associations
-[options="header"]
-|=======================
-|Vendor Association|Name|Twitter
-|Red Hat   |John Clingan     |@jclingan
-|Red Hat   |Mark Little      |@nmcl
-|Tomitribe |David Blevins    |@dblevins
-|Payara    |Mike Croft       |@croft
-|Payara    |Steve Millidge   |@l33tj4v4
-|IBM       |Kevin Sutter     |@kwsutter
-|Payara    |Ondrej Mihalyi   |@omihalyi
-|Red Hat   |Heiko Braun      |@heiko_braun
-|IBM       |Alasdair Nottingham |@nottycode
-|=======================
-
-.Individual Contributors
-[options="header"]
-|=======================
-|Name|Twitter
-|Martijn Verburg     |@karianna
-|Antonio Goncalves   |@agoncal
-|Werner Keil         |@wernerkeil
-|Mark Struberg       |@struberg
-|=======================
+=== Notable Contributors
+There is a very large number of people and vendors already involved in the link:https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project]. 
+The most complete list of contributors can be found at our link:https://microprofile.io/contributors[microprofile.io site].  
+Specific to our Eclipse efforts, another page is automatically maintained at link:https://projects.eclipse.org/projects/technology.microprofile/who[Eclipse MicroProfile] for the Eclipse committers and project leads.
