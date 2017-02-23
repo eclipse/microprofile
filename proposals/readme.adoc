@@ -1,7 +1,41 @@
 = Proposals
 
-List of proposals and associated links
+List of proposals and associated links.
 
-. link:https://github.com/microprofile/evolution/blob/master/proposals/0001-config.md[MP-0001: Service Configuration]
+This list includes both approved proposals and proposals in the discussion stage. Those proposals which are not yet approved are marked as such.
+
+===== link:https://github.com/microprofile/evolution/blob/master/proposals/0001-config.md[MP-0001: Service Configuration]
+
+. Authors:
+.. https://github.com/Emily-Jiang[Emily Jiang]
+
+. Important discussion threads
 .. link:https://groups.google.com/forum/#!topic/microprofile/JRJXHqXpHZA[Discussion thread] that motivated the proposal
 .. link:https://groups.google.com/forum/#!topic/microprofile/VJEEAOsVj5E[Formal proposal discussion]
+
+---
+
+===== - Pending Approval -
+===== link:https://github.com/eclipse/microprofile-evolution-process/pull/12[MP-0002: Metrics via HTTP Endpoints]
+. Authors: https://github.com/pilhuhn[Heiko W. Rupp]
+
+---
+
+===== link:https://github.com/eclipse/microprofile-evolution-process/blob/master/proposals/0003-health-checks.md[MP-0003: Service Healthchecks]
+
+. Authors:
+.. https://github.com/cescoffier[Clement Escoffier], https://github.com/pilhuhn[Heiko Rupp], https://github.com/heiko-braun[Heiko Braun]
+
+. Important discussion threads
+.. link:https://github.com/eclipse/microprofile-evolution-process/pull/14[GitHub Pull Request discussion]
+.. link:https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!topic/microprofile/GDhgOguDIXw[Google Groups proposal discussion]
+
+. *link:https://github.com/eclipse/microprofile-evolution-process/blob/master/proposals/0003-spec.md[Healthcheck Specification 1.0]*
+
+---
+
+===== - Pending Approval -
+===== link:https://github.com/eclipse/microprofile-evolution-process/pull/15[MP-0004: Fault Tolerance Proposal]
+. Authors: https://github.com/Emily-Jiang[Emily Jiang], https://github.com/jhalterman/[Jonathan Halterman]
+. Important discussion threads
+.. link:https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!topic/microprofile/ESs9L3z08oA[Google Groups proposal discussion]

@@ -27,7 +27,7 @@ Current vendors implementing version 1.0 of the MicroProfile include:
 * Tomitribe (TomEE MicroProfile)
 * Hammock (MicroProfile distribution)
 
-here are link:http://microprofile.io/contributors[many individuals who contribute] to the MicroProfile project. The Java community as a whole is encouraged to take part and contribute to the project; there are no restrictions.
+There are link:http://microprofile.io/contributors[many individuals who contribute] to the MicroProfile project. The Java community as a whole is encouraged to take part and contribute to the project; there are no restrictions.
 
 === How can I get involved?
 * Read through, comment on, and create new topics on the link:https://groups.google.com/forum/#!forum/microprofile[MicroProfile Google Group]
@@ -35,7 +35,7 @@ here are link:http://microprofile.io/contributors[many individuals who contribut
 * Submit a proposal (link:https://github.com/eclipse/microprofile-evolution-process/blob/master/process.md[evolution process])
 
 ===== How do I join?
-here is no formal "joining" process, since anyone is welcome to join the discussion in the link:https://groups.google.com/forum/#!forum/microprofile[Google Group].  Depending on how involved you want to be, however, you may need to sign an link:https://www.eclipse.org/legal/ECA.php[Eclipse Contributor Agreement] to contribute to the project.
+There is no formal "joining" process, since anyone is welcome to join the discussion in the link:https://groups.google.com/forum/#!forum/microprofile[Google Group].  Depending on how involved you want to be, however, you may need to sign an link:https://www.eclipse.org/legal/ECA.php[Eclipse Contributor Agreement] to contribute to the project.
 
 ===== How do I submit a proposal?
 A process has been created specifically for the evolution of the MicroProfile, and can be found under link:https://github.com/eclipse/microprofile-evolution-process/blob/master/process.md[the microprofile organization on GitHub].
