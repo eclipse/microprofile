@@ -1,19 +1,19 @@
-# MicroProfile announced
-
- * http://blog.payara.fish/payara-red-hat-ibm-tomitribe-ljc-collaborate-to-bring-microservices-to-enterprise-java[Payara announceent]
- * https://developer.ibm.com/wasdev/blog/2016/06/27/microprofile-announce/[IBM announceent]
- * http://www.adam-bien.com/roller/abien/entry/the_enterprise_java_future_is[Adam B. announceent]
- * https://antoniogoncalves.org/2016/06/27/micro-profile-in-enterprise-java-announced/[Antonio G. announceent]
- * http://middlewareblog.redhat.com/2016/06/27/microprofile-collaborating-to-bring-microservices-to-enterprise-java/[Red Hat announceent]
- * http://www.tomitribe.com/blog/2016/06/microprofile/[Tomitribe announceent]
- 
-# MicroProfile 1.0
-
-# MicroProfile 1.1
-
 # MicroProfile guides
 
  * Simple Microservices with Payara Micro  - https://vasouv.wordpress.com/2016/10/04/participating-in-netbeans-8-2-netcat/[part1] and https://vasouv.wordpress.com/2016/11/16/simple-microservices-with-payara-micro-pt-2-complete-example/[part2] (by Vasilis Souvatzis)
  * https://www.voxxed.com/blog/2017/01/just-enough-code-wildfly-swarm/[Just enough code: WildFly Swarm MicroProfile] (at Voxxed)
  * https://www.voxxed.com/blog/2017/01/microservices-and-javaee-at-cern/[Microservices and JavaEE: Antonio Goncalves at CERN] (Antonio Goncalves interviewed by Voxxed)
+ 
+# MicroProfile 1.1
+
+# MicroProfile 1.0
+
+# MicroProfile announcements
+
+ * http://blog.payara.fish/payara-red-hat-ibm-tomitribe-ljc-collaborate-to-bring-microservices-to-enterprise-java[Payara announcement]
+ * https://developer.ibm.com/wasdev/blog/2016/06/27/microprofile-announce/[IBM announcement]
+ * http://www.adam-bien.com/roller/abien/entry/the_enterprise_java_future_is[Adam B. announcement]
+ * https://antoniogoncalves.org/2016/06/27/micro-profile-in-enterprise-java-announced/[Antonio G. announcement]
+ * http://middlewareblog.redhat.com/2016/06/27/microprofile-collaborating-to-bring-microservices-to-enterprise-java/[Red Hat announcement]
+ * http://www.tomitribe.com/blog/2016/06/microprofile/[Tomitribe announcement]
  
