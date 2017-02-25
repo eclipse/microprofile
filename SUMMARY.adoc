@@ -11,4 +11,6 @@
 .. link:infrastructure/example-code/README.adoc[Example Code]
 ... link:infrastructure/example-code/conference.adoc[Microprofile Conference]
 ... link:infrastructure/example-code/samples.adoc[MicroProfile Samples]
-
+. Resources
+.. link:Resources/articles.adoc[Related Articles]
+.. link:Resources/presentations.adoc[Slides & Video Presentations]
