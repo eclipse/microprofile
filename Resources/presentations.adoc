@@ -1,0 +1,10 @@
+# Video & slide presentations related to MicroProfile 
+  
+  * https://docs.google.com/presentation/d/13zHkdv_ri5Twcq4emJ9lnEH7t9gtkb65B5-kY-u0yKM[A canonical MicroProfile slide deck] (shared teplate to use as a baseline)
+  * https://speakerdeck.com/ivargrimstad/microprofile-by-example[MicroProfile - by Example (slides)] (by Ivar Grimstad)
+  * MicroProfile.io: A Quest for a lightweight and reactive Enterprise Java Platform - https://vimeo.com/198182064[video], https://docs.google.com/presentation/d/1m67bIdglyleD6xTUXDEyY2UUUbKkNMCuKqy2n_opvYc/edit?usp=sharing[slides]
+  * https://soujava.org.br/tag/microprofile/[SouJava MicroProfile web conference] (video)
+  ** https://www.youtube.com/watch?v=Wpu-kYsLAIk[MicroProfile: Accelerating the adoption of Java (MicroProfile RedHat)]
+  ** https://www.youtube.com/watch?v=nGla6-g76M0[MicroProfile at IBM: Enabling creation of Cloud Native]
+  ** https://www.youtube.com/watch?v=xePHkS2N9Qo[Payara MicroProfile - Micro(er) than Payara Micro!(MicroProfile Payara)]
+  ** https://www.youtube.com/watch?v=5GrXw2UkN3w[MicroProfile, Apache TomEE Now & Beyond (MicroProfile Tomitribe)]
