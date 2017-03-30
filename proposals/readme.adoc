@@ -39,3 +39,16 @@ This list includes both approved proposals and proposals in the discussion stage
 . Authors: https://github.com/Emily-Jiang[Emily Jiang], https://github.com/jhalterman/[Jonathan Halterman]
 . Important discussion threads
 .. link:https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!topic/microprofile/ESs9L3z08oA[Google Groups proposal discussion]
+
+---
+
+
+===== - Pending Approval -
+===== link:https://github.com/eclipse/microprofile-evolution-process/pull/18[MP-0005: Interoperable JWT Role-Based Access Control]
+
+. Authors
+.. https://github.com/starksm64[Scott Stark], https://github.com/pedroigor[Pedro Igor Silva]
+
+. Important discussion threads
+.. https://groups.google.com/forum/#!topic/microprofile/gakCq7kSBsY[Discussion thread topic covering the  Rationale]
+.. https://groups.google.com/forum/#!topic/microprofile/l2aJGPB8Sxc[Discussion thread topic with additional Commentary]
