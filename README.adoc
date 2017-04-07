@@ -14,6 +14,12 @@ link:https://github.com/eclipse/microprofile-samples[MicroProfile Samples] -- Si
 link:https://github.com/eclipse/microprofile-config[MicroProfile Config] -- Proposal for MicroProfile application configuration +
 link:https://github.com/eclipse/microprofile-evolution-process[MicroProfile Evolution Process] -- Process for developing new features for MicroProfile (under construction) +
 
+Some of the repositories are hosted under the link:https://github.com/microprofile[Microprofile github organization], including the following repos:
+
+link:https://github.com/microprofile/microprofile-presentations[Presentations] -- Various presentations given about MicroProfile in native format and, where necessary, pdf. +
+link:https://github.com/microprofile/microprofile-bom[The MicroProfile Maven BOM] -- "Bill of Materials" for MicroProfile projects providing complete MicroProfile API +
+link:https://github.com/microprofile/microprofile-site[Microprofile.io site] -- source code of the application that powers the link:http://microprofile.io[microprofile.io] site +
+
 ===== Eclipse MicroProfile and Microprofile.io
 The MicroProfile community recently moved to the link:https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].  
 Although we now have this portal to our community at Eclipse, we will continue to maintain our external portal at link:http://microprofile.io[microprofile.io].
