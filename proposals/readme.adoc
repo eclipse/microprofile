@@ -34,7 +34,6 @@ This list includes both approved proposals and proposals in the discussion stage
 
 ---
 
-===== - Pending Approval -
 ===== link:https://github.com/eclipse/microprofile-evolution-process/pull/15[MP-0004: Fault Tolerance Proposal]
 . Authors: https://github.com/Emily-Jiang[Emily Jiang], https://github.com/jhalterman/[Jonathan Halterman]
 . Important discussion threads
