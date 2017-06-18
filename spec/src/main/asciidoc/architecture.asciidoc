@@ -1,0 +1,71 @@
+//
+// Copyright (c) 2017-2017 Contributors to the Eclipse Foundation
+//
+// See the NOTICE file(s) distributed with this work for additional
+// information regarding copyright ownership.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//
+// SPDX-License-Identifier: Apache-2.0
+
+[[architecture]]
+== Architecture
+
+The MicroProfile BOM will identify the contents of each MicroProfile release.
+The contents will be those features and versions agreed to by the MicroProfile community.
+These features may be external to the MicroProfile community (Java EE features such as JAX-RS 2.0), or they be a component of the MicroProfile project (such as Config 1.0).
+
+Since the MicroProfile BOM is an "umbrella" project, there will be no individual API or TCK generated for this component.
+Only this Specification will be generated and maintained to document the contents of each release.
+
+In reverse chronological order, here's the specification for each MicroProfile release.
+
+[[microprofile1.1]]
+=== MicroProfile 1.1 (2Q2017)
+
+MicroProfile 1.1 is the first release since becoming an https://projects.eclipse.org/projects/technology.microprofile[Eclipse project].
+
+Based on our time-boxed process, the content for MicroProfile 1.1 will be all of <<microprofile1.0, MicroProfile 1.0>>, plus https://github.com/eclipse/microprofile-config[MicroProfile Config 1.0].
+
+The Maven coordinates for this Eclipse release are as follows:
+----
+<dependency>
+    <groupId>org.eclipse.microprofile</groupId>
+    <artifactId>microprofile</artifactId>
+    <version>1.1.0</version>
+    <type>pom</type>
+    <scope>provided</scope>
+</dependency>
+----
+
+Here is the link to https://github.com/eclipse/microprofile-bom[the github repository] for this Eclipse-based project.
+
+
+[[microprofile1.0]]
+=== MicroProfile 1.0 (JavaOne 2016)
+
+MicroProfile 1.0 was released prior to becoming an Eclipse project.
+MicroProfile 1.0 consisted of https://jcp.org/en/jsr/detail?id=339[JAX-RS 2.0], https://jcp.org/en/jsr/detail?id=346[CDI 1.2], and https://jcp.org/en/jsr/detail?id=353[JSON-P 1.0] -- all of these are Java EE 7 specifications.
+
+The Maven coordinates for this non-Eclipse release are as follows:
+----
+<dependency>
+    <groupId>io.microprofile</groupId>
+    <artifactId>microprofile</artifactId>
+    <version>1.0.0</version>
+    <type>pom</type>
+    <scope>provided</scope>
+</dependency>
+----
+
+Here is the link to https://github.com/microprofile/microprofile-bom[the github repository] for this original effort.

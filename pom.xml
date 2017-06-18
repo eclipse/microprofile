@@ -26,7 +26,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.eclipse.microprofile</groupId>
-    <artifactId>microprofile</artifactId>
+    <artifactId>microprofile-bom</artifactId>
     <packaging>pom</packaging>
     <version>1.1.0-SNAPSHOT</version>
 
@@ -89,6 +89,10 @@
         </mailingList>
 
     </mailingLists>
+
+    <modules>
+        <module>spec</module>
+    </modules>
 
     <properties>
         <cdi-version>1.2</cdi-version>
