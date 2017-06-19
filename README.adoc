@@ -28,7 +28,7 @@ Add this dependency (adjusting the version number appropriately) to your project
 ----
 <dependency>
     <groupId>org.eclipse.microprofile</groupId>
-    <artifactId>microprofile</artifactId>
+    <artifactId>microprofile-bom</artifactId>
     <version>1.1.0-SNAPSHOT</version>
     <type>pom</type>
     <scope>provided</scope>
