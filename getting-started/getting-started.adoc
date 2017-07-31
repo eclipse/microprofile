@@ -25,12 +25,14 @@ Version 1.0 of MicroProfile was released before the project was moved to be unde
 |Specifications
 
 | 1.0
-| * JAX-RS 2.0
+| 
+* JAX-RS 2.0
 * CDI 1.1
 * JSON-P 1.0
 
 | 1.1
-| * JAX-RS 2.0
+|
+* JAX-RS 2.0
 * CDI 1.1
 * JSON-P 1.0
 * http://microprofile.io/project/eclipse/microprofile-config[Config 1.0]
