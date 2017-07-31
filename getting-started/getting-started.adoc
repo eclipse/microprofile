@@ -1,0 +1,47 @@
+= Getting Started with Eclipse MicroProfile
+
+The MicroProfile is a specification and does not provide a reference implementation. Many vendors already support MicroProfile and any other vendor is free to implement MicroProfile, or a specific API from MicroProfile.
+
+== Creating a MicroProfile project with Maven
+
+Version 1.0 of MicroProfile was released before the project was moved to be under the Eclipse Foundation, so the Maven coordinates are a little different. To create a project which targets version 1.0 of MicroProfile - including JAX-RS 2.0, CDI 1.1 and JSON-P 1.0 - you should include the following dependency:
+
+[source, xml]
+---
+<dependency>
+    <groupId>io.microprofile</groupId>
+    <artifactId>microprofile</artifactId>
+    <version>1.0.0</version>
+    <scope>provided</scope>
+</dependency>
+---
+
+== What does each specification contain?
+
+
+[cols=",,", options="header"]
+|===
+|Version
+|Specifications
+
+| 1.0
+| * JAX-RS 2.0
+* CDI 1.1
+* JSON-P 1.0
+
+| 1.1
+| * JAX-RS 2.0
+* CDI 1.1
+* JSON-P 1.0
+* http://microprofile.io/project/eclipse/microprofile-config[Config 1.0]
+
+|===
+
+== Implementations
+
+Version 1.0 of MicroProfile is implemented by:
+
+* Apache TomEE
+* IBM Websphere Liberty
+* https://docs.payara.fish/documentation/payara-micro/payara-micro.html[Payara Micro]
+* WildFly Swarm
