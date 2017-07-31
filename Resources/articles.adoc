@@ -1,6 +1,6 @@
 # MicroProfile guides
 
- * Simple Microservices with Payara Micro  - https://vasouv.wordpress.com/2016/10/04/participating-in-netbeans-8-2-netcat/[part1] and https://vasouv.wordpress.com/2016/11/16/simple-microservices-with-payara-micro-pt-2-complete-example/[part2] (by Vasilis Souvatzis)
+ * Simple Microservices with Payara Micro  - https://vasouv.wordpress.com/2016/09/24/simple-microservices-with-payara-micro-pt-1-backend-service/[part1] and https://vasouv.wordpress.com/2016/11/16/simple-microservices-with-payara-micro-pt-2-complete-example/[part2] (by Vasilis Souvatzis)
  * https://www.voxxed.com/blog/2017/01/just-enough-code-wildfly-swarm/[Just enough code: WildFly Swarm MicroProfile] (at Voxxed)
  * https://www.voxxed.com/blog/2017/01/microservices-and-javaee-at-cern/[Microservices and JavaEE: Antonio Goncalves at CERN] (Antonio Goncalves interviewed by Voxxed)
  * http://wildfly-swarm.io/posts/microprofile-with-wildfly-swarm/[MicroProfile with WildFly Swarm]
