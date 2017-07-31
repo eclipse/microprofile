@@ -19,7 +19,7 @@ Version 1.0 of MicroProfile was released before the project was moved to be unde
 == What does each specification contain?
 
 
-[cols=",,", options="header"]
+[cols=",a", options="header"]
 |===
 |Version
 |Specifications
