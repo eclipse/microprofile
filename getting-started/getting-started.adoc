@@ -45,5 +45,6 @@ Version 1.0 of MicroProfile is implemented by:
 
 * Apache TomEE
 * IBM Websphere Liberty
+* KumuluzEE
 * https://docs.payara.fish/documentation/payara-micro/payara-micro.html[Payara Micro]
 * WildFly Swarm
