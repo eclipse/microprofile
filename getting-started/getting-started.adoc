@@ -1,6 +1,6 @@
 = Getting Started with Eclipse MicroProfile
 
-The MicroProfile is a specification and does not provide a reference implementation. Many vendors already support MicroProfile and any other vendor is free to implement MicroProfile, or a specific API from MicroProfile.
+The MicroProfile is a set of APIs and specifications developed within the Eclipse foundation by many parties from the Java community. It doesn't provide any reference implementation but specifies the API and behavior of MicroProfile implementations. It also provides basic information to get started with particular implementations, which already support MicroProfile. Any other vendor is free to implement MicroProfile or a specific API from MicroProfile.
 
 == Creating a MicroProfile project with Maven
 
