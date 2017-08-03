@@ -119,29 +119,31 @@
         </plugins>
     </build>
 
-    <dependencies>
-        <dependency>
-            <groupId>javax.enterprise</groupId>
-            <artifactId>cdi-api</artifactId>
-            <version>${cdi-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.ws.rs</groupId>
-            <artifactId>javax.ws.rs-api</artifactId>
-            <version>${jaxrs-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.json</groupId>
-            <artifactId>javax.json-api</artifactId>
-            <version>${jsonp-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.eclipse.microprofile.spec</groupId>
-            <artifactId>microprofile-config-api</artifactId>
-            <version>${config-version}</version>
-        </dependency>
+    <dependencyManagement>
+      <dependencies>
+          <dependency>
+              <groupId>javax.enterprise</groupId>
+              <artifactId>cdi-api</artifactId>
+              <version>${cdi-version}</version>
+          </dependency>
+          <dependency>
+              <groupId>javax.ws.rs</groupId>
+              <artifactId>javax.ws.rs-api</artifactId>
+              <version>${jaxrs-version}</version>
+          </dependency>
+          <dependency>
+              <groupId>javax.json</groupId>
+              <artifactId>javax.json-api</artifactId>
+              <version>${jsonp-version}</version>
+          </dependency>
+          <dependency>
+              <groupId>org.eclipse.microprofile.spec</groupId>
+              <artifactId>microprofile-config-api</artifactId>
+              <version>${config-version}</version>
+          </dependency>
 
-    </dependencies>
+      </dependencies>
+    </dependencyManagement>
 
     <profiles>
         <profile>
