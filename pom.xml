@@ -28,7 +28,7 @@
     <groupId>org.eclipse.microprofile</groupId>
     <artifactId>microprofile-bom</artifactId>
     <packaging>pom</packaging>
-    <version>1.1.0-SNAPSHOT</version>
+    <version>1.1.0</version>
 
     <name>MicroProfile BOM</name>
     <description>The MicroProfile "Bill of Materials"</description>
@@ -98,7 +98,7 @@
         <cdi-version>1.2</cdi-version>
         <jaxrs-version>2.0.1</jaxrs-version>
         <jsonp-version>1.0</jsonp-version>
-        <config-version>1.0-SNAPSHOT</config-version>
+        <config-version>1.0</config-version>
     </properties>
 
     <build>
@@ -136,7 +136,7 @@
             <version>${jsonp-version}</version>
         </dependency>
         <dependency>
-            <groupId>org.eclipse.microprofile.spec</groupId>
+            <groupId>org.eclipse.microprofile.config</groupId>
             <artifactId>microprofile-config-api</artifactId>
             <version>${config-version}</version>
         </dependency>
