@@ -27,7 +27,7 @@
 
     <parent>
         <groupId>org.eclipse.microprofile</groupId>
-        <artifactId>microprofile-bom</artifactId>
+        <artifactId>microprofile</artifactId>
         <version>1.1.0</version>
     </parent>
 

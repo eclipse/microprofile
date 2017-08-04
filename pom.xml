@@ -26,7 +26,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.eclipse.microprofile</groupId>
-    <artifactId>microprofile-bom</artifactId>
+    <artifactId>microprofile</artifactId>
     <packaging>pom</packaging>
     <version>1.1.0</version>
 
