@@ -37,21 +37,22 @@ Libraries in use by the MicroProfile leverage new features provided in Java SE 8
 
 === Contexts and Dependency Injection for Java EE (CDI) 1.2
 
-CDI provides the base for a growing number of APIs included in MicroProfile 1.1.  Use of CDI 2.0 in MicroProfile implementations is allowed, however, not required as of version 1.1 of the MicroProfile.
+CDI provides the base for a growing number of APIs included in MicroProfile 1.1.  Use of implementations beyond CDI 1.2 in MicroProfile is allowed, however, not required as of version 1.1 of MicroProfile.
 
  - http://cdi-spec.org/
  - https://jcp.org/en/jsr/detail?id=346
 
 === JAX-RS 2.0.1
 
-JAX-RS provides both standard client and server APIs for RESTful communication by MicroProfile 1.1 applications.  Use of JAX_RS 2.1 in MicroProfile implementations is allowed, however, not required as of version 1.1 of the MicroProfile.
+JAX-RS provides both standard client and server APIs for RESTful communication by MicroProfile 1.1 applications.  Use of implementations beyond JAX-RS 2.0.1 in MicroProfile is allowed, however, not required as of version 1.1 of MicroProfile.
 
  - https://github.com/jax-rs
  - https://jcp.org/en/jsr/detail?id=339
 
-=== JavaTM API for JSON Processing (JSONP) 1.0
+=== JavaTM API for JSON Processing (JSON-P) 1.0
 
-JSONP is leveraged as part of MicroProfile 1.1 to provide standard APIs for processing JSON documents.  Use of JSONP 1.1 in MicroProfile implementations is allowed, however, not required as of version 1.1 of the MicroProfile.
+JSON-P is leveraged as part of MicroProfile 1.1 to provide standard APIs for processing JSON documents.
+Use of implementations beyond JSON-P 1.0 in MicroProfile is allowed, however, not required as of version 1.1 of MicroProfile.
 
  - https://javaee.github.io/jsonp/
  - https://jcp.org/en/jsr/detail?id=353

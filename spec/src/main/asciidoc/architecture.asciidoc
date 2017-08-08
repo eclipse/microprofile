@@ -31,7 +31,7 @@ Only this Specification will be generated and maintained to document the content
 In reverse chronological order, here's the specification for each MicroProfile release.
 
 [[microprofile1.1]]
-=== MicroProfile 1.1 (2Q2017)
+=== MicroProfile 1.1 (3Q2017)
 
 MicroProfile 1.1 is the first release since becoming an https://projects.eclipse.org/projects/technology.microprofile[Eclipse project].
 
