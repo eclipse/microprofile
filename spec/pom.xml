@@ -81,7 +81,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <sourceDocumentName>microprofile-bom-spec.asciidoc</sourceDocumentName>
+                    <sourceDocumentName>microprofile-spec.asciidoc</sourceDocumentName>
                     <sourceHighlighter>coderay</sourceHighlighter>
                     <attributes>
                         <license>Apache License v2.0</license>
