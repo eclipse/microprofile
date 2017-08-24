@@ -22,8 +22,8 @@
 :authors: Kevin Sutter, David Blevins
 :email: microprofile@googlegroups.com
 :revnumber: 1.1
-:revdate: 2017-08-06
-:revremark: Proposal
+:revdate: 2017-08-08
+:revremark: Final
 :version-label!:
 :sectanchors:
 :doctype: book
