@@ -66,14 +66,17 @@
     </issueManagement>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>repo.eclipse.org</id>
+            <name>Eclipse MicroProfile Repository - Releases</name>
+            <url>https://repo.eclipse.org/content/repositories/microprofile-releases/</url>
         </repository>
+        <snapshotRepository>
+            <id>repo.eclipse.org</id>
+            <name>Eclipse MicroProfile Repository - Snapshots</name>
+            <url>https://repo.eclipse.org/content/repositories/microprofile-snapshots/</url>
+            <uniqueVersion>true</uniqueVersion>  <!-- for keeping multipe snapshot versions - maybe for staging a final version besides nightly versions -->
+        </snapshotRepository>
     </distributionManagement>
 
     <mailingLists>
