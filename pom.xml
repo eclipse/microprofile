@@ -55,8 +55,8 @@
 
     <scm>
         <url>https://github.com/eclipse/microprofile-bom</url>
-        <connection>scm:git:git://github.com/eclipse/microprofile-bom.git</connection>
-        <developerConnection>scm:git:git@github.com:eclipse/microprofile-bom.git</developerConnection>
+        <connection>scm:git:https://github.com/eclipse/microprofile-bom.git</connection>
+        <developerConnection>scm:git:https://github.com/eclipse/microprofile-bom.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
