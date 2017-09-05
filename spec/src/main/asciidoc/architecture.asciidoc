@@ -30,6 +30,33 @@ Only this Specification will be generated and maintained to document the content
 
 In reverse chronological order, here's the specification for each MicroProfile release.
 
+[[microprofile1.2]]
+=== MicroProfile 1.2 (3Q2017)
+
+MicroProfile 1.2 is the next release for the https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
+
+Based on our time-boxed process, the content for MicroProfile 1.2 will be all of <<microprofile1.0, MicroProfile 1.1>>, plus...
+
+ - https://github.com/eclipse/microprofile-config[MicroProfile Config 1.1] (supercedes MicroProfile Config 1.0)
+ - https://github.com/eclipse/microprofile-fault-tolerance[MicroProfile Fault Tolerance 1.0]
+ - https://github.com/eclipse/microprofile-health[MicroProfile Health Check 1.0]
+ - https://github.com/eclipse/microprofile-metrics[MicroProfile Health Metrics 1.0]
+ - https://github.com/eclipse/microprofile-jwt-auth[MicroProfile JWT Authentication 1.0]
+
+The Maven coordinates for this Eclipse release are as follows:
+----
+<dependency>
+    <groupId>org.eclipse.microprofile</groupId>
+    <artifactId>microprofile</artifactId>
+    <version>1.2</version>
+    <type>pom</type>
+    <scope>provided</scope>
+</dependency>
+----
+
+Here is the link to https://github.com/eclipse/microprofile-bom[the github repository] for this Eclipse-based project.
+
+
 [[microprofile1.1]]
 === MicroProfile 1.1 (3Q2017)
 

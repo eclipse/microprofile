@@ -18,12 +18,12 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-= Eclipse MicroProfile 1.1
+= Eclipse MicroProfile 1.2
 :authors: Kevin Sutter, David Blevins
 :email: microprofile@googlegroups.com
-:revnumber: 1.1
-:revdate: 2017-08-08
-:revremark: Final
+:revnumber: 1.2-SNAPSHOT
+:revdate: 2017-mm-dd
+:revremark: Proposed
 :version-label!:
 :sectanchors:
 :doctype: book

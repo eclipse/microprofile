@@ -98,10 +98,20 @@
     </modules>
 
     <properties>
+        <!--  Java EE specs  -->
         <cdi-version>1.2</cdi-version>
         <jaxrs-version>2.0.1</jaxrs-version>
         <jsonp-version>1.0</jsonp-version>
-        <config-version>1.0</config-version>
+        <annotation-version>1.2</annotation-version>
+
+        <!-- MicroProfile specs  -->
+        <config-version>1.1-SNAPSHOT</config-version>
+        <ft-version>1.0-SNAPSHOT</ft-version>
+        <health-version>1.0-SNAPSHOT</health-version>
+        <metrics-version>1.0-SNAPSHOT</metrics-version>
+        <jwt-version>1.0-SNAPSHOT</jwt-version>
+
+        <!-- other props  -->
         <autorelease>false</autorelease>
     </properties>
 
@@ -140,9 +150,34 @@
             <version>${jsonp-version}</version>
         </dependency>
         <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>javax.annotation-api</artifactId>
+            <version>${annotation-version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.eclipse.microprofile.config</groupId>
             <artifactId>microprofile-config-api</artifactId>
             <version>${config-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.microprofile.fault-tolerance</groupId>
+            <artifactId>microprofile-fault-tolerance-api</artifactId>
+            <version>${ft-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.microprofile.health</groupId>
+            <artifactId>microprofile-health-api</artifactId>
+            <version>${health-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.microprofile.metrics</groupId>
+            <artifactId>microprofile-metrics-api</artifactId>
+            <version>${metrics-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.microprofile.jwt-auth</groupId>
+            <artifactId>microprofile-jwt-auth-api</artifactId>
+            <version>${jwt-version}</version>
         </dependency>
 
     </dependencies>
