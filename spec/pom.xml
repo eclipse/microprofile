@@ -26,14 +26,14 @@
 
     <parent>
         <groupId>org.eclipse.microprofile</groupId>
-        <artifactId>microprofile-bom</artifactId>
+        <artifactId>microprofile</artifactId>
         <version>1.2.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>org.eclipse.microprofile.bom</groupId>
-    <artifactId>microprofile-bom-spec</artifactId>
+    <groupId>org.eclipse.microprofile</groupId>
+    <artifactId>microprofile-spec</artifactId>
     <packaging>pom</packaging>
-    <name>MicroProfile BOM Specification</name>
+    <name>MicroProfile Specification</name>
 
     <properties>
         <asciidoctor-maven.version>1.5.5</asciidoctor-maven.version>
