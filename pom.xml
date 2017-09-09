@@ -105,7 +105,7 @@
         <annotation-version>1.2</annotation-version>
 
         <!-- MicroProfile specs  -->
-        <config-version>1.1-SNAPSHOT</config-version>
+        <config-version>1.1</config-version>
         <ft-version>1.0-SNAPSHOT</ft-version>
         <health-version>1.0-SNAPSHOT</health-version>
         <metrics-version>1.0-SNAPSHOT</metrics-version>
