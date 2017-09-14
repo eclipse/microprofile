@@ -109,7 +109,7 @@
         <ft-version>1.0-SNAPSHOT</ft-version>
         <health-version>1.0-SNAPSHOT</health-version>
         <metrics-version>1.0-SNAPSHOT</metrics-version>
-        <jwt-version>1.0-SNAPSHOT</jwt-version>
+        <jwt-version>1.0</jwt-version>
 
         <!-- other props  -->
         <autorelease>false</autorelease>
