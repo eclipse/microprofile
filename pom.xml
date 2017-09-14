@@ -108,7 +108,7 @@
         <config-version>1.1</config-version>
         <ft-version>1.0</ft-version>
         <health-version>1.0-SNAPSHOT</health-version>
-        <metrics-version>1.0-SNAPSHOT</metrics-version>
+        <metrics-version>1.0</metrics-version>
         <jwt-version>1.0</jwt-version>
 
         <!-- other props  -->
