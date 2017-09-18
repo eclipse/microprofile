@@ -177,7 +177,7 @@
             <version>${metrics-version}</version>
         </dependency>
         <dependency>
-            <groupId>org.eclipse.microprofile.jwt-auth</groupId>
+            <groupId>org.eclipse.microprofile.jwt</groupId>
             <artifactId>microprofile-jwt-auth-api</artifactId>
             <version>${jwt-version}</version>
         </dependency>
