@@ -112,7 +112,10 @@
         <jwt-version>1.0</jwt-version>
 
         <!-- other props  -->
+        <!-- whether autorelease maven central staging repositories - default true to allow review and manually release repositories -->
         <autorelease>false</autorelease>
+        <!-- keeping closed repos with failure - default is false because the errors are visible in the maven output, but true will leave the repo open for investigation in Sonatype Nexus -->
+        <keepStagingReposOnFailure>false</keepStagingReposOnFailure>
     </properties>
 
     <build>
@@ -125,9 +128,8 @@
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <tagNameFormat>@{project.version}</tagNameFormat>
                     <preparationGoals>clean install</preparationGoals>
-                    <pushChanges>true</pushChanges>
-                    <localCheckout>false</localCheckout>
-                    <arguments>-DskipTests</arguments>
+                    <pushChanges>false</pushChanges>
+                    <localCheckout>true</localCheckout>
                 </configuration>
             </plugin>
         </plugins>
@@ -196,6 +198,7 @@
                             <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                             <serverId>ossrh</serverId>
                             <autoReleaseAfterClose>${autorelease}</autoReleaseAfterClose>
+                            <keepStagingRepositoryOnCloseRuleFailure>${keepStagingReposOnFailure}</keepStagingRepositoryOnCloseRuleFailure>
                         </configuration>
                     </plugin>
                     <plugin>
