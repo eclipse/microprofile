@@ -112,7 +112,7 @@
         <jwt-version>1.0</jwt-version>
 
         <!-- other props  -->
-        <!-- whether autorelease maven central staging repositories - default true to allow review and manually release repositories -->
+        <!-- whether autorelease maven central staging repositories - default false to allow review and manually release repositories -->
         <autorelease>false</autorelease>
         <!-- keeping closed repos with failure - default is false because the errors are visible in the maven output, but true will leave the repo open for investigation in Sonatype Nexus -->
         <keepStagingReposOnFailure>false</keepStagingReposOnFailure>
@@ -177,7 +177,7 @@
             <version>${metrics-version}</version>
         </dependency>
         <dependency>
-            <groupId>org.eclipse.microprofile.jwt</groupId>
+            <groupId>org.eclipse.microprofile.jwt-auth</groupId>
             <artifactId>microprofile-jwt-auth-api</artifactId>
             <version>${jwt-version}</version>
         </dependency>

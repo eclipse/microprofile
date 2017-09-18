@@ -21,7 +21,7 @@
 [[required-apis]]
 == Required APIs
 
-Compliant implementations of Eclipse MicroProfile 1.2 must provide at least the following APIs and minimum versions.  These APIs and versions guarantee application developers a minimum set of APIs and are not intended to be restrictive.  Implementations may include APIs not listed below as well they may support more recent versions that what is listed below.
+Compliant implementations of Eclipse MicroProfile 1.2 must provide at least the following APIs and minimum versions.  These APIs and versions guarantee application developers a minimum set of APIs and are not intended to be restrictive.  Implementations may include APIs not listed below as well they may support more recent versions than what is listed below.
 
 MicroProfile applications that make use of APIs or versions not mentioned below are not considered portable.
 
@@ -29,6 +29,7 @@ MicroProfile applications that make use of APIs or versions not mentioned below 
  - CDI (Contexts and Dependency Injection for Java EE) 1.2
  - JAX-RS (Java(TM) API for RESTful Web Services) 2.0.1
  - JSON-P (Java(TM) API for JSON Processing) 1.0
+ - Common Annotations for the Java(TM) Platform 1.2
  - Eclipse MicroProfile Config 1.1
  - Eclipse MicroProfile Fault Tolerance 1.0
  - Eclipse MicroProfile Health Check 1.0
@@ -60,6 +61,13 @@ Use of implementations beyond JSON-P 1.0 in MicroProfile is allowed, however, no
 
  - https://javaee.github.io/jsonp/
  - https://jcp.org/en/jsr/detail?id=353
+
+=== Common Annotations 1.2
+
+Common Annotations provides annotations for common semantic concepts across a variety of individual technologies in the Java(TM) SE and Java(TM) EE platforms.
+
+ - https://javaee.github.io/glassfish/
+ - https://jcp.org/en/jsr/detail?id=250
 
 === Eclipse MicroProfile Config 1.1
 
