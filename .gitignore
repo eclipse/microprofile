@@ -14,3 +14,5 @@ _book
 *.epub
 *.mobi
 *.pdf
+/build-tools/maven-build-extension/target/
+/build-tools/maven-build-plugin/target/

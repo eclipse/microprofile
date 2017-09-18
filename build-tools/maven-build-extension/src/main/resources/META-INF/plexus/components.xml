@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-set>
+    <components>
+        <component>
+            <role>org.apache.maven.lifecycle.mapping.LifecycleMapping</role>
+            <role-hint>pdf</role-hint>
+            <implementation>
+                org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping
+            </implementation>
+            <configuration>
+                <lifecycles>
+                    <lifecycle>
+                        <id>default</id>
+                        <phases>
+                            <package>
+                                org.eclipse.microprofile.maven:microprofile-maven-build-plugin:pdfArtifact, 
+                                org.apache.maven.plugins:maven-site-plugin:attach-descriptor
+                            </package>
+                            <install>
+                                org.apache.maven.plugins:maven-install-plugin:install
+                            </install>
+                            <deploy>
+                                org.apache.maven.plugins:maven-deploy-plugin:deploy
+                            </deploy>
+                        </phases>
+                        <optional-mojos>
+                            <optional-mojo>
+                                org.apache.maven.plugins:maven-site-plugin:attach-descriptor
+                            </optional-mojo>
+                        </optional-mojos>      
+                    </lifecycle>
+                </lifecycles>
+            </configuration>
+        </component>
+        <component>
+            <role>org.apache.maven.artifact.handler.ArtifactHandler</role>
+            <role-hint>pdf</role-hint>
+            <implementation>
+                org.apache.maven.artifact.handler.DefaultArtifactHandler
+            </implementation>
+            <configuration>
+                <!--the extension used by Maven in the repository-->
+                <extension>pdf</extension>
+                <!--the type used when specifying dependencies etc.-->
+                <type>pdf</type>
+                <!--the packaging used when declaring an implementation of 
+                the packaging-->
+                <packaging>pdf</packaging>
+            </configuration>
+        </component>
+    </components>
+</component-set>
