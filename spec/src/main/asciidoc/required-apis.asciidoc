@@ -33,7 +33,7 @@ MicroProfile applications that make use of APIs or versions not mentioned below 
  - Eclipse MicroProfile Config 1.1
  - Eclipse MicroProfile Fault Tolerance 1.0
  - Eclipse MicroProfile Health Check 1.0
- - Eclipse MicroProfile Health Metrics 1.0
+ - Eclipse MicroProfile Metrics 1.0
  - Eclipse MicroProfile JWT Authentication 1.0
 
 === Java SE 8
@@ -91,9 +91,9 @@ Eclipse MicroProfile Health Check provides the ability to probe the state of a c
   - http://microprofile.io/project/eclipse/microprofile-health
   - https://github.com/eclipse/microprofile-health/releases/tag/1.0
 
-=== Eclipse MicroProfile Health Metrics 1.0
+=== Eclipse MicroProfile Metrics 1.0
 
-Eclipse MicroProfile Health Metrics provides a unified way for MicroProfile servers to export monitoring data to management agents.
+Eclipse MicroProfile Metrics provides a unified way for MicroProfile servers to export monitoring data to management agents.
 Metrics will also provide a common Java API for exposing their telemetry data.
 
  - http://microprofile.io/project/eclipse/microprofile-metrics
