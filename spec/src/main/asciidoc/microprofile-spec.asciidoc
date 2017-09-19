@@ -21,9 +21,9 @@
 = Eclipse MicroProfile 1.2
 :authors: Kevin Sutter, David Blevins
 :email: microprofile@googlegroups.com
-:revnumber: 1.2-SNAPSHOT
-:revdate: 2017-mm-dd
-:revremark: Proposed
+:revnumber: 1.2
+:revdate: 2017-09-19
+:revremark: Final
 :version-label!:
 :sectanchors:
 :doctype: book
