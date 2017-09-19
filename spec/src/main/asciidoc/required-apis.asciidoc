@@ -86,7 +86,7 @@ Key aspects of the API include TimeOut, RetryPolicy, Fallback, Bulkhead, and Cir
 
 === Eclipse MicroProfile Health Check 1.0
 
-Eclipse MicroProfile Health Check provides the ability to probe the state of a computing node from another machine (ie. kubernetes service controller).
+Eclipse MicroProfile Health Check provides the ability to probe the state of a computing node from another machine (e.g. kubernetes service controller).
 
   - http://microprofile.io/project/eclipse/microprofile-health
   - https://github.com/eclipse/microprofile-health/releases/tag/1.0
