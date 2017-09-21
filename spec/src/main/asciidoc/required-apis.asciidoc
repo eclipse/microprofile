@@ -76,6 +76,11 @@ Eclipse MicroProfile Config provides applications and microservices means to obt
  - http://microprofile.io/project/eclipse/microprofile-config
  - https://github.com/eclipse/microprofile-config/releases/tag/1.1
 
+The Eclipse MicroProfile Config API is currently in the JSR process and is actively seeking adoption stories, feedback and Expert
+Group members.
+
+ - https://jcp.org/en/jsr/detail?id=382
+
 === Eclipse MicroProfile Fault Tolerance 1.0
 
 Eclipse MicroProfile Fault Tolerance provides the ability to separate execution logic from business logic.
