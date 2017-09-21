@@ -33,23 +33,27 @@ MicroProfile applications that make use of APIs or versions not mentioned below 
  - Eclipse MicroProfile Config 1.1
  - Eclipse MicroProfile Fault Tolerance 1.0
  - Eclipse MicroProfile Health Check 1.0
- - Eclipse MicroProfile Metrics 1.0
  - Eclipse MicroProfile JWT Authentication 1.0
+ - Eclipse MicroProfile Metrics 1.0
+
 
 === Java SE 8
 
-Libraries in use by the MicroProfile leverage new features provided in Java SE 8, therefore Java SE 7 and before are unsupported.  MicroProfile 1.1 implementations may provide support for Java SE 9 and beyond, however Java SE 8 compatibility must maintained.
+Libraries in use by the MicroProfile leverage new features provided in Java SE 8, therefore Java SE 7 and before are unsupported.
+MicroProfile 1.1 implementations may provide support for Java SE 9 and beyond, however Java SE 8 compatibility must maintained.
 
 === CDI 1.2
 
-CDI provides the base for a growing number of APIs included in MicroProfile 1.1.  Use of implementations beyond CDI 1.2 in MicroProfile is allowed, however, not required as of version 1.1 of MicroProfile.
+CDI provides the base for a growing number of APIs included in MicroProfile 1.1.
+Use of implementations beyond CDI 1.2 in MicroProfile is allowed, however, not required as of version 1.1 of MicroProfile.
 
  - http://cdi-spec.org/
  - https://jcp.org/en/jsr/detail?id=346
 
 === JAX-RS 2.0.1
 
-JAX-RS provides both standard client and server APIs for RESTful communication by MicroProfile 1.1 applications.  Use of implementations beyond JAX-RS 2.0.1 in MicroProfile is allowed, however, not required as of version 1.1 of MicroProfile.
+JAX-RS provides both standard client and server APIs for RESTful communication by MicroProfile 1.1 applications.
+Use of implementations beyond JAX-RS 2.0.1 in MicroProfile is allowed, however, not required as of version 1.1 of MicroProfile.
 
  - https://github.com/jax-rs
  - https://jcp.org/en/jsr/detail?id=339
@@ -65,6 +69,7 @@ Use of implementations beyond JSON-P 1.0 in MicroProfile is allowed, however, no
 === Common Annotations 1.2
 
 Common Annotations provides annotations for common semantic concepts across a variety of individual technologies in the Java(TM) SE and Java(TM) EE platforms.
+Use of implementations beyond Common Annotations 1.2 in MicroProfile is allowed, however, not required as of version 1.2 of MicroProfile.
 
  - https://javaee.github.io/glassfish/
  - https://jcp.org/en/jsr/detail?id=250
@@ -76,7 +81,7 @@ Eclipse MicroProfile Config provides applications and microservices means to obt
  - http://microprofile.io/project/eclipse/microprofile-config
  - https://github.com/eclipse/microprofile-config/releases/tag/1.1
 
-The Eclipse MicroProfile Config API is currently in the JSR process and is actively seeking adoption stories, feedback and Expert
+The Eclipse MicroProfile Config API is currently in the JSR process and is actively seeking adoption stories, feedback, and Expert
 Group members.
 
  - https://jcp.org/en/jsr/detail?id=382
@@ -93,8 +98,15 @@ Key aspects of the API include TimeOut, RetryPolicy, Fallback, Bulkhead, and Cir
 
 Eclipse MicroProfile Health Check provides the ability to probe the state of a computing node from another machine (e.g. kubernetes service controller).
 
-  - http://microprofile.io/project/eclipse/microprofile-health
-  - https://github.com/eclipse/microprofile-health/releases/tag/1.0
+ - http://microprofile.io/project/eclipse/microprofile-health
+ - https://github.com/eclipse/microprofile-health/releases/tag/1.0
+
+=== Eclipse MicroProfile JWT Authentication 1.0
+
+Eclipse MicroProfile JWT Authentication provides role based access control (RBAC) microservice endpoints using OpenID Connect (OIDC) and JSON Web Tokens (JWT).
+
+ - http://microprofile.io/project/eclipse/microprofile-jwt-auth
+ - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.0
 
 === Eclipse MicroProfile Metrics 1.0
 
@@ -103,10 +115,3 @@ Metrics will also provide a common Java API for exposing their telemetry data.
 
  - http://microprofile.io/project/eclipse/microprofile-metrics
  - https://github.com/eclipse/microprofile-metrics/releases/tag/1.0
-
-=== Eclipse MicroProfile JWT Authentication 1.0
-
-Eclipse MicroProfile JWT Authentication provides role based access control (RBAC) microservice endpoints using OpenID Connect (OIDC) and JSON Web Tokens (JWT).
-
- - http://microprofile.io/project/eclipse/microprofile-jwt-auth
- - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.0
