@@ -56,7 +56,7 @@
     <scm>
         <url>https://github.com/eclipse/microprofile-bom</url>
         <connection>scm:git:https://github.com/eclipse/microprofile-bom.git</connection>
-        <developerConnection>scm:git:https://github.com/eclipse/microprofile-bom.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:eclipse/microprofile-bom.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
@@ -67,14 +67,14 @@
 
     <distributionManagement>
         <repository>
-            <id>repo.eclipse.org</id>
-            <name>Eclipse MicroProfile Repository - Releases</name>
-            <url>https://repo.eclipse.org/content/repositories/microprofile-releases/</url>
+            <id>ossrh</id>
+            <name>Sonatype OSSRH - Release Staging Area</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
         <snapshotRepository>
-            <id>repo.eclipse.org</id>
-            <name>Eclipse MicroProfile Repository - Snapshots</name>
-            <url>https://repo.eclipse.org/content/repositories/microprofile-snapshots/</url>
+            <id>ossrh</id>
+            <name>Sonatype OSSRH Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
             <uniqueVersion>true</uniqueVersion>  <!-- for keeping multipe snapshot versions - maybe for staging a final version besides nightly versions -->
         </snapshotRepository>
     </distributionManagement>
@@ -88,7 +88,7 @@
         <mailingList>
             <name>Eclipse MicroProfile Dev</name>
             <subscribe>https://dev.eclipse.org/mailman/listinfo/microprofile-dev</subscribe>
-            <post> microprofile-dev@eclipse.org</post>
+            <post>microprofile-dev@eclipse.org</post>
         </mailingList>
 
     </mailingLists>
@@ -126,10 +126,9 @@
                 <version>2.5.3</version>
                 <configuration>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <tagNameFormat>@{project.version}</tagNameFormat>
-                    <preparationGoals>clean install</preparationGoals>
-                    <pushChanges>false</pushChanges>
                     <localCheckout>true</localCheckout>
+                    <useReleaseProfile>false</useReleaseProfile>
+                    <arguments>${arguments} -Prelease -Drevremark=${revremark}</arguments>
                 </configuration>
             </plugin>
         </plugins>
