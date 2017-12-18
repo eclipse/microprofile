@@ -30,14 +30,14 @@ MicroProfile applications that make use of APIs or versions not mentioned below 
  - JAX-RS (Java(TM) API for RESTful Web Services) 2.0.1
  - JSON-P (Java(TM) API for JSON Processing) 1.0
  - Common Annotations for the Java(TM) Platform 1.2
- - Eclipse MicroProfile Config 1.2
+ - Eclipse MicroProfile Config 1.1
  - Eclipse MicroProfile Fault Tolerance 1.0
  - Eclipse MicroProfile Health Check 1.0
  - Eclipse MicroProfile JWT Authentication 1.0
  - Eclipse MicroProfile Metrics 1.1
  - Eclipse MicroProfile Open API 1.0
- - Eclipse MicroProfile OpenTracing 1.0
- - Eclipse MicroProfile Rest Client 1.0
+// - Eclipse MicroProfile OpenTracing 1.0
+// - Eclipse MicroProfile Rest Client 1.0
 
 [[javase]]
 === Java SE 8
