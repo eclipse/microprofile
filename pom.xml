@@ -106,10 +106,16 @@
 
         <!-- MicroProfile specs  -->
         <config-version>1.1</config-version>
+        <!-- <config-version>1.2</config-version>  -->
         <ft-version>1.0</ft-version>
         <health-version>1.0</health-version>
         <metrics-version>1.1</metrics-version>
         <jwt-version>1.0</jwt-version>
+        <openapi-version>1.0</openapi-version>
+        <!--
+        <opentracing-version>1.0</opentracing-version>
+        <restclient-version>1.0</restclient-version>
+        -->
 
         <!-- other props  -->
         <!-- whether autorelease maven central staging repositories - default false to allow review and manually release repositories -->
@@ -180,7 +186,23 @@
             <artifactId>microprofile-jwt-auth-api</artifactId>
             <version>${jwt-version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.eclipse.microprofile.openapi</groupId>
+            <artifactId>microprofile-openapi-api</artifactId>
+            <version>${openapi-version}</version>
+        </dependency>
+        <!--
+        <dependency>
+            <groupId>org.eclipse.microprofile.opentracing</groupId>
+            <artifactId>microprofile-opentracing-api</artifactId>
+            <version>${opentracing-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.microprofile.rest.client</groupId>
+            <artifactId>microprofile-rest-client-api</artifactId>
+            <version>${restclient-version}</version>
+        </dependency>
+        -->
     </dependencies>
 
     <profiles>

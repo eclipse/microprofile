@@ -30,18 +30,44 @@ Only this Specification will be generated and maintained to document the content
 
 In reverse chronological order, here's the specification for each MicroProfile release.
 
+[[microprofile1.3]]
+=== MicroProfile 1.3 (4Q2017)
+
+MicroProfile 1.3 is the fourth release for the https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
+
+Based on our time-boxed process, the content for MicroProfile 1.3 will be all of <<microprofile1.2, MicroProfile 1.2>>, plus...
+
+// - https://github.com/eclipse/microprofile-config/releases/tag/1.2[MicroProfile Config 1.2] (supercedes MicroProfile Config 1.1)
+ - https://github.com/eclipse/microprofile-metrics/releases/tag/1.1[MicroProfile Metrics 1.1] (supercedes MicroProfile Metrics 1.0)
+ - https://github.com/eclipse/microprofile-open-api/releases/tag/1.0[MicroProfile Open API 1.0]
+// - https://github.com/eclipse/microprofile-opentracing/releases/tag/1.0[MicroProfile OpenTracing 1.0]
+// - https://github.com/eclipse/microprofile-rest-client/releases/tag/1.0[MicroProfile Rest Client 1.0]
+
+The Maven coordinates for this Eclipse release are as follows:
+----
+<dependency>
+    <groupId>org.eclipse.microprofile</groupId>
+    <artifactId>microprofile</artifactId>
+    <version>1.3</version>
+    <type>pom</type>
+    <scope>provided</scope>
+</dependency>
+----
+
+Here is the link to https://github.com/eclipse/microprofile-bom/releases/tag/1.3[the github repository] for this Eclipse-based project.
+
 [[microprofile1.2]]
 === MicroProfile 1.2 (3Q2017)
 
-MicroProfile 1.2 is the next release for the https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
+MicroProfile 1.2 is the third release for the https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
 
-Based on our time-boxed process, the content for MicroProfile 1.2 will be all of <<microprofile1.0, MicroProfile 1.1>>, plus...
+Based on our time-boxed process, the content for MicroProfile 1.2 will be all of <<microprofile1.1, MicroProfile 1.1>>, plus...
 
- - https://github.com/eclipse/microprofile-config[MicroProfile Config 1.1] (supercedes MicroProfile Config 1.0)
- - https://github.com/eclipse/microprofile-fault-tolerance[MicroProfile Fault Tolerance 1.0]
- - https://github.com/eclipse/microprofile-health[MicroProfile Health Check 1.0]
- - https://github.com/eclipse/microprofile-metrics[MicroProfile Metrics 1.1]
- - https://github.com/eclipse/microprofile-jwt-auth[MicroProfile JWT Authentication 1.0]
+ - https://github.com/eclipse/microprofile-config/releases/tag/1.1[MicroProfile Config 1.1] (supercedes MicroProfile Config 1.0)
+ - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/1.0[MicroProfile Fault Tolerance 1.0]
+ - https://github.com/eclipse/microprofile-health/releases/tag/1.0[MicroProfile Health Check 1.0]
+ - https://github.com/eclipse/microprofile-metrics/releases/tag/1.0[MicroProfile Metrics 1.0]
+ - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.0[MicroProfile JWT Authentication 1.0]
 
 The Maven coordinates for this Eclipse release are as follows:
 ----
@@ -54,15 +80,15 @@ The Maven coordinates for this Eclipse release are as follows:
 </dependency>
 ----
 
-Here is the link to https://github.com/eclipse/microprofile-bom[the github repository] for this Eclipse-based project.
+Here is the link to https://github.com/eclipse/microprofile-bom/releases/tag/1.2[the github repository] for this Eclipse-based project.
 
 
 [[microprofile1.1]]
 === MicroProfile 1.1 (3Q2017)
 
-MicroProfile 1.1 is the first release since becoming an https://projects.eclipse.org/projects/technology.microprofile[Eclipse project].
+MicroProfile 1.1 is the second release since becoming the https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
 
-Based on our time-boxed process, the content for MicroProfile 1.1 will be all of <<microprofile1.0, MicroProfile 1.0>>, plus https://github.com/eclipse/microprofile-config[MicroProfile Config 1.0].
+Based on our time-boxed process, the content for MicroProfile 1.1 will be all of <<microprofile1.0, MicroProfile 1.0>>, plus https://github.com/eclipse/microprofile-config/releases/tag/1.0[MicroProfile Config 1.0].
 
 The Maven coordinates for this Eclipse release are as follows:
 ----
@@ -75,7 +101,7 @@ The Maven coordinates for this Eclipse release are as follows:
 </dependency>
 ----
 
-Here is the link to https://github.com/eclipse/microprofile-bom[the github repository] for this Eclipse-based project.
+Here is the link to https://github.com/eclipse/microprofile-bom/releases/tag/1.1[the github repository] for this Eclipse-based project.
 
 
 [[microprofile1.0]]
