@@ -108,10 +108,10 @@ Eclipse MicroProfile JWT Authentication provides role based access control (RBAC
  - http://microprofile.io/project/eclipse/microprofile-jwt-auth
  - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.0
 
-=== Eclipse MicroProfile Metrics 1.0
+=== Eclipse MicroProfile Metrics 1.1
 
 Eclipse MicroProfile Metrics provides a unified way for MicroProfile servers to export monitoring data to management agents.
 Metrics will also provide a common Java API for exposing their telemetry data.
 
  - http://microprofile.io/project/eclipse/microprofile-metrics
- - https://github.com/eclipse/microprofile-metrics/releases/tag/1.0
+ - https://github.com/eclipse/microprofile-metrics/releases/tag/1.1

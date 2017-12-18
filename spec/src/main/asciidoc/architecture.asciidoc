@@ -40,7 +40,7 @@ Based on our time-boxed process, the content for MicroProfile 1.2 will be all of
  - https://github.com/eclipse/microprofile-config[MicroProfile Config 1.1] (supercedes MicroProfile Config 1.0)
  - https://github.com/eclipse/microprofile-fault-tolerance[MicroProfile Fault Tolerance 1.0]
  - https://github.com/eclipse/microprofile-health[MicroProfile Health Check 1.0]
- - https://github.com/eclipse/microprofile-metrics[MicroProfile Metrics 1.0]
+ - https://github.com/eclipse/microprofile-metrics[MicroProfile Metrics 1.1]
  - https://github.com/eclipse/microprofile-jwt-auth[MicroProfile JWT Authentication 1.0]
 
 The Maven coordinates for this Eclipse release are as follows:
