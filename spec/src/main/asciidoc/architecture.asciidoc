@@ -39,7 +39,7 @@ Based on our time-boxed process, the content for MicroProfile 1.3 will be all of
 
 // - https://github.com/eclipse/microprofile-config/releases/tag/1.2[MicroProfile Config 1.2] (supercedes MicroProfile Config 1.1)
  - https://github.com/eclipse/microprofile-metrics/releases/tag/1.1[MicroProfile Metrics 1.1] (supercedes MicroProfile Metrics 1.0)
- - https://github.com/eclipse/microprofile-open-api/releases/tag/1.0[MicroProfile Open API 1.0]
+ - https://github.com/eclipse/microprofile-open-api/releases/tag/1.0[MicroProfile OpenAPI 1.0]
 // - https://github.com/eclipse/microprofile-opentracing/releases/tag/1.0[MicroProfile OpenTracing 1.0]
 // - https://github.com/eclipse/microprofile-rest-client/releases/tag/1.0[MicroProfile Rest Client 1.0]
 

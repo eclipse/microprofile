@@ -35,7 +35,7 @@ MicroProfile applications that make use of APIs or versions not mentioned below 
  - Eclipse MicroProfile Health Check 1.0
  - Eclipse MicroProfile JWT Authentication 1.0
  - Eclipse MicroProfile Metrics 1.1
- - Eclipse MicroProfile Open API 1.0
+ - Eclipse MicroProfile OpenAPI 1.0
 // - Eclipse MicroProfile OpenTracing 1.0
 // - Eclipse MicroProfile Rest Client 1.0
 
@@ -129,9 +129,9 @@ Metrics will also provide a common Java API for exposing their telemetry data.
  - https://github.com/eclipse/microprofile-metrics/releases/tag/1.1
 
 [[mp-open-api]]
-=== Eclipse MicroProfile Open API 1.0
+=== Eclipse MicroProfile OpenAPI 1.0
 
-Eclipse MicroProfile Open API provides a unified Java API for the https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md[OpenAPI v3 specification] that all application developers can use to expose their API documentation.
+Eclipse MicroProfile OpenAPI provides a unified Java API for the https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md[OpenAPI v3 specification] that all application developers can use to expose their API documentation.
 
  - http://microprofile.io/project/eclipse/microprofile-open-api
  - https://github.com/eclipse/microprofile-open-api/releases/tag/1.0
