@@ -41,6 +41,7 @@
         <license>Apache License v 2.0</license>
         <maven.build.timestamp.format>MMMM dd, yyyy</maven.build.timestamp.format>
         <revisiondate>${maven.build.timestamp}</revisiondate>
+        <revremark>Draft</revremark>
     </properties>
 
     <build>
@@ -66,6 +67,11 @@
                         </goals>
                         <configuration>
                             <backend>pdf</backend>
+                            <attributes>
+                                <revnumber>${project.version}</revnumber>
+                                <revremark>${revremark}</revremark>
+                                <revdate>${revisiondate}</revdate>
+                            </attributes>
                         </configuration>
                     </execution>
                     <execution>

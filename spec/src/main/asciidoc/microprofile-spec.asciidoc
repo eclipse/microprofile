@@ -18,12 +18,9 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-= Eclipse MicroProfile 1.3-SNAPSHOT
+= Eclipse MicroProfile
 :authors: MicroProfile Team, http://microprofile.io
 :email: microprofile@googlegroups.com
-:revnumber: 1.3-SNAPSHOT
-:revdate: 2017-12-18
-:revremark: Proposed
 :version-label!:
 :sectanchors:
 :doctype: book
