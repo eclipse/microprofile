@@ -106,7 +106,7 @@
 
         <!-- MicroProfile specs  -->
         <config-version>1.1</config-version>
-        <!-- <config-version>1.2</config-version>  -->
+        <config-version>1.2</config-version>
         <ft-version>1.0</ft-version>
         <health-version>1.0</health-version>
         <metrics-version>1.1</metrics-version>
