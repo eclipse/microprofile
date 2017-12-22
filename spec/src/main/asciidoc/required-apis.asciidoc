@@ -30,7 +30,7 @@ MicroProfile applications that make use of APIs or versions not mentioned below 
  - JAX-RS (Java(TM) API for RESTful Web Services) 2.0.1
  - JSON-P (Java(TM) API for JSON Processing) 1.0
  - Common Annotations for the Java(TM) Platform 1.2
- - Eclipse MicroProfile Config 1.1
+ - Eclipse MicroProfile Config 1.2
  - Eclipse MicroProfile Fault Tolerance 1.0
  - Eclipse MicroProfile Health Check 1.0
  - Eclipse MicroProfile JWT Authentication 1.0
@@ -82,12 +82,12 @@ Use of implementations beyond Common Annotations 1.2 in MicroProfile is allowed,
  - https://jcp.org/en/jsr/detail?id=250
 
 [[mp-config]]
-=== Eclipse MicroProfile Config 1.1
+=== Eclipse MicroProfile Config 1.2
 
 Eclipse MicroProfile Config provides applications and microservices means to obtain configuration properties through several environment-aware sources both internal and external to the application and made available through dependency injection or lookup.
 
  - http://microprofile.io/project/eclipse/microprofile-config
- - https://github.com/eclipse/microprofile-config/releases/tag/1.1
+ - https://github.com/eclipse/microprofile-config/releases/tag/1.2
 
 The Eclipse MicroProfile Config API is currently in the JSR process and is actively seeking adoption stories, feedback, and Expert
 Group members.
