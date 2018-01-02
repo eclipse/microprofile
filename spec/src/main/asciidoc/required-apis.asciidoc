@@ -36,8 +36,8 @@ MicroProfile applications that make use of APIs or versions not mentioned below 
  - Eclipse MicroProfile JWT Authentication 1.0
  - Eclipse MicroProfile Metrics 1.1
  - Eclipse MicroProfile OpenAPI 1.0
- - Eclipse MicroProfile Rest Client 1.0
  - Eclipse MicroProfile OpenTracing 1.0
+ - Eclipse MicroProfile Rest Client 1.0
 
 [[javase]]
 === Java SE 8
