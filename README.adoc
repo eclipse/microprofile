@@ -45,6 +45,4 @@ Add this dependency (adjusting the version number appropriately) to your project
 You will then be able to work with all the APIs supported by MicroProfile implementations.
 
 [NOTE]
-This style of BOM does not go in a <dependencyManagement>...</dependencyManagement> section,
-using import scope, and you cannot add dependencies declared in the BOM without version elements
-as is typically done with that style of BOM.
+This style of BOM does not go in a <dependencyManagement>...</dependencyManagement> section, using import scope, and you cannot add dependencies declared in the BOM without version elements as is typically done with that style of BOM.
