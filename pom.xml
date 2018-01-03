@@ -28,7 +28,7 @@
     <groupId>org.eclipse.microprofile</groupId>
     <artifactId>microprofile</artifactId>
     <packaging>pom</packaging>
-    <version>1.3</version>
+    <version>1.4-SNAPSHOT</version>
 
     <name>MicroProfile BOM</name>
     <description>The MicroProfile "Bill of Materials"</description>
@@ -57,7 +57,7 @@
         <url>https://github.com/eclipse/microprofile-bom</url>
         <connection>scm:git:https://github.com/eclipse/microprofile-bom.git</connection>
         <developerConnection>scm:git:git@github.com:eclipse/microprofile-bom.git</developerConnection>
-        <tag>1.3</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
