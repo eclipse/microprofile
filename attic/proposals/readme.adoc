@@ -1,0 +1,66 @@
+= Proposals
+
+List of proposals and associated links.
+
+This list includes both approved proposals and proposals in the discussion stage. Those proposals which are not yet approved are marked as such.
+
+===== link:https://github.com/microprofile/evolution/blob/master/proposals/0001-config.md[MP-0001: Service Configuration]
+
+. Authors:
+.. https://github.com/Emily-Jiang[Emily Jiang]
+
+. Important discussion threads
+.. link:https://groups.google.com/forum/#!topic/microprofile/JRJXHqXpHZA[Discussion thread] that motivated the proposal
+.. link:https://groups.google.com/forum/#!topic/microprofile/VJEEAOsVj5E[Formal proposal discussion]
+
+. Pre-release implementations
++
+NOTE: These are currently work-in-progress implementations and are all subject to change. The code may change as well as the location of the implementation.
+
+.. link:https://developer.ibm.com/wasdev/downloads/#asset/features-com.ibm.websphere.appserver.microProfileConfig-0.1[IBM WebSphere Liberty Profile]
+.. link:https://github.com/apache/incubator-tamaya-sandbox/tree/master/microprofile[Apache Tamaya]
++
+Other Tamaya projects need to be built first before building; see the link:https://groups.google.com/d/msg/microprofile/VJEEAOsVj5E/1NrbvdnwAwAJ[usage guidance in Google Groups] for more details
+.. link:https://github.com/jmesnil/microprofile-config-extension[WildFly Swarm]
+.. link:https://svn.apache.org/repos/asf/geronimo/components/config/trunk/[Apache Geronimo]
++
+This is an SVN repository - for instructions on building, see the link:https://groups.google.com/d/msg/microprofile/VJEEAOsVj5E/DFtGsupfAwAJ[usage guidance in Google Groups] for more details
+
+---
+
+===== - Pending Approval -
+===== link:https://github.com/eclipse/microprofile-evolution-process/pull/12[MP-0002: Metrics via HTTP Endpoints]
+. Authors: https://github.com/pilhuhn[Heiko W. Rupp]
+
+---
+
+===== link:https://github.com/eclipse/microprofile-evolution-process/blob/master/proposals/0003-health-checks.md[MP-0003: Service Healthchecks]
+
+. Authors:
+.. https://github.com/cescoffier[Clement Escoffier], https://github.com/pilhuhn[Heiko Rupp], https://github.com/heiko-braun[Heiko Braun]
+
+. Important discussion threads
+.. link:https://github.com/eclipse/microprofile-evolution-process/pull/14[GitHub Pull Request discussion]
+.. link:https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!topic/microprofile/GDhgOguDIXw[Google Groups proposal discussion]
+
+. *link:https://github.com/eclipse/microprofile-evolution-process/blob/master/proposals/0003-spec.md[Healthcheck Specification 1.0]*
+
+---
+
+===== link:https://github.com/eclipse/microprofile-evolution-process/pull/15[MP-0004: Fault Tolerance Proposal]
+. Authors: https://github.com/Emily-Jiang[Emily Jiang], https://github.com/jhalterman/[Jonathan Halterman]
+. Important discussion threads
+.. link:https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!topic/microprofile/ESs9L3z08oA[Google Groups proposal discussion]
+
+---
+
+
+===== - Pending Approval -
+===== link:https://github.com/eclipse/microprofile-evolution-process/pull/18[MP-0005: Interoperable JWT Role-Based Access Control]
+
+. Authors
+.. https://github.com/starksm64[Scott Stark], https://github.com/pedroigor[Pedro Igor Silva]
+
+. Important discussion threads
+.. https://groups.google.com/forum/#!topic/microprofile/gakCq7kSBsY[Discussion thread topic covering the  Rationale]
+.. https://groups.google.com/forum/#!topic/microprofile/l2aJGPB8Sxc[Discussion thread topic with additional Commentary]

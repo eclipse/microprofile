@@ -1,0 +1,7 @@
+= Evolution Process
+
+One of the key drivers for the MicroProfile effort from the beginning has been rapid iteration. Without any kind of process in place to govern how to create new proposals or to discuss and approve them, the MicroProfile would not have been able to move forward.
+
+There was a link:https://groups.google.com/d/msg/microprofile/yjFD_7jIE9Y/BeE-1_UTAQAJ[Google Group discussion] to set up a call and document how the process should work. The meeting took place on Wednesday 2nd November 2016 and link:https://groups.google.com/d/msg/microprofile/yjFD_7jIE9Y/LRIBJH1PBAAJ[Ondrej Mihalyi] took notes which he then link:https://docs.google.com/document/d/1tNsKMLy6umdT4iVp76QCvsDjkjQzaqGXNRyRR4YkPh8/edit?usp=sharing[made public].
+
+The resulting repository to contain evolution proposals can be found on GitHub under link:https://github.com/eclipse/microprofile-evolution-process[microprofile-evolution-process].

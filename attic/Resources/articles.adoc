@@ -1,0 +1,35 @@
+# MicroProfile guides
+
+ * Simple Microservices with Payara Micro  - https://vasouv.wordpress.com/2016/09/24/simple-microservices-with-payara-micro-pt-1-backend-service/[part1] and https://vasouv.wordpress.com/2016/11/16/simple-microservices-with-payara-micro-pt-2-complete-example/[part2] (by Vasilis Souvatzis)
+ * https://www.voxxed.com/blog/2017/01/just-enough-code-wildfly-swarm/[Just enough code: WildFly Swarm MicroProfile] (at Voxxed)
+ * https://www.voxxed.com/blog/2017/01/microservices-and-javaee-at-cern/[Microservices and JavaEE: Antonio Goncalves at CERN] (Antonio Goncalves interviewed by Voxxed)
+ * http://wildfly-swarm.io/posts/microprofile-with-wildfly-swarm/[MicroProfile with WildFly Swarm]
+ * https://www.voxxed.com/blog/2016/09/microprofile-in-depth/[MicroProfile in depth]
+ * https://developer.ibm.com/wasdev/blog/2016/10/26/what-is-microprofile/[What is MicroProfile?]
+ 
+# MicroProfile 1.1
+
+# MicroProfile joined Eclipse incubation
+
+ * https://adtmag.com/articles/2016/12/23/microprofile-an-eclipse-project.aspx[MicroProfile Now an Eclipse Project]
+ * https://www.infoq.com/news/2017/02/microprofile-eclipse-foundation[MicroProfile Becomes Eclipse MicroProfile]
+ * https://jaxenter.com/microprofile-is-an-eclipse-foundation-project-130884.html[It’s a done deal: MicroProfile is an Eclipse Foundation project]
+
+# MicroProfile 1.0
+
+ * http://microprofile.io/blog/2016/09/microprofile-at-javaone[Announcement of MicroProfile 1.0 at microprofile.io]
+ * https://developer.jboss.org/blogs/mark.little/2016/09/17/to-microprofile-10-and-beyond[To MicroProfile 1.0 and Beyond]
+ * https://jaxenter.com/microprofile-1-0-http-not-way-microservices-communicate-129221.html[MicroProfile 1.0: HTTP is not the only way microservices communicate]
+ * http://blog.payara.fish/payara-micro-profile-1.0-released[Payara MicroProfile 1.0 Released]
+ * https://www.voxxed.com/blog/2016/09/microprofile-1-0-developers-want/[MicroProfile 1.0: What developers want]
+ 
+# MicroProfile announcements
+
+ * http://blog.payara.fish/payara-red-hat-ibm-tomitribe-ljc-collaborate-to-bring-microservices-to-enterprise-java[Payara announcement]
+ * https://developer.ibm.com/wasdev/blog/2016/06/27/microprofile-announce/[IBM announcement]
+ * http://www.adam-bien.com/roller/abien/entry/the_enterprise_java_future_is[Adam B. announcement]
+ * https://antoniogoncalves.org/2016/06/27/micro-profile-in-enterprise-java-announced/[Antonio G. announcement]
+ * http://middlewareblog.redhat.com/2016/06/27/microprofile-collaborating-to-bring-microservices-to-enterprise-java/[Red Hat announcement]
+ * http://www.tomitribe.com/blog/2016/06/microprofile/[Tomitribe announcement]
+ * https://www.infoq.com/news/2016/07/java-ee-microprofile[Java EE Vendors and the London JUG Announce New MicroProfile] (InfoQ)
+ 

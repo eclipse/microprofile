@@ -1,0 +1,16 @@
+= Eclipse Foundation
+
+In December 2016, the MicroProfile community was accepted into the Eclipse Foundation as the link:https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project]. 
+ 
+For historical purposes, the original proposal for this project is available link:https://projects.eclipse.org/proposals/eclipse-microprofile[here].
+The full discussion on the proposal can be viewed in this link:https://groups.google.com/forum/#!topic/microprofile/sYMlGBI1qiM[MicroProfile Google Group post]. 
+ 
+=== Why the Eclipse Foundation?
+The Eclipse Foundation will give a structucture around which we can develop "link:https://www.eclipse.org/projects/dev_process/development_process.php#6_2_3_Incubation[the process, the community, and the technology]".
+ 
+It quickly became apparent, after the MicroProfile effort began, that formal governance was needed to make sure the project remained transparent and open to contributions in a clear way. Rather than create a bespoke governance model, link:https://groups.google.com/d/msg/microprofile/Y_8YCYa0JZ4/9o40cGjsBgAJ[there was a discussion about the issue] and link:https://groups.google.com/d/msg/microprofile/aVX7G4QTP0A/CIrfzTn1GQAJ[the decision was taken to move the project to the Eclipse Foundation after a vote].
+
+=== List of decisions made
+* We will continue to use GitHub to host source code
+** We need to be careful to ensure that IP considerations are taken into account before merging any pull requests. GitHub can warn to complete this check, but does not have the facility to block, unlike Eclipse's infrastructure [link:https://docs.google.com/document/d/16v3jVkcDzVz9BVU5aGEzPVbK-a8BIx7S1gbqToVUaLs/edit[source]]
+* link:https://groups.google.com/d/msg/microprofile/2HDcwFLUj4I/WCPKiqlVDAAJ[We will continue to use Google Groups instead of the Eclipse forums]
