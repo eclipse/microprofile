@@ -19,26 +19,28 @@ There is no formal relationship with Java EE. The 1.0 release of MicroProfile wa
 MicroProfile is not governed by the JCP. Rather, it is an independent effort governed under the link:https://projects.eclipse.org/projects/technology.microprofile[Eclipse Foundation] and licensed under the link:https://www.apache.org/licenses/LICENSE-2.0[Apache v2 Software License].
 
 === Who is involved?
-Current vendors implementing version 1.0 of the MicroProfile include:
+Current vendors implementing MicroProfile specifications include:
 
 * Red Hat (WildFly Swarm)
-* IBM (WebSphere Liberty)
+* IBM (WebSphere Open Liberty)
 * Payara (Payara MicroProfile)
 * Tomitribe (TomEE MicroProfile)
 * Hammock (MicroProfile distribution)
+
+A more complete list of the various MicroProfile implementations and the specification versions they support can be found on the link:https://wiki.eclipse.org/MicroProfile/Implementation[MicroProfile wiki].
 
 There are link:http://microprofile.io/contributors[many individuals who contribute] to the MicroProfile project. The Java community as a whole is encouraged to take part and contribute to the project; there are no restrictions.
 
 === How can I get involved?
 * Read through, comment on, and create new topics on the link:https://groups.google.com/forum/#!forum/microprofile[MicroProfile Google Group]
 * Test the sample apps, fix bugs and submit a pull request, or create a new one (link:https://projects.eclipse.org/projects/technology.microprofile/developer[Developer resources])
-* Submit a proposal (link:https://github.com/eclipse/microprofile-evolution-process/blob/master/process.md[evolution process])
+* Submit a proposal (link:https://wiki.eclipse.org/MicroProfile/FeatureInit[Introducing New Ideas to MicroProfile])
 
 ===== How do I join?
 There is no formal "joining" process, since anyone is welcome to join the discussion in the link:https://groups.google.com/forum/#!forum/microprofile[Google Group].  Depending on how involved you want to be, however, you may need to sign an link:https://www.eclipse.org/legal/ECA.php[Eclipse Contributor Agreement] to contribute to the project.
 
 ===== How do I submit a proposal?
-A process has been created specifically for the evolution of the MicroProfile, and can be found under link:https://github.com/eclipse/microprofile-evolution-process/blob/master/process.md[the microprofile organization on GitHub].
+A process has been created specifically for the evolution of the MicroProfile, and can be found under link:https://wiki.eclipse.org/MicroProfile/FeatureInit[the Feature Initialization section of the wiki].
 
 === What are the logo restrictions?
 Use of branding for any vendor is subject to the restrictions of that vendor.
