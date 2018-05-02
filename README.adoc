@@ -31,6 +31,10 @@ The MicroProfile community recently moved to the link:https://projects.eclipse.o
 Although we now have this portal to our community at Eclipse, we will continue to maintain our external portal at link:http://microprofile.io[microprofile.io].
 Both sites will be maintained to promote the development and use of MicroProfile in the industry.
 
+===== Wiki
+
+The https://wiki.eclipse.org/MicroProfile[MicroProfile wiki] contains up-to-date information about the project development, tools and other documentation.
+
 ===== Google Group
 The link:https://groups.google.com/forum/#!forum/microprofile[Microprofile Google Group] is the preferred place for discussions to take place.
 
