@@ -20,13 +20,13 @@
 ---
 documentation:
   - title: Microprofile Specification
-    file: spec/src/main/asciidoc/microprofile-spec.asciidoc
+    file: microprofile-spec/spec/src/main/asciidoc/microprofile-spec.asciidoc
 
   - title: Overall MicroProfile Architecture
-    file: spec/src/main/asciidoc/architecture.asciidoc
+    file: microprofile-spec/spec/src/main/asciidoc/architecture.asciidoc
 
   - title: MicroProfile Required APIs
-    file: spec/src/main/asciidoc/required-apis.asciidoc
+    file: microprofile-spec/spec/src/main/asciidoc/required-apis.asciidoc
 
   - title: License
-    file: spec/src/main/asciidoc/license-alv2.asciidoc
+    file: microprofile-spec/spec/src/main/asciidoc/license-alv2.asciidoc
