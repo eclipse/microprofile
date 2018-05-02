@@ -8,22 +8,32 @@ The Microprofile project is community-focused at its heart and aims to engage an
 ===== Code, code, code
 Several Eclipse github repos exist for the development of MicroProfile features...
 
-link:https://github.com/eclipse/microprofile[MicroProfile] -- Top-level repo used to collect Microprofile-related information (this repo) +
-link:https://github.com/eclipse/microprofile-conference[MicroProfile Conference App] -- "Architectural Application" to demonstrate MicroProfile on a variety of vendors +
-link:https://github.com/eclipse/microprofile-samples[MicroProfile Samples] -- Simple sample application to demonstrate MicroProfile capabilities +
-link:https://github.com/eclipse/microprofile-config[MicroProfile Config] -- Proposal for MicroProfile application configuration +
-link:https://github.com/eclipse/microprofile-evolution-process[MicroProfile Evolution Process] -- Process for developing new features for MicroProfile (under construction) +
+link:https://github.com/eclipse/microprofile[MicroProfile] -- Top-level repo used for the umbrella MicroProfile specifications and other Microprofile-related information (this repo) +
+link:https://github.com/eclipse/microprofile-config[MicroProfile Config] -- MicroProfile application configuration +
+link:https://github.com/eclipse/microprofile-health[MicroProfile Health Check] -- MicroProfile simple health check +
+link:https://github.com/eclipse/microprofile-metrics[MicroProfile Metrics] -- MicroProfile metrics +
+link:https://github.com/eclipse/microprofile-fault-tolerance[MicroProfile Fault Tolerance] -- MicroProfile fault tolerance +
+link:https://github.com/eclipse/microprofile-rest-client[MicroProfile Rest Client] -- MicroProfile type-safe REST client +
+link:https://github.com/eclipse/microprofile-open-api[MicroProfile Open API] -- MicroProfile OpenAPI and annotations +
+link:https://github.com/eclipse/microprofile-jwt-auth[MicroProfile JWT Authentication] -- MicroProfile JWT authentication propagation +
+link:https://github.com/eclipse/microprofile-opentracing[MicroProfile Open Tracing] -- MicroProfile OpenTracing integration +
+link:https://github.com/eclipse/microprofile-conference[MicroProfile Conference App] -- "Architectural Application" to demonstrate MicroProfile on a variety of vendors
+
+A complete list of MicroProfile-related repositories within the Eclipse github organization can be found link:https://github.com/eclipse?utf8=%E2%9C%93&q=microprofile[via this link].
 
 Some of the repositories are hosted under the link:https://github.com/microprofile[Microprofile github organization], including the following repos:
 
-link:https://github.com/microprofile/microprofile-presentations[Presentations] -- Various presentations given about MicroProfile in native format and, where necessary, pdf. +
-link:https://github.com/microprofile/microprofile-bom[The MicroProfile Maven BOM] -- "Bill of Materials" for MicroProfile projects providing complete MicroProfile API +
+link:https://github.com/microprofile/microprofile-blog[MicroProfile.io blogs] -- Easy mechanism for updating the entries on the link:http://microprofile.io/blog[MicroProfile blog site] +
 link:https://github.com/microprofile/microprofile-site[Microprofile.io site] -- source code of the application that powers the link:http://microprofile.io[microprofile.io] site +
 
 ===== Eclipse MicroProfile and Microprofile.io
-The MicroProfile community recently moved to the link:https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].  
+The MicroProfile community recently moved to the link:https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
 Although we now have this portal to our community at Eclipse, we will continue to maintain our external portal at link:http://microprofile.io[microprofile.io].
 Both sites will be maintained to promote the development and use of MicroProfile in the industry.
+
+===== Wiki
+
+The https://wiki.eclipse.org/MicroProfile[MicroProfile wiki] contains up-to-date information about the project development, tools and other documentation.
 
 ===== Google Group
 The link:https://groups.google.com/forum/#!forum/microprofile[Microprofile Google Group] is the preferred place for discussions to take place.
@@ -35,6 +45,6 @@ By using this mailing list, the Eclipse team can more quickly recognize and resp
 Since the link:https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project] is still in incubation, another useful mailing list is the link:https://dev.eclipse.org/mailman/listinfo/incubation[incubation mailing list].
 
 === Notable Contributors
-There is a very large number of people and vendors already involved in the link:https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project]. 
-The most complete list of contributors can be found at our link:https://microprofile.io/contributors[microprofile.io site].  
+There is a very large number of people and vendors already involved in the link:https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project].
+The most complete list of contributors can be found at our link:https://microprofile.io/contributors[microprofile.io site].
 Specific to our Eclipse efforts, another page is automatically maintained at link:https://projects.eclipse.org/projects/technology.microprofile/who[Eclipse MicroProfile] for the Eclipse committers and project leads.
