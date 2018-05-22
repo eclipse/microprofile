@@ -1,0 +1,15 @@
+Portions of this software were originally based on the following:
+* microprofile.io bill of materials
+  https://github.com/microprofile/microprofile-bom
+  under Apache License, v2.0
+
+SPDXVersion: SPDX-2.1
+PackageName: Eclipse Microprofile
+PackageHomePage: http://www.eclipse.org/microprofile
+PackageLicenseDeclared: Apache-2.0
+
+PackageCopyrightText: <text>
+Ken Finnigan ken@kenfinnigan.me,
+Ivan St. Ivanov ivan.st.ivanov@gmail.com,
+Kevin Sutter kwsutter@gmail.com
+</text>
