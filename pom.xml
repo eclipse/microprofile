@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**********************************************************************
+ * Copyright (c) 2017 Contributors to the Eclipse Foundation
+ *
+ * See the NOTICES file(s) distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * You may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ **********************************************************************/
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.eclipse.microprofile</groupId>
+    <artifactId>microprofile</artifactId>
+    <packaging>pom</packaging>
+    <version>1.4-SNAPSHOT</version>
+
+    <name>MicroProfile</name>
+    <description>The MicroProfile Specification and Information Repository</description>
+    <url>https://github.com/eclipse/microprofile</url>
+    <inceptionYear>2017</inceptionYear>
+    <organization>
+        <name>Eclipse MicroProfile</name>
+        <url>http://www.eclipse.org/microprofile</url>
+    </organization>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>MicroProfile Community</name>
+            <url>https://groups.google.com/forum/#!forum/microprofile</url>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/eclipse/microprofile</url>
+        <connection>scm:git:https://github.com/eclipse/microprofile.git</connection>
+        <developerConnection>scm:git:git@github.com:eclipse/microprofile.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/eclipse/microprofile/issues</url>
+    </issueManagement>
+
+    <distributionManagement>
+        <repository>
+            <id>ossrh</id>
+            <name>Sonatype OSSRH - Release Staging Area</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <name>Sonatype OSSRH Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <uniqueVersion>true</uniqueVersion>  <!-- for keeping multipe snapshot versions - maybe for staging a final version besides nightly versions -->
+        </snapshotRepository>
+    </distributionManagement>
+
+    <mailingLists>
+        <mailingList>
+            <name>MicroProfile</name>
+            <subscribe>http://groups.google.com/group/microprofile/subscribe</subscribe>
+            <post>microprofile@googlegroups.com</post>
+        </mailingList>
+        <mailingList>
+            <name>Eclipse MicroProfile Dev</name>
+            <subscribe>https://dev.eclipse.org/mailman/listinfo/microprofile-dev</subscribe>
+            <post>microprofile-dev@eclipse.org</post>
+        </mailingList>
+
+    </mailingLists>
+
+    <modules>
+        <module>spec</module>
+    </modules>
+
+    <properties>
+        <!--  Java EE specs  -->
+        <cdi-version>1.2</cdi-version>
+        <jaxrs-version>2.0.1</jaxrs-version>
+        <jsonp-version>1.0</jsonp-version>
+        <annotation-version>1.2</annotation-version>
+
+        <!-- MicroProfile specs  -->
+        <config-version>1.2</config-version>
+        <ft-version>1.0</ft-version>
+        <health-version>1.0</health-version>
+        <metrics-version>1.1</metrics-version>
+        <jwt-version>1.0</jwt-version>
+        <openapi-version>1.0</openapi-version>
+        <rest-client-version>1.0</rest-client-version>
+        <opentracing-version>1.0</opentracing-version>
+
+        <!-- other props  -->
+        <!-- whether autorelease maven central staging repositories - default false to allow review and manually release repositories -->
+        <autorelease>false</autorelease>
+        <!-- keeping closed repos with failure - default is false because the errors are visible in the maven output, but true will leave the repo open for investigation in Sonatype Nexus -->
+        <keepStagingReposOnFailure>false</keepStagingReposOnFailure>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
+                <configuration>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <localCheckout>true</localCheckout>
+                    <useReleaseProfile>false</useReleaseProfile>
+                    <arguments>${arguments} -Prelease -Drevremark=${revremark}</arguments>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>javax.enterprise</groupId>
+            <artifactId>cdi-api</artifactId>
+            <version>${cdi-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>javax.ws.rs-api</artifactId>
+            <version>${jaxrs-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.json</groupId>
+            <artifactId>javax.json-api</artifactId>
+            <version>${jsonp-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>javax.annotation-api</artifactId>
+            <version>${annotation-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.microprofile.config</groupId>
+            <artifactId>microprofile-config-api</artifactId>
+            <version>${config-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.microprofile.fault-tolerance</groupId>
+            <artifactId>microprofile-fault-tolerance-api</artifactId>
+            <version>${ft-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.microprofile.health</groupId>
+            <artifactId>microprofile-health-api</artifactId>
+            <version>${health-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.microprofile.metrics</groupId>
+            <artifactId>microprofile-metrics-api</artifactId>
+            <version>${metrics-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.microprofile.jwt</groupId>
+            <artifactId>microprofile-jwt-auth-api</artifactId>
+            <version>${jwt-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.microprofile.openapi</groupId>
+            <artifactId>microprofile-openapi-api</artifactId>
+            <version>${openapi-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.microprofile.rest.client</groupId>
+            <artifactId>microprofile-rest-client-api</artifactId>
+            <version>${rest-client-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.microprofile.opentracing</groupId>
+            <artifactId>microprofile-opentracing-api</artifactId>
+            <version>${opentracing-version}</version>
+        </dependency>
+    </dependencies>
+
+    <profiles>
+        <profile>
+            <id>release</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.sonatype.plugins</groupId>
+                        <artifactId>nexus-staging-maven-plugin</artifactId>
+                        <version>1.6.3</version>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                            <serverId>ossrh</serverId>
+                            <autoReleaseAfterClose>${autorelease}</autoReleaseAfterClose>
+                            <keepStagingRepositoryOnCloseRuleFailure>${keepStagingReposOnFailure}</keepStagingRepositoryOnCloseRuleFailure>
+                        </configuration>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>1.6</version>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+</project>

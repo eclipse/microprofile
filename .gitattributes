@@ -1,0 +1,69 @@
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+* text=auto
+
+#
+# The above will handle all files NOT found below
+#
+# These files are text and should be normalized (Convert crlf => lf)
+*.adoc          text
+*.conf          text
+*.config        text
+*.css           text
+*.df            text
+*.extension     text
+*.groovy        text
+*.htm           text
+*.html          text
+*.java          text
+*.js            text
+*.json          text
+*.jsp           text
+*.jspf          text
+*.md            text
+*.properties    text
+*.sbt           text
+*.scala         text
+*.sh            text
+*.sql           text
+*.svg           text
+*.template      text
+*.tld           text
+*.txt           text
+*.vm            text
+*.wadl          text
+*.wsdl          text
+*.xhtml         text
+*.xml           text
+*.xsd           text
+*.yml           text
+
+cipher          text
+jaas            text
+LICENSE         text
+NOTICE          text
+
+# These files are binary and should be left untouched
+# (binary is a macro for -text -diff)
+*.class         binary
+*.dll           binary
+*.ear           binary
+*.gif           binary
+*.ico           binary
+*.jar           binary
+*.jpg           binary
+*.jpeg          binary
+*.png           binary
+*.ser           binary
+*.so            binary
+*.war           binary
+*.zip           binary
+*.exe           binary
+*.gz            binary
+
+#Windows
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+#Unix/Linux
+*.sh text eol=lf
