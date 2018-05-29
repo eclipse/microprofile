@@ -30,9 +30,9 @@
     <packaging>pom</packaging>
     <version>1.4-SNAPSHOT</version>
 
-    <name>MicroProfile BOM</name>
-    <description>The MicroProfile "Bill of Materials"</description>
-    <url>https://github.com/eclipse/microprofile-bom</url>
+    <name>MicroProfile</name>
+    <description>The MicroProfile Specification and Information Repository</description>
+    <url>https://github.com/eclipse/microprofile</url>
     <inceptionYear>2017</inceptionYear>
     <organization>
         <name>Eclipse MicroProfile</name>
@@ -54,15 +54,15 @@
     </developers>
 
     <scm>
-        <url>https://github.com/eclipse/microprofile-bom</url>
-        <connection>scm:git:https://github.com/eclipse/microprofile-bom.git</connection>
-        <developerConnection>scm:git:git@github.com:eclipse/microprofile-bom.git</developerConnection>
+        <url>https://github.com/eclipse/microprofile</url>
+        <connection>scm:git:https://github.com/eclipse/microprofile.git</connection>
+        <developerConnection>scm:git:git@github.com:eclipse/microprofile.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/eclipse/microprofile-bom/issues</url>
+        <url>https://github.com/eclipse/microprofile/issues</url>
     </issueManagement>
 
     <distributionManagement>

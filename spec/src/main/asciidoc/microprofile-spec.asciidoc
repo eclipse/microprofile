@@ -34,11 +34,11 @@ ifdef::backend-pdf[]
 :numbered:
 endif::[]
 
-== License
+// == License
 
 include::license-alv2.asciidoc[]
 
-== MicroProfile
+// == MicroProfile
 
 include::architecture.asciidoc[]
 

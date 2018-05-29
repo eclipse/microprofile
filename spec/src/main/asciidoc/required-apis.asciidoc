@@ -43,7 +43,7 @@ MicroProfile applications that make use of APIs or versions not mentioned below 
 === Java SE 8
 
 Libraries in use by the MicroProfile leverage new features provided in Java SE 8, therefore Java SE 7 and before are unsupported.
-MicroProfile 1.1 implementations may provide support for Java SE 9 and beyond, however Java SE 8 compatibility must maintained.
+MicroProfile 1.1 implementations may provide support for Java SE 9 and beyond, however Java SE 8 compatibility must be maintained.
 
 [[javaee-cdi]]
 === CDI 1.2

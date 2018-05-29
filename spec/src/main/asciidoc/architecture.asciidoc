@@ -21,11 +21,11 @@
 [[architecture]]
 == Architecture
 
-The MicroProfile BOM will identify the contents of each MicroProfile release.
+The MicroProfile pom will identify the contents of each MicroProfile release.
 The contents will be those features and versions agreed to by the MicroProfile community.
 These features may be external to the MicroProfile community (Java EE features such as JAX-RS 2.0), or they be a component of the MicroProfile project (such as Config 1.0).
 
-Since the MicroProfile BOM is an "umbrella" project, there will be no individual API or TCK generated for this component.
+Since the MicroProfile repo is an "umbrella" project, there will be no individual API or TCK generated for this component.
 Only this Specification will be generated and maintained to document the contents of each release.
 
 In reverse chronological order, here's the specification for each MicroProfile release.

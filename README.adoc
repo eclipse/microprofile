@@ -27,8 +27,8 @@ link:https://github.com/microprofile/microprofile-blog[MicroProfile.io blogs] --
 link:https://github.com/microprofile/microprofile-site[Microprofile.io site] -- source code of the application that powers the link:http://microprofile.io[microprofile.io] site +
 
 ===== Eclipse MicroProfile and Microprofile.io
-The MicroProfile community recently moved to the link:https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
-Although we now have this portal to our community at Eclipse, we will continue to maintain our external portal at link:http://microprofile.io[microprofile.io].
+The MicroProfile community has two portals to information.  The main site is the link:https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
+In addition to this portal to our community at Eclipse, we will continue to maintain our external site at link:http://microprofile.io[microprofile.io].
 Both sites will be maintained to promote the development and use of MicroProfile in the industry.
 
 ===== Wiki
@@ -39,10 +39,10 @@ The https://wiki.eclipse.org/MicroProfile[MicroProfile wiki] contains up-to-date
 The link:https://groups.google.com/forum/#!forum/microprofile[Microprofile Google Group] is the preferred place for discussions to take place.
 
 ===== Mailing Lists
-Besides the Google Group threads (main source of communication), there is also a link:https://dev.eclipse.org/mailman/listinfo/microprofile-dev[microprofile-dev mailing list] which should be used for conversation specific to the Eclipse way of doing things.
+Besides the Google Group threads (main source of communication), there is also an link:https://dev.eclipse.org/mailman/listinfo/microprofile-dev[Eclipse microprofile-dev mailing list] which should be used for conversation specific to the Eclipse way of doing things.
 By using this mailing list, the Eclipse team can more quickly recognize and respond to our requests. +
 
-Since the link:https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project] is still in incubation, another useful mailing list is the link:https://dev.eclipse.org/mailman/listinfo/incubation[incubation mailing list].
+Since the link:https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project] is still in incubation, another useful mailing list is the link:https://dev.eclipse.org/mailman/listinfo/incubation[incubation mailing list] for asking general Eclipse process questions.
 
 === Notable Contributors
 There is a very large number of people and vendors already involved in the link:https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project].
