@@ -21,15 +21,18 @@
 [[required-apis]]
 == Required APIs
 
-Compliant implementations of Eclipse MicroProfile 1.4 must provide at least the following APIs and minimum versions.  These APIs and versions guarantee application developers a minimum set of APIs and are not intended to be restrictive.  Implementations may include APIs not listed below as well they may support more recent versions than what is listed below.
+Compliant implementations of Eclipse MicroProfile 2.0 must provide at least the following APIs and minimum versions.
+These APIs and versions guarantee application developers a minimum set of APIs and are not intended to be restrictive.
+Implementations may include APIs not listed below as well they may support more recent versions than what is listed below.
 
 MicroProfile applications that make use of APIs or versions not mentioned below are not considered portable.
 
  - <<javase, Java SE 8>>
- - <<javaee-cdi, CDI (Contexts and Dependency Injection for Java EE) 1.2>>
- - <<javaee-jaxrs, JAX-RS (Java(TM) API for RESTful Web Services) 2.0.1>>
- - <<javaee-jsonp, JSON-P (Java(TM) API for JSON Processing) 1.0>>
- - <<javaee-common-annotations, Common Annotations for the Java(TM) Platform 1.2>>
+ - <<javaee-cdi, CDI (Contexts and Dependency Injection for Java EE) 2.0>>
+ - <<javaee-jaxrs, JAX-RS (Java(TM) API for RESTful Web Services) 2.1>>
+ - <<javaee-jsonb, JSON-B (Java(TM) API for JSON Binding) 1.0>>
+ - <<javaee-jsonp, JSON-P (Java(TM) API for JSON Processing) 1.1>>
+ - <<javaee-common-annotations, Common Annotations for the Java(TM) Platform 1.3>>
  - <<mp-config, Eclipse MicroProfile Config 1.3>>
  - <<mp-fault-tolerance, Eclipse MicroProfile Fault Tolerance 1.1>>
  - <<mp-health-check, Eclipse MicroProfile Health Check 1.0>>
@@ -43,40 +46,49 @@ MicroProfile applications that make use of APIs or versions not mentioned below 
 === Java SE 8
 
 Libraries in use by the MicroProfile leverage new features provided in Java SE 8, therefore Java SE 7 and before are unsupported.
-MicroProfile 1.x implementations may provide support for Java SE 9 and beyond, however Java SE 8 compatibility must be maintained.
+MicroProfile 2.x implementations may provide support for Java SE 9 and beyond, however Java SE 8 compatibility must be maintained.
 
 [[javaee-cdi]]
-=== CDI 1.2
+=== CDI 2.0
 
-CDI provides the base for a growing number of APIs included in MicroProfile 1.1.
-Use of implementations beyond CDI 1.2 in MicroProfile is allowed, however, not required as of version 1.1 of MicroProfile.
+CDI provides the base for a growing number of APIs included in MicroProfile 2.0.
+Use of implementations beyond CDI 2.0 in MicroProfile is allowed, however, not required as of version 2.0 of MicroProfile.
 
  - http://cdi-spec.org/
- - https://jcp.org/en/jsr/detail?id=346
+ - https://jcp.org/en/jsr/detail?id=365
 
 [[javaee-jaxrs]]
-=== JAX-RS 2.0.1
+=== JAX-RS 2.1
 
-JAX-RS provides both standard client and server APIs for RESTful communication by MicroProfile 1.1 applications.
-Use of implementations beyond JAX-RS 2.0.1 in MicroProfile is allowed, however, not required as of version 1.1 of MicroProfile.
+JAX-RS provides both standard client and server APIs for RESTful communication by MicroProfile 2.0 applications.
+Use of implementations beyond JAX-RS 2.1 in MicroProfile is allowed, however, not required as of version 2.0 of MicroProfile.
 
  - https://github.com/jax-rs
- - https://jcp.org/en/jsr/detail?id=339
+ - https://jcp.org/en/jsr/detail?id=370
 
-[[javaee-jsonp]]
-=== JSON-P 1.0
+[[javaee-jsonb]]
+=== JSON-B 1.0
 
-JSON-P is leveraged as part of MicroProfile 1.1 to provide standard APIs for processing JSON documents.
-Use of implementations beyond JSON-P 1.0 in MicroProfile is allowed, however, not required as of version 1.1 of MicroProfile.
+JSON-B is leveraged as part of MicroProfile 2.0 to provide standard APIs for binding JSON documents to Java code.
+Use of implementations beyond JSON-B 1.0 in MicroProfile is allowed, however, not required as of version 2.0 of MicroProfile.
 
  - https://javaee.github.io/jsonp/
- - https://jcp.org/en/jsr/detail?id=353
+ - https://jcp.org/en/jsr/detail?id=367
+
+[[javaee-jsonp]]
+=== JSON-P 1.1
+
+JSON-P is leveraged as part of MicroProfile 2.0 to provide standard APIs for processing JSON documents.
+Use of implementations beyond JSON-P 1.1 in MicroProfile is allowed, however, not required as of version 2.0 of MicroProfile.
+
+ - https://javaee.github.io/jsonp/
+ - https://jcp.org/en/jsr/detail?id=374
 
 [[javaee-common-annotations]]
-=== Common Annotations 1.2
+=== Common Annotations 1.3
 
 Common Annotations provides annotations for common semantic concepts across a variety of individual technologies in the Java(TM) SE and Java(TM) EE platforms.
-Use of implementations beyond Common Annotations 1.2 in MicroProfile is allowed, however, not required as of version 1.2 of MicroProfile.
+Use of implementations beyond Common Annotations 1.3 in MicroProfile is allowed, however, not required as of version 2.0 of MicroProfile.
 
  - https://javaee.github.io/glassfish/
  - https://jcp.org/en/jsr/detail?id=250
@@ -148,7 +160,7 @@ Eclipse MicroProfile OpenTracing defines an API and associated behaviors that al
 === Eclipse MicroProfile Rest Client 1.1
 
 Eclipse MicroProfile Rest Client provides a type-safe approach for invoking RESTful services over HTTP.
-The MicroProfile Rest Client builds upon the https://github.com/jax-rs[JAX-RS 2.0 APIs] for consistency and ease-of-use.
+The MicroProfile Rest Client builds upon the https://github.com/jax-rs[JAX-RS 2.1 APIs] for consistency and ease-of-use.
 
 - http://microprofile.io/project/eclipse/microprofile-rest-client
 - https://github.com/eclipse/microprofile-rest-client/releases/tag/microprofile-rest-client-1.1

@@ -19,14 +19,14 @@
 %YAML 1.2
 ---
 documentation:
-  - title: Microprofile Specification
+  - title: Microprofile Specification (master)
     file: spec/src/main/asciidoc/microprofile-spec.asciidoc
 
-  - title: Overall MicroProfile Architecture
+  - title: Overall MicroProfile Architecture (master)
     file: spec/src/main/asciidoc/architecture.asciidoc
 
-  - title: MicroProfile Required APIs
+  - title: MicroProfile Required APIs (master)
     file: spec/src/main/asciidoc/required-apis.asciidoc
 
-  - title: License
+  - title: License (master)
     file: spec/src/main/asciidoc/license-alv2.asciidoc
