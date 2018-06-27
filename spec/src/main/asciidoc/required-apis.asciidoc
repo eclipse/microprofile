@@ -113,7 +113,7 @@ Eclipse MicroProfile Fault Tolerance provides the ability to separate execution 
 Key aspects of the API include TimeOut, RetryPolicy, Fallback, Bulkhead, and Circuit Breaker processing.
 
  - http://microprofile.io/project/eclipse/microprofile-fault-tolerance
- - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/FaultTolerance-1.1
+ - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/1.1
 
 [[mp-health-check]]
 === Eclipse MicroProfile Health Check 1.0
