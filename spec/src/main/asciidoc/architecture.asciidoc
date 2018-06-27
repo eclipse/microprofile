@@ -41,7 +41,7 @@ Based on our time-boxed process, the content for MicroProfile 1.4 will be all of
  - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/1.1[MicroProfile Fault Tolerance 1.1] (supercedes MicroProfile Fault Tolerance 1.0)
  - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1] (supercedes MicroProfile JWT Authentication 1.0)
  - https://github.com/eclipse/microprofile-opentracing/releases/tag/1.1[MicroProfile OpenTracing 1.1] (supercedes MicroProfile OpenTracing 1.0)
- - https://github.com/eclipse/microprofile-rest-client/releases/tag/microprofile-rest-client-1.1[MicroProfile Rest Client 1.1] (supercedes MicroProfile Rest Client 1.0)
+ - https://github.com/eclipse/microprofile-rest-client/releases/tag/1.1[MicroProfile Rest Client 1.1] (supercedes MicroProfile Rest Client 1.0)
 
 The Maven coordinates for this Eclipse release are as follows:
 ----
