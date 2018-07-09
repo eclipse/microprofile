@@ -150,7 +150,7 @@
             <version>${jaxrs-version}</version>
         </dependency>
         <dependency>
-            <groupId>javax.json</groupId>
+            <groupId>javax.json.bind</groupId>
             <artifactId>javax.json.bind-api</artifactId>
             <version>${jsonb-version}</version>
         </dependency>
