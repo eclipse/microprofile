@@ -37,8 +37,8 @@ MicroProfile 2.0.1 [1] is the sixth release for the https://projects.eclipse.org
 This is a major new release for MicroProfile since the Java EE dependencies are now based on Java EE 8.
 If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/tree/1.x-branch[1.x branch of MicroProfile].
 
-Based on our time-boxed process, the content for MicroProfile 2.0 will be MicroProfile 1.4 plus Java EE 8.
-Thus, the complete list of functional components for MicroProfile 2.0 includes...
+Based on our time-boxed process, the content for MicroProfile 2.0.1 will be MicroProfile 1.4 plus Java EE 8.
+Thus, the complete list of functional components for MicroProfile 2.0.1 includes...
 
  - https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
  - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/1.1[MicroProfile Fault Tolerance 1.1]
