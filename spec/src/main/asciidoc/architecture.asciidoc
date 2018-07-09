@@ -30,10 +30,10 @@ Only this Specification will be generated and maintained to document the content
 
 In reverse chronological order, here's the specification for each MicroProfile release.
 
-[[microprofile2.0]]
-=== MicroProfile 2.0 (2Q2018)
+[[microprofile2.0.1]]
+=== MicroProfile 2.0.1 (3Q2018)
 
-MicroProfile 2.0 is the sixth release for the https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
+MicroProfile 2.0.1 [1] is the sixth release for the https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
 This is a major new release for MicroProfile since the Java EE dependencies are now based on Java EE 8.
 If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/tree/1.x-branch[1.x branch of MicroProfile].
 
@@ -54,15 +54,18 @@ Thus, the complete list of functional components for MicroProfile 2.0 includes..
  - https://jcp.org/en/jsr/detail?id=367[JSON-B 1.0]
  - https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
 
+[1] *Note:*  MicroProfile 2.0.1 corrected the maven coordinates for JSON-B 1.0 in the pom.xml file.
+The intended content for MicroProfile 2.0 did not change -- just a minor update to the pom.xml file.
+
 The Maven coordinates for this Eclipse release are as follows:
 ----
 <dependency>
     <groupId>org.eclipse.microprofile</groupId>
     <artifactId>microprofile</artifactId>
-    <version>2.0</version>
+    <version>2.0.1</version>
     <type>pom</type>
     <scope>provided</scope>
 </dependency>
 ----
 
-Here is the link to https://github.com/eclipse/microprofile/releases/tag/2.0[the github repository] for this Eclipse-based project.
+Here is the link to https://github.com/eclipse/microprofile/releases/tag/2.0.1[the github repository] for this Eclipse-based project.
