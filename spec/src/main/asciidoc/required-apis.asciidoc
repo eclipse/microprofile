@@ -21,7 +21,7 @@
 [[required-apis]]
 == Required APIs
 
-Compliant implementations of Eclipse MicroProfile 2.0 must provide at least the following APIs and minimum versions.
+Compliant implementations of Eclipse MicroProfile 2.0.1 must provide at least the following APIs and minimum versions.
 These APIs and versions guarantee application developers a minimum set of APIs and are not intended to be restrictive.
 Implementations may include APIs not listed below as well they may support more recent versions than what is listed below.
 
