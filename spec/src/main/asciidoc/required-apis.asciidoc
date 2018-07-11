@@ -72,7 +72,7 @@ Use of implementations beyond JAX-RS 2.1 in MicroProfile is allowed, however, no
 JSON-B is leveraged as part of MicroProfile 2.0 to provide standard APIs for binding JSON documents to Java code.
 Use of implementations beyond JSON-B 1.0 in MicroProfile is allowed, however, not required as of version 2.0 of MicroProfile.
 
- - http://javaee.github.io/jsonb-spec
+ - https://javaee.github.io/jsonb-spec
  - https://jcp.org/en/jsr/detail?id=367
 
 [[javaee-jsonp]]
