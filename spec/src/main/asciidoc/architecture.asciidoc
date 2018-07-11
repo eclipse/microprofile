@@ -33,7 +33,7 @@ In reverse chronological order, here's the specification for each MicroProfile r
 [[microprofile2.0.1]]
 === MicroProfile 2.0.1 (3Q2018)
 
-MicroProfile 2.0.1 is the latest release for the https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
+MicroProfile 2.0.1 is the seventh release for the https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
 This is a micro release to correct an issue with the JSON-B maven dependency in the pom.xml.
 The defined content for <<microprofile2.0, MicroProfile 2.0>> did not change -- MicroProfile 2.0 was a major release since the Java EE dependencies are now based on Java EE 8.
 If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
