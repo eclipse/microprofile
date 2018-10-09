@@ -31,9 +31,10 @@ Only this Specification will be generated and maintained to document the content
 In reverse chronological order, here's the specification for each MicroProfile release.
 
 [[microprofile2.1]]
-=== MicroProfile 2.1 === (4Q2018)
+=== MicroProfile 2.1 (4Q2018)
 MicroProfile 2.1 is the eigth release for the https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
-Based on MicroProfile's time-boxed release process, this is an incremental release that includes an update to OpenTracing 1.2.
+Based on MicroProfile's time-boxed release process, this is an incremental release that includes an update to https://github.com/eclipse/microprofile-opentracing/releases/tag/1.2[OpenTracing 1.2]. MicroProfile 2.x releases are based on Java EE 8.
+If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
 
 Thus, the complete list of functional components for MicroProfile 2.1 includes...
 
@@ -61,6 +62,8 @@ The Maven coordinates for this Eclipse release are as follows:
     <scope>provided</scope>
 </dependency>
 ----
+
+Here is the link to https://github.com/eclipse/microprofile/releases/tag/2.1[the github repository] for this Eclipse-based project.
 
 [[microprofile2.0.1]]
 === MicroProfile 2.0.1 (3Q2018)
