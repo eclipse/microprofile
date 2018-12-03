@@ -1,0 +1,74 @@
+//
+// Copyright (c) 2017-2017 Contributors to the Eclipse Foundation
+//
+// See the NOTICE file(s) distributed with this work for additional
+// information regarding copyright ownership.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//
+// SPDX-License-Identifier: Apache-2.0
+
+# Eclipse MicroProfile Dependencies aka "Bill of Materials"
+Maven dependency for defining the versions of the MicroProfile deliverables.
+
+## Usage
+Add this dependency management blog (adjusting the version number appropriately) to your project's pom.xml:
+
+[source,xml]
+----
+<project ...>
+...
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.eclipse.microprofile</groupId>
+                <artifactId>microprofile-dependencies</artifactId>
+                <version>2.1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+...
+</project>
+----
+
+You will then be able to specify the APIs that your project requires.
+
+See the following example for a project which uses CDI 2.0, JAX-RS 2.1, JSON-P 1.1, and MicroProfile Config 1.3:
+
+[source,xml]
+----
+...
+
+<dependencies>
+    <dependency>
+        <groupId>javax.enterprise</groupId>
+        <artifactId>cdi-api</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>javax.ws.rs</groupId>
+        <artifactId>javax.ws.rs-api</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>javax.json</groupId>
+        <artifactId>javax.json-api</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>org.eclipse.microprofile.config</groupId>
+        <artifactId>microprofile-config-api</artifactId>
+    </dependency>
+</dependencies>
+----
+
+NOTE: The dependencies will be included with a default `provided` scope, thus not ending up in a project's deployment artifact.
