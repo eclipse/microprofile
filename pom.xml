@@ -112,7 +112,7 @@
         <metrics-version>1.1</metrics-version>
         <jwt-version>1.1</jwt-version>
         <openapi-version>1.0</openapi-version>
-        <rest-client-version>1.1</rest-client-version>
+        <rest-client-version>1.2.0</rest-client-version>
         <opentracing-version>1.2</opentracing-version>
 
         <!-- other props  -->
