@@ -126,6 +126,28 @@
     <build>
         <plugins>
             <plugin>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.0.1</version>
+                <executions>
+                    <execution>
+                        <id>aggregate-javadoc</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>aggregate-jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <includeDependencySources>true</includeDependencySources>
+                    <dependencySourceIncludes>
+                        <dependencySourceInclude>org.eclipse.microprofile.*:*</dependencySourceInclude>
+                    </dependencySourceIncludes>
+                    <links>
+                        <link>https://javaee.github.io/javaee-spec/javadocs/</link>
+                    </links>
+               </configuration>
+            </plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.3</version>
