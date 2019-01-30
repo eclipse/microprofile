@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2017-2018 Contributors to the Eclipse Foundation
+// Copyright (c) 2017-2019 Contributors to the Eclipse Foundation
 //
 // See the NOTICE file(s) distributed with this work for additional
 // information regarding copyright ownership.
@@ -21,7 +21,7 @@
 [[required-apis]]
 == Required APIs
 
-Compliant implementations of Eclipse MicroProfile 2.0.1 must provide at least the following APIs and minimum versions.
+Compliant implementations of Eclipse MicroProfile 2.2 must provide at least the following APIs and minimum versions.
 These APIs and versions guarantee application developers a minimum set of APIs and are not intended to be restrictive.
 Implementations may include APIs not listed below as well they may support more recent versions than what is listed below.
 
@@ -34,13 +34,13 @@ MicroProfile applications that make use of APIs or versions not mentioned below 
  - <<javaee-jsonp, JSON-P (Java(TM) API for JSON Processing) 1.1>>
  - <<javaee-common-annotations, Common Annotations for the Java(TM) Platform 1.3>>
  - <<mp-config, Eclipse MicroProfile Config 1.3>>
- - <<mp-fault-tolerance, Eclipse MicroProfile Fault Tolerance 1.1>>
+ - <<mp-fault-tolerance, Eclipse MicroProfile Fault Tolerance 2.0>>
  - <<mp-health-check, Eclipse MicroProfile Health Check 1.0>>
  - <<mp-jwt-auth, Eclipse MicroProfile JWT Authentication 1.1>>
  - <<mp-metrics, Eclipse MicroProfile Metrics 1.1>>
- - <<mp-openapi, Eclipse MicroProfile OpenAPI 1.0>>
- - <<mp-opentracing, Eclipse MicroProfile OpenTracing 1.2>>
- - <<mp-rest-client, Eclipse MicroProfile Rest Client 1.1>>
+ - <<mp-openapi, Eclipse MicroProfile OpenAPI 1.1>>
+ - <<mp-opentracing, Eclipse MicroProfile OpenTracing 1.3>>
+ - <<mp-rest-client, Eclipse MicroProfile Rest Client 1.2.0>>
 
 [[javase]]
 === Java SE 8
@@ -107,13 +107,14 @@ Group members.
  - https://jcp.org/en/jsr/detail?id=382
 
 [[mp-fault-tolerance]]
-=== Eclipse MicroProfile Fault Tolerance 1.1
+=== Eclipse MicroProfile Fault Tolerance 2.0
 
 Eclipse MicroProfile Fault Tolerance provides the ability to separate execution logic from business logic.
 Key aspects of the API include TimeOut, RetryPolicy, Fallback, Bulkhead, and Circuit Breaker processing.
+Fault Tolerance 2.0 is now dependent on Java EE 8 technologies.
 
  - http://microprofile.io/project/eclipse/microprofile-fault-tolerance
- - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/1.1
+ - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.0
 
 [[mp-health-check]]
 === Eclipse MicroProfile Health Check 1.0
@@ -141,26 +142,26 @@ Metrics will also provide a common Java API for exposing their telemetry data.
  - https://github.com/eclipse/microprofile-metrics/releases/tag/1.1
 
 [[mp-open-api]]
-=== Eclipse MicroProfile OpenAPI 1.0
+=== Eclipse MicroProfile OpenAPI 1.1
 
 Eclipse MicroProfile OpenAPI provides a unified Java API for the https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md[OpenAPI v3 specification] that all application developers can use to expose their API documentation.
 
  - http://microprofile.io/project/eclipse/microprofile-open-api
- - https://github.com/eclipse/microprofile-open-api/releases/tag/1.0
+ - https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-1.1
 
 [[mp-opentracing]]
-=== Eclipse MicroProfile OpenTracing 1.2
+=== Eclipse MicroProfile OpenTracing 1.3
 
 Eclipse MicroProfile OpenTracing defines an API and associated behaviors that allow services to easily participate in a distributed tracing environment.
 
  - http://microprofile.io/project/eclipse/microprofile-opentracing
- - https://github.com/eclipse/microprofile-opentracing/releases/tag/1.2
+ - https://github.com/eclipse/microprofile-opentracing/releases/tag/1.3
 
 [[mp-rest-client]]
-=== Eclipse MicroProfile Rest Client 1.1
+=== Eclipse MicroProfile Rest Client 1.2.0
 
 Eclipse MicroProfile Rest Client provides a type-safe approach for invoking RESTful services over HTTP.
 The MicroProfile Rest Client builds upon the https://github.com/jax-rs[JAX-RS 2.1 APIs] for consistency and ease-of-use.
 
 - http://microprofile.io/project/eclipse/microprofile-rest-client
-- https://github.com/eclipse/microprofile-rest-client/releases/tag/1.1
+- https://github.com/eclipse/microprofile-rest-client/releases/tag/1.2.0

@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2017-2018 Contributors to the Eclipse Foundation
+// Copyright (c) 2017-2019 Contributors to the Eclipse Foundation
 //
 // See the NOTICE file(s) distributed with this work for additional
 // information regarding copyright ownership.
@@ -32,6 +32,7 @@
 ifdef::backend-pdf[]
 :pagenums:
 :numbered:
+:title-logo-image: image:MP-logo-w-tagline.png[pdfwidth=4.25in,align=right]
 endif::[]
 
 // == License
