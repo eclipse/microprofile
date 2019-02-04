@@ -29,6 +29,60 @@ The Microprofile project is community-focused at its heart and aims to engage an
 === Umbrella Specification
 This repository is used to house the top-level link:https://github.com/eclipse/microprofile/blob/master/spec/src/main/asciidoc/architecture.asciidoc[umbrella MicroProfile specification].
 
+=== Maven bill-of-materials POM
+This repository also houses the link:https://github.com/eclipse/microprofile/blob/master/pom.xml[Maven bill-of-materials POM]. This POM declares transitvie dependencies on all the Java EE and MicroProfile artifacts covered by the umbrella specification and can be used in one of two ways:
+
+. To declare a dependency on the entire MicroProfile stack:
++
+[source,xml]
+----
+<dependencies>
+    <dependency>
+        <groupId>org.eclipse.microprofile</groupId>
+        <artifactId>microprofile</artifactId>
+        <version>2.2</version>
+        <type>pom</type>
+        <scope>provided</scope>
+    </dependency>
+</dependencies>
+----
+. To import the transitive dependencies for selective use:
++
+[source,xml]
+----
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.eclipse.microprofile</groupId>
+            <artifactId>microprofile</artifactId>
+            <version>2.2</version>
+            <scope>import</scope>
+            <type>pom</type>
+        </dependency>
+    </dependencies>
+</dependencyManagement>
+
+<dependencies>
+    <dependency>
+        <groupId>org.eclipse.microprofile.health</groupId>
+        <artifactId>microprofile-health-api</artifactId>
+        <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>org.eclipse.microprofile.metrics</groupId>
+        <artifactId>microprofile-metrics-api</artifactId>
+        <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>javax.ws.rs</groupId>
+        <artifactId>javax.ws.rs-api</artifactId>
+        <scope>provided</scope>
+    </dependency>
+</dependencies>
+---- 
+
 === Code, code, code
 Several Eclipse github repos exist for the development of MicroProfile features...
 
