@@ -32,7 +32,7 @@ patterns that are already adopted by one or more of the MicroProfile specificati
 ==== Configuration Property Name Prefixes
 
 In order to prevent collision it is recommended that properties that are not
-named to match user class names are prefixed with "mp." followed by the specification's short name:
+named to match application class names are prefixed with "mp." followed by the specification's short name:
 ----
 mp.<spec-name>
 e.g. The Messaging Specification has an @Outgoing annotation:
@@ -40,7 +40,7 @@ mp.messaging.outgoing.value
 ----
 
 [[qualifyingClassNames]]
-==== Properties Names Representing User Class names Should Be Package Qualified
+==== Properties Names Representing Application Class Names Should Be Package Qualified
 
 There are places where an annotation class name appears or a specification sourced class name (e.g. Concurrency) appears in configuration property names, these class names are not package qualified: 
 ----
@@ -56,17 +56,34 @@ has a class with the same name.
 The result is that we should have exclusive class names in MicroProfile for classes that might need configuration override in the process environment. 
 The 'first' specification that owns a class name should own that name exclusively. 
 
-Where user class names appear, these are expected to be package qualified.
+Where application class names appear, these are expected to be package qualified.
 
 [[overloadedMethods]]
 ==== Properties That Relate To Overloaded Methods
 
 There are places in the configuration where a method name is used. 
 Accounting for methods with the same name but different signatures
-can be done using indexing. 
-The "1" in the Property name below refers to the occurrence of the 'method' named 
+does not have a recommended approach yet.
+
+[[parameterAnnotations]]
+==== Properties That Relate To Annotated Parameters in Application Methods
+
+Parameter names are not guaranteed to be available during annotation processing.
+Due to this, it can be problematic to rely on parameter names for annotations that
+relate to application methods.
+An annotated application method parameter can be referred to using a positional index, starting at '1'. 
+The "1" in the Property name below refers to the first parameter
 ----
-`org.eclipse.microprofile.example.ExampleBean/setCompletableFuture/1/ManagedExecutorCon fig/maxAsync=5`
+   org.eclipse.microprofile.example.ExampleBean/setCompletableFuture/1/ManagedExecutor/maxAsync=5
+----
+
+[[fieldAnnotations]]
+==== Properties That Relate To Annotated Fields
+
+Is is possible to override attributes of annotated fields. In this case the following
+pattern is recommended.
+----
+   <fully qualified class name>/<field name>/<spec-defined annotation name>/<annotation attribute name>
 ----
 
 [[scopedOverriding]]
@@ -78,12 +95,12 @@ service wide (treated as global). Overriding at different scopes should occur as
 The set of possible scopes is:
 
 - class - `<dotted-fully-package-qualified-classname>/<annotation-classname>/<parameter>`
-- package-prefix `<package-prefix>.*` ( `*` is not a valid ENV variable char)
-- package - `<dotted-fully-qualified-package>/<annotation-classname>/<parameter>` (no user class or method name)
-- archive - not specified yet
+- package-prefix - no recommended pattern as yet
+- package - `<dotted-fully-qualified-package>/<annotation-classname>/<parameter>` (no application class or method name)
+- archive - no recommended pattern as yet
 - service - [`mp.service-shortname.`]`<annotation-or-classname>/<parameter>`
 - globally - same as service
-- named - Where an annotation occurrence is named - not specified yet.
+- named - where an annotation occurrence is named - no recommended pattern as yet
 
 [[overridingPrecedence]]
 ==== Precedence of Configuration Scope Overlap
@@ -91,14 +108,6 @@ The set of possible scopes is:
 Configuration which is more specific overrides configuration where the scope is more general.
 
 For example, where multiple configuration properties are present, the property `<classname>/<methodname>/<annotation>/<parameter>` takes precedence over `<classname>/<annotation>/<parameter>`, which would take precedence over `<annotation>/<parameter>`.
-
-[[indexingOverrides]]
-==== Indexing Annotation Occurrences (from Concurrency)
-
-The "1" in the Property name below refers to the first occurrence of the 'method' named `setCompletableFuture`
----- 
-`org.eclipse.microprofile.example.ExampleBean/setCompletableFuture/1/ManagedExecutorCon fig/maxAsync=5`
-----
 
 [[codeEnvPrecedence]]
 ==== Precedence of Configuration Overlap - Code Versus Process Environment

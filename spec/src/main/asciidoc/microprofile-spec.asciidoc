@@ -43,8 +43,8 @@ include::license-alv2.asciidoc[]
 
 include::architecture.asciidoc[]
 
-include::config.asciidoc[]
-
 include::required-apis.asciidoc[]
+
+include::config.asciidoc[]
 
 include::notices.asciidoc[]
