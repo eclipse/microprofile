@@ -58,6 +58,27 @@ The 'first' specification that owns a class name should own that name exclusivel
 
 Where application class names appear, these are expected to be package qualified.
 
+[[fieldAnnotations]]
+==== Properties That Relate To Annotated Fields
+
+Is is possible to override attributes of annotated fields. In this case the following
+pattern is recommended.
+----
+   <fully qualified class name>/<field name>/<spec-defined annotation name>/<annotation attribute name>
+----
+
+[[methodAnnotations]]
+==== Properties That Relate To Annotated Methods
+
+For annotated application methods, these are expected to be overridden
+with the following pattern.
+
+----
+   <fully qualified class name>/<method name>/<spec-defined annotation short name>/<annotation attribute name>
+//For example:
+   com.acme.ClassA/methodB/Retry/maxRetries=5
+----
+
 [[overloadedMethods]]
 ==== Properties That Relate To Overloaded Methods
 
@@ -74,20 +95,11 @@ relate to application methods.
 An annotated application method parameter can be referred to using a positional index, starting at '1'. 
 The "1" in the Property name below refers to the first parameter
 ----
-   org.eclipse.microprofile.example.ExampleBean/setCompletableFuture/1/ManagedExecutor/maxAsync=5
-----
-
-[[fieldAnnotations]]
-==== Properties That Relate To Annotated Fields
-
-Is is possible to override attributes of annotated fields. In this case the following
-pattern is recommended.
-----
-   <fully qualified class name>/<field name>/<spec-defined annotation name>/<annotation attribute name>
+   org.eclipse.microprofile.example.ExampleBean/setSomething/1/SomeMicroProfileAnno/someAttribute=5
 ----
 
 [[scopedOverriding]]
-==== Properties Overriding a Particular Scope.
+==== Properties That Override for a Particular Scope.
 
 Various specifications consider overriding, either at particular annotation location, a particular class or
 service wide (treated as global). Overriding at different scopes should occur as follows: 
@@ -103,17 +115,17 @@ The set of possible scopes is:
 - named - where an annotation occurrence is named - no recommended pattern as yet
 
 [[overridingPrecedence]]
-==== Precedence of Configuration Scope Overlap
+==== Overlapping Configuration Scopes Precedence
 
 Configuration which is more specific overrides configuration where the scope is more general.
 
 For example, where multiple configuration properties are present, the property `<classname>/<methodname>/<annotation>/<parameter>` takes precedence over `<classname>/<annotation>/<parameter>`, which would take precedence over `<annotation>/<parameter>`.
 
 [[codeEnvPrecedence]]
-==== Precedence of Configuration Overlap - Code Versus Process Environment
+==== Code Versus Process Environment Configuration Precedence 
 
-Configuration from the environment overrides configuration in the code for all configuration
-of equal of less specific scope in the code. For example, the property `<classname>/<methodname>/<annotation>/<parameter>` takes precedence over `<classname>/<annotation>/<parameter>`, which is followed by `<annotation>/<parameter>`.
+Configuration from the environment overrides configuration in the code for all configuration of equal of less specific scope in the code. 
+For example, the property `<classname>/<methodname>/<annotation>/<parameter>` takes precedence over `<classname>/<annotation>/<parameter>`, which is followed by `<annotation>/<parameter>`.
 
 ----
 Should code sited configuration that is more specific than process environment configuration take precedence? Or should environment configuration overrule coded configuration for all scopes it applies to?
@@ -127,6 +139,7 @@ Overrides change the value of the corresponding annotation parameter specified i
 [[empty]]
 ==== Indicating An Empty Set 
 
+(This topic is likely to be handled in a future version of the Configuration specification.)
 In order to guarantee that empty string configuration values are interpreted consistently, the following
 configuration values, as defined by the Configuration specification indicating empty:
 
