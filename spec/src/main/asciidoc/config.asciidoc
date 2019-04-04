@@ -32,19 +32,21 @@ patterns that are already adopted by one or more of the MicroProfile specificati
 ==== Configuration Property Name Prefixes
 
 In order to prevent collision it is recommended that properties that are not
-named to match application class names are prefixed with "mp." followed by the specification's short name:
+named to match application class names are prefixed with "mp." followed by the specification's short name:  `mp.<spec-name>`.
+
 ----
-mp.<spec-name>
-e.g. The Messaging Specification has an @Outgoing annotation:
-mp.messaging.outgoing.value
+// For example, the Messaging Specification has an @Outgoing annotation:
+   mp.messaging.outgoing.attributename=3
 ----
 
 [[qualifyingClassNames]]
-==== Properties Names Representing Application Class Names Should Be Package Qualified
+==== Properties That Relate To Application Classes
 
-There are places where an annotation class name appears or a specification sourced class name (e.g. Concurrency) appears in configuration property names, these class names are not package qualified: 
+All references to users' application classes in property names should be fully package qualified.
+
+There are places where an annotation class name appears or a specification sourced class name (e.g. Context Propagation) appears in configuration property names, these class names are not package qualified. Should these start with `mp.<spec-name>`? In this case `mp.ft`?
 ----
-//For example: 
+// For example: 
    Retry/maxRetries=30
 //or should this be?
    mp.ft.retry.maxRetries=30
@@ -56,26 +58,23 @@ has a class with the same name.
 The result is that we should have exclusive class names in MicroProfile for classes that might need configuration override in the process environment. 
 The 'first' specification that owns a class name should own that name exclusively. 
 
-Where application class names appear, these are expected to be package qualified.
-
 [[fieldAnnotations]]
 ==== Properties That Relate To Annotated Fields
 
 Is is possible to override attributes of annotated fields. In this case the following
-pattern is recommended.
+pattern is recommended: `<fully qualified class name>/<field name>/<spec-defined annotation name>/<annotation attribute name>`.
 ----
-   <fully qualified class name>/<field name>/<spec-defined annotation name>/<annotation attribute name>
+// For example:
+   com.acme.ClassA/methodB/Retry/maxRetries=5
 ----
 
 [[methodAnnotations]]
 ==== Properties That Relate To Annotated Methods
 
 For annotated application methods, these are expected to be overridden
-with the following pattern.
-
+with the following pattern: `<fully qualified class name>/<method name>/<spec-defined annotation short name>/<annotation attribute name>`.
 ----
-   <fully qualified class name>/<method name>/<spec-defined annotation short name>/<annotation attribute name>
-//For example:
+// For example:
    com.acme.ClassA/methodB/Retry/maxRetries=5
 ----
 
@@ -92,10 +91,10 @@ does not have a recommended approach yet.
 Parameter names are not guaranteed to be available during annotation processing.
 Due to this, it can be problematic to rely on parameter names for annotations that
 relate to application methods.
-An annotated application method parameter can be referred to using a positional index, starting at '1'. 
-The "1" in the Property name below refers to the first parameter
+An annotated application method parameter can be referred to using a positional index, starting at '1'. `<fully qualified class name>/<method name>/<parameter position>/<spec-defined annotation short name>/<annotation attribute name>`.
 ----
-   org.eclipse.microprofile.example.ExampleBean/setSomething/1/SomeMicroProfileAnno/someAttribute=5
+// For example, the '1' below refers to the first parameter:
+   com.acme.order.OrderProcessing/setSomething/1/SomeMicroProfileAnno/someAttribute=5
 ----
 
 [[scopedOverriding]]
@@ -137,7 +136,7 @@ Should code sited configuration that is more specific than process environment c
 Overrides change the value of the corresponding annotation parameter specified in a microservice. If no annotation is present which matches the specified configuration property, the property will be ignored.
 
 [[empty]]
-==== Indicating An Empty Set 
+==== Indicating An Empty Set [Move to Config Spec]
 
 (This topic is likely to be handled in a future version of the Configuration specification.)
 In order to guarantee that empty string configuration values are interpreted consistently, the following
