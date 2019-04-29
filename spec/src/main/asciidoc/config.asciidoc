@@ -61,11 +61,11 @@ The 'first' specification that owns a class name should own that name exclusivel
 [[fieldAnnotations]]
 ==== Properties That Relate To Annotated Fields
 
-Is is possible to override attributes of annotated fields. In this case the following
+It is possible to override attributes of annotated fields. In this case the following
 pattern is recommended: `<fully qualified class name>/<field name>/<spec-defined annotation name>/<annotation attribute name>`.
 ----
 // For example:
-   com.acme.ClassA/methodB/Retry/maxRetries=5
+   com.acme.ClassA/fieldVat/ConfigProperty/defaultValue=20
 ----
 
 [[methodAnnotations]]
@@ -140,7 +140,7 @@ Overrides change the value of the corresponding annotation parameter specified i
 
 (This topic is likely to be handled in a future version of the Configuration specification.)
 In order to guarantee that empty string configuration values are interpreted consistently, the following
-configuration values, as defined by the Configuration specification indicating empty:
+configuration values, as defined by the Configuration specification, indicate empty:
 
 - an empty array
 - an array containing the empty String as its singular element
