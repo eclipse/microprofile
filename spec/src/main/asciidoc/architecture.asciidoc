@@ -34,7 +34,14 @@ In reverse chronological order, here's the specification for each MicroProfile r
 === MicroProfile 3.0 (2Q2019)
 MicroProfile 3.0 is the tenth platform release for the https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
 Based on MicroProfile's time-boxed release process, this is an incremental release that includes an update to
-https://github.com/eclipse/microprofile-metrics/releases/tag/2.0[MicroProfile Metrics 2.0]
+https://github.com/eclipse/microprofile-health/releases/tag/2.0[MicroProfile Health Check 2.0],
+https://github.com/eclipse/microprofile-metrics/releases/tag/2.0[MicroProfile Metrics 2.0], and
+https://github.com/eclipse/microprofile-rest-client/releases/tag/1.3[MicroProfile Rest Client 1.3].
+
+*Note:* Health Check 2.0 and Metrics 2.0 introduce *breaking API changes* in their respective releases.
+Thus, the overall MicroProfile platform release also increased the major version number to 3.0.
+Please consult the individual Component release documentation for information on the breaking changes.
+If these changes cause an issue with your applications, you may want to consider staying on <<microprofile2.2>>.
 
 MicroProfile 3.x releases are based on Java EE 8.
 If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
