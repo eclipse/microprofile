@@ -40,7 +40,7 @@ This repository also houses the link:https://github.com/eclipse/microprofile/blo
     <dependency>
         <groupId>org.eclipse.microprofile</groupId>
         <artifactId>microprofile</artifactId>
-        <version>2.2</version>
+        <version>3.0</version>
         <type>pom</type>
         <scope>provided</scope>
     </dependency>
@@ -55,7 +55,7 @@ This repository also houses the link:https://github.com/eclipse/microprofile/blo
         <dependency>
             <groupId>org.eclipse.microprofile</groupId>
             <artifactId>microprofile</artifactId>
-            <version>2.2</version>
+            <version>3.0</version>
             <scope>import</scope>
             <type>pom</type>
         </dependency>
@@ -81,7 +81,7 @@ This repository also houses the link:https://github.com/eclipse/microprofile/blo
         <scope>provided</scope>
     </dependency>
 </dependencies>
----- 
+----
 
 === Code, code, code
 Several Eclipse github repos exist for the development of MicroProfile features...
