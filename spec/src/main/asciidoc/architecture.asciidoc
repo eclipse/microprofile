@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2017-2018 Contributors to the Eclipse Foundation
+// Copyright (c) 2017-2019 Contributors to the Eclipse Foundation
 //
 // See the NOTICE file(s) distributed with this work for additional
 // information regarding copyright ownership.
@@ -29,6 +29,88 @@ Since the MicroProfile repo is an "umbrella" project, there will be no individua
 Only this Specification will be generated and maintained to document the contents of each release.
 
 In reverse chronological order, here's the specification for each MicroProfile release.
+
+[[microprofile3.0]]
+=== MicroProfile 3.0 (2Q2019)
+MicroProfile 3.0 is the tenth platform release for the https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
+Based on MicroProfile's time-boxed release process, this is an incremental release that includes an update to
+https://github.com/eclipse/microprofile-health/releases/tag/2.0[MicroProfile Health Check 2.0],
+https://github.com/eclipse/microprofile-metrics/releases/tag/2.0[MicroProfile Metrics 2.0], and
+https://github.com/eclipse/microprofile-rest-client/releases/tag/1.3[MicroProfile Rest Client 1.3].
+
+*Note:* Health Check 2.0 and Metrics 2.0 introduce *breaking API changes* in their respective releases.
+Thus, the overall MicroProfile platform release also increased the major version number to 3.0.
+Please consult the individual Component release documentation for information on the breaking changes.
+If these changes cause an issue with your applications, you may want to consider staying on <<microprofile2.2>>.
+
+MicroProfile 3.x releases are based on Java EE 8.
+If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
+
+Thus, the complete list of functional components for MicroProfile 3.0 includes...
+
+ - https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
+ - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.0[MicroProfile Fault Tolerance 2.0]
+ - https://github.com/eclipse/microprofile-health/releases/tag/1.0[MicroProfile Health Check 1.0]
+ - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
+ - https://github.com/eclipse/microprofile-metrics/releases/tag/2.0[MicroProfile Metrics 2.0]
+ - https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-1.1[MicroProfile OpenAPI 1.1]
+ - https://github.com/eclipse/microprofile-opentracing/releases/tag/1.3[MicroProfile OpenTracing 1.3]
+ - https://github.com/eclipse/microprofile-rest-client/releases/tag/1.3.1[MicroProfile Rest Client 1.3.1]
+ - https://jcp.org/en/jsr/detail?id=365[CDI 2.0]
+ - https://jcp.org/en/jsr/detail?id=250[Common Annotations 1.3]
+ - https://jcp.org/en/jsr/detail?id=370[JAX-RS 2.1]
+ - https://jcp.org/en/jsr/detail?id=367[JSON-B 1.0]
+ - https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
+
+The Maven coordinates for this Eclipse release are as follows:
+----
+<dependency>
+    <groupId>org.eclipse.microprofile</groupId>
+    <artifactId>microprofile</artifactId>
+    <version>3.0</version>
+    <type>pom</type>
+    <scope>provided</scope>
+</dependency>
+----
+
+Here is the link to https://github.com/eclipse/microprofile/releases/tag/3.0[the github repository] for this Eclipse-based project.
+
+
+[[microprofile2.2]]
+=== MicroProfile 2.2 (1Q2019)
+MicroProfile 2.2 is the ninth platform release for the https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
+Based on MicroProfile's time-boxed release process, this is an incremental release that includes an update to https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.0[Fault Tolerance 2.0], https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-1.1[OpenAPI 1.1], https://github.com/eclipse/microprofile-opentracing/releases/tag/1.3[OpenTracing 1.3], and https://github.com/eclipse/microprofile-rest-client/releases/tag/1.2.0[Rest Client 1.2.0].
+MicroProfile 2.x releases are based on Java EE 8.
+If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
+
+Thus, the complete list of functional components for MicroProfile 2.2 includes...
+
+ - https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
+ - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.0[MicroProfile Fault Tolerance 2.0]
+ - https://github.com/eclipse/microprofile-health/releases/tag/1.0[MicroProfile Health Check 1.0]
+ - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
+ - https://github.com/eclipse/microprofile-metrics/releases/tag/1.1[MicroProfile Metrics 1.1]
+ - https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-1.1[MicroProfile OpenAPI 1.1]
+ - https://github.com/eclipse/microprofile-opentracing/releases/tag/1.3[MicroProfile OpenTracing 1.3]
+ - https://github.com/eclipse/microprofile-rest-client/releases/tag/1.2.0[MicroProfile Rest Client 1.2.0]
+ - https://jcp.org/en/jsr/detail?id=365[CDI 2.0]
+ - https://jcp.org/en/jsr/detail?id=250[Common Annotations 1.3]
+ - https://jcp.org/en/jsr/detail?id=370[JAX-RS 2.1]
+ - https://jcp.org/en/jsr/detail?id=367[JSON-B 1.0]
+ - https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
+
+The Maven coordinates for this Eclipse release are as follows:
+----
+<dependency>
+    <groupId>org.eclipse.microprofile</groupId>
+    <artifactId>microprofile</artifactId>
+    <version>2.2</version>
+    <type>pom</type>
+    <scope>provided</scope>
+</dependency>
+----
+
+Here is the link to https://github.com/eclipse/microprofile/releases/tag/2.2[the github repository] for this Eclipse-based project.
 
 [[microprofile2.1]]
 === MicroProfile 2.1 (4Q2018)
