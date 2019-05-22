@@ -35,7 +35,7 @@ MicroProfile applications that make use of APIs or versions not mentioned below 
  - <<javaee-common-annotations, Common Annotations for the Java(TM) Platform 1.3>>
  - <<mp-config, Eclipse MicroProfile Config 1.3>>
  - <<mp-fault-tolerance, Eclipse MicroProfile Fault Tolerance 2.0>>
- - <<mp-health-check, Eclipse MicroProfile Health Check 1.0>>
+ - <<mp-health-check, Eclipse MicroProfile Health Check 2.0>>
  - <<mp-jwt-auth, Eclipse MicroProfile JWT Authentication 1.1>>
  - <<mp-metrics, Eclipse MicroProfile Metrics 2.0>>
  - <<mp-openapi, Eclipse MicroProfile OpenAPI 1.1>>
@@ -117,12 +117,12 @@ Fault Tolerance 2.0 is now dependent on Java EE 8 technologies.
  - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.0
 
 [[mp-health-check]]
-=== Eclipse MicroProfile Health Check 1.0
+=== Eclipse MicroProfile Health Check 2.0
 
 Eclipse MicroProfile Health Check provides the ability to probe the state of a computing node from another machine (e.g. kubernetes service controller).
 
  - http://microprofile.io/project/eclipse/microprofile-health
- - https://github.com/eclipse/microprofile-health/releases/tag/1.0
+ - https://github.com/eclipse/microprofile-health/releases/tag/2.0
 
 [[mp-jwt-auth]]
 === Eclipse MicroProfile JWT Authentication 1.1
