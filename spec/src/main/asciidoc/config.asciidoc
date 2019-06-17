@@ -32,31 +32,33 @@ patterns that are already adopted by one or more of the MicroProfile specificati
 ==== Configuration Property Name Prefixes
 
 In order to prevent collision it is recommended that properties that are not
-named to match application class names are prefixed with "mp." followed by the specification's short name:  `mp.<spec-name>`.
+named to match fully qualified application class names are prefixed with "mp." followed by the specification's short name:  `mp.<spec-name>`.
 
 ----
-// For example, the Messaging Specification has an @Outgoing annotation:
+// For example, the messaging specification has an @Outgoing annotation:
    mp.messaging.outgoing.attributename=3
 ----
+
+Some specifications support older conventions such as:
+
+----
+   Retry/maxRetries=30
+----
+For any new MicroProfile configuration properties, the newer equivalent convention is preferred: 
+----
+// For example: 
+   mp.ft.retry.maxRetries=30
+----
+
+However, new support for the recommended format must be introduced using a specification specific
+issue for discussion and document update, for example:
+https://github.com/eclipse/microprofile-fault-tolerance/issues/435
+The older property naming convention can then be deprecated.
 
 [[qualifyingClassNames]]
 ==== Properties That Relate To Application Classes
 
 All references to users' application classes in property names should be fully package qualified.
-
-There are places where an annotation class name appears or a specification sourced class name (e.g. Context Propagation) appears in configuration property names, these class names are not package qualified. Should these start with `mp.<spec-name>`? In this case `mp.ft`?
-----
-// For example: 
-   Retry/maxRetries=30
-//or should this be?
-   mp.ft.retry.maxRetries=30
-----
-This is probably the right choice from a usability point of view. 
-This is particularly not a problem where the scope of the configuration property identifies a particular Java file (which will have resolved the package name via an import).
-It could become more of a problem for service wide defaults if more than one MicroProfile service
-has a class with the same name. 
-The result is that we should have exclusive class names in MicroProfile for classes that might need configuration override in the process environment. 
-The 'first' specification that owns a class name should own that name exclusively. 
 
 [[fieldAnnotations]]
 ==== Properties That Relate To Annotated Fields
@@ -77,13 +79,6 @@ with the following pattern: `<fully qualified class name>/<method name>/<spec-de
 // For example:
    com.acme.ClassA/methodB/Retry/maxRetries=5
 ----
-
-[[overloadedMethods]]
-==== Properties That Relate To Overloaded Methods
-
-There are places in the configuration where a method name is used. 
-Accounting for methods with the same name but different signatures
-does not have a recommended approach yet.
 
 [[parameterAnnotations]]
 ==== Properties That Relate To Annotated Parameters in Application Methods
@@ -134,14 +129,4 @@ Should code sited configuration that is more specific than process environment c
 ==== Overrides Are Ignored if No Matching Annotation Is Present
 
 Overrides change the value of the corresponding annotation parameter specified in a microservice. If no annotation is present which matches the specified configuration property, the property will be ignored.
-
-[[empty]]
-==== Indicating An Empty Set [Move to Config Spec]
-
-(This topic is likely to be handled in a future version of the Configuration specification.)
-In order to guarantee that empty string configuration values are interpreted consistently, the following
-configuration values, as defined by the Configuration specification, indicate empty:
-
-- an empty array
-- an array containing the empty String as its singular element
 
