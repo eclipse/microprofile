@@ -45,4 +45,6 @@ include::architecture.asciidoc[]
 
 include::required-apis.asciidoc[]
 
+include::config.asciidoc[]
+
 include::notices.asciidoc[]
