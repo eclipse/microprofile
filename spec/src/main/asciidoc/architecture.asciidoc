@@ -34,7 +34,7 @@ In reverse chronological order, here's the specification for each MicroProfile r
 === MicroProfile 3.1 (3Q2019)
 MicroProfile 3.1 is the 11th platform release for the https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
 Based on MicroProfile's time-boxed release process, this is an incremental release that includes an update to
-https://github.com/eclipse/microprofile-health/releases/tag/2.1[MicroProfile Health Check 2.1] and
+https://github.com/eclipse/microprofile-health/releases/tag/2.1[MicroProfile Check 2.1] and
 https://github.com/eclipse/microprofile-metrics/releases/tag/2.1.0[MicroProfile Metrics 2.1.0]
 
 MicroProfile 3.x releases build upon a small subset of Java EE 8 features. If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
@@ -43,7 +43,7 @@ Thus, the complete list of functional components for MicroProfile 3.1 includes..
 
  - https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
  - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.0[MicroProfile Fault Tolerance 2.0]
- - https://github.com/eclipse/microprofile-health/releases/tag/2.1[MicroProfile Health Check 2.1]
+ - https://github.com/eclipse/microprofile-health/releases/tag/2.1[MicroProfile Health 2.1]
  - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
  - https://github.com/eclipse/microprofile-metrics/releases/tag/2.1.0[MicroProfile Metrics 2.1.0]
  - https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-1.1[MicroProfile OpenAPI 1.1]
@@ -72,11 +72,11 @@ Here is the link to https://github.com/eclipse/microprofile/releases/tag/3.1-RC1
 === MicroProfile 3.0 (2Q2019)
 MicroProfile 3.0 is the tenth platform release for the https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
 Based on MicroProfile's time-boxed release process, this is an incremental release that includes an update to
-https://github.com/eclipse/microprofile-health/releases/tag/2.0[MicroProfile Health Check 2.0],
+https://github.com/eclipse/microprofile-health/releases/tag/2.0[MicroProfile Health 2.0],
 https://github.com/eclipse/microprofile-metrics/releases/tag/2.0.0[MicroProfile Metrics 2.0.0], and
 https://github.com/eclipse/microprofile-rest-client/releases/tag/1.3[MicroProfile Rest Client 1.3].
 
-*Note:* Health Check 2.0 and Metrics 2.0.0 introduce *breaking API changes* in their respective releases.
+*Note:* Health 2.0 and Metrics 2.0.0 introduce *breaking API changes* in their respective releases.
 Thus, the overall MicroProfile platform release also increased the major version number to 3.0.
 Please consult the individual Component release documentation for information on the breaking changes.
 If these changes cause an issue with your applications, you may want to consider staying on <<microprofile2.2>>.
@@ -88,7 +88,7 @@ Thus, the complete list of functional components for MicroProfile 3.0 includes..
 
  - https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
  - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.0[MicroProfile Fault Tolerance 2.0]
- - https://github.com/eclipse/microprofile-health/releases/tag/2.0[MicroProfile Health Check 2.0]
+ - https://github.com/eclipse/microprofile-health/releases/tag/2.0[MicroProfile Health 2.0]
  - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
  - https://github.com/eclipse/microprofile-metrics/releases/tag/2.0.0[MicroProfile Metrics 2.0.0]
  - https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-1.1[MicroProfile OpenAPI 1.1]
@@ -125,7 +125,7 @@ Thus, the complete list of functional components for MicroProfile 2.2 includes..
 
  - https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
  - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.0[MicroProfile Fault Tolerance 2.0]
- - https://github.com/eclipse/microprofile-health/releases/tag/1.0[MicroProfile Health Check 1.0]
+ - https://github.com/eclipse/microprofile-health/releases/tag/1.0[MicroProfile Health 1.0]
  - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
  - https://github.com/eclipse/microprofile-metrics/releases/tag/1.1[MicroProfile Metrics 1.1]
  - https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-1.1[MicroProfile OpenAPI 1.1]
@@ -161,7 +161,7 @@ Thus, the complete list of functional components for MicroProfile 2.1 includes..
 
  - https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
  - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/1.1[MicroProfile Fault Tolerance 1.1]
- - https://github.com/eclipse/microprofile-health/releases/tag/1.0[MicroProfile Health Check 1.0]
+ - https://github.com/eclipse/microprofile-health/releases/tag/1.0[MicroProfile Health 1.0]
  - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
  - https://github.com/eclipse/microprofile-metrics/releases/tag/1.1[MicroProfile Metrics 1.1]
  - https://github.com/eclipse/microprofile-open-api/releases/tag/1.0[MicroProfile OpenAPI 1.0]
@@ -219,7 +219,7 @@ Thus, the complete list of functional components for MicroProfile 2.0 includes..
 
  - https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
  - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/1.1[MicroProfile Fault Tolerance 1.1]
- - https://github.com/eclipse/microprofile-health/releases/tag/1.0[MicroProfile Health Check 1.0]
+ - https://github.com/eclipse/microprofile-health/releases/tag/1.0[MicroProfile Health 1.0]
  - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
  - https://github.com/eclipse/microprofile-metrics/releases/tag/1.1[MicroProfile Metrics 1.1]
  - https://github.com/eclipse/microprofile-open-api/releases/tag/1.0[MicroProfile OpenAPI 1.0]
