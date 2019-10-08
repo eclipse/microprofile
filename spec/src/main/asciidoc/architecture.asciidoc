@@ -34,7 +34,7 @@ In reverse chronological order, here's the specification for each MicroProfile r
 === MicroProfile 3.1 (3Q2019)
 MicroProfile 3.1 is the 11th platform release for the https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
 Based on MicroProfile's time-boxed release process, this is an incremental release that includes an update to
-https://github.com/eclipse/microprofile-health/releases/tag/2.1[MicroProfile Check 2.1] and
+https://github.com/eclipse/microprofile-health/releases/tag/2.1[MicroProfile Health 2.1] and
 https://github.com/eclipse/microprofile-metrics/releases/tag/2.1.0[MicroProfile Metrics 2.1.0]
 
 MicroProfile 3.x releases build upon a small subset of Java EE 8 features. If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
