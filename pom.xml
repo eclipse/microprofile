@@ -99,11 +99,18 @@
 
     <properties>
         <!--  Java EE specs  -->
-        <cdi-version>2.0</cdi-version>
-        <jaxrs-version>2.1</jaxrs-version>
-        <jsonb-version>1.0</jsonb-version>
-        <jsonp-version>1.1</jsonp-version>
-        <annotation-version>1.3</annotation-version>
+        <javax-cdi-version>2.0</javax-cdi-version>
+        <javax-jaxrs-version>2.1</javax-jaxrs-version>
+        <javax-jsonb-version>1.0</javax-jsonb-version>
+        <javax-jsonp-version>1.1</javax-jsonp-version>
+        <javax-annotation-version>1.3</javax-annotation-version>
+
+        <!--  Jakarta EE specs  -->
+        <jakarta-cdi-version>[2.0,2.1)</jakarta-cdi-version>
+        <jakarta-jaxrs-version>[2.1,2.2)</jakarta-jaxrs-version>
+        <jakarta-jsonb-version>[1.0,1.1)</jakarta-jsonb-version>
+        <jakarta-jsonp-version>[1.1,1.2)</jakarta-jsonp-version>
+        <jakarta-annotation-version>[1.3,1.4)</jakarta-annotation-version>
 
         <!-- MicroProfile specs  -->
         <config-version>1.3</config-version>
@@ -162,31 +169,61 @@
 
     <dependencyManagement>
         <dependencies>
+            <!--  Java EE specs  -->
             <dependency>
                 <groupId>javax.enterprise</groupId>
                 <artifactId>cdi-api</artifactId>
-                <version>${cdi-version}</version>
+                <version>${javax-cdi-version}</version>
             </dependency>
             <dependency>
                 <groupId>javax.ws.rs</groupId>
                 <artifactId>javax.ws.rs-api</artifactId>
-                <version>${jaxrs-version}</version>
+                <version>${javax-jaxrs-version}</version>
             </dependency>
             <dependency>
                 <groupId>javax.json.bind</groupId>
                 <artifactId>javax.json.bind-api</artifactId>
-                <version>${jsonb-version}</version>
+                <version>${javax-jsonb-version}</version>
             </dependency>
             <dependency>
                 <groupId>javax.json</groupId>
                 <artifactId>javax.json-api</artifactId>
-                <version>${jsonp-version}</version>
+                <version>${javax-jsonp-version}</version>
             </dependency>
             <dependency>
                 <groupId>javax.annotation</groupId>
                 <artifactId>javax.annotation-api</artifactId>
-                <version>${annotation-version}</version>
+                <version>${javax-annotation-version}</version>
             </dependency>
+
+            <!--  Jakarta EE specs  -->
+            <dependency>
+                <groupId>jakarta.enterprise</groupId>
+                <artifactId>jakarta.enterprise.cdi-api</artifactId>
+                <version>${jakarta-cdi-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>jakarta.ws.rs</groupId>
+                <artifactId>jakarta.ws.rs-api</artifactId>
+                <version>${jakarta-jaxrs-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>jakarta.json.bind</groupId>
+                <artifactId>jakarta.json.bind-api</artifactId>
+                <version>${jakarta-jsonb-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>jakarta.json</groupId>
+                <artifactId>jakarta.json-api</artifactId>
+                <version>${jakarta-jsonp-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>jakarta.annotation</groupId>
+                <artifactId>jakarta.annotation-api</artifactId>
+                <version>${jakarta-annotation-version}</version>
+            </dependency>
+
+            <!-- MicroProfile specs  -->
             <dependency>
                 <groupId>org.eclipse.microprofile.config</groupId>
                 <artifactId>microprofile-config-api</artifactId>
@@ -231,26 +268,7 @@
     </dependencyManagement>
 
     <dependencies>
-        <dependency>
-            <groupId>javax.enterprise</groupId>
-            <artifactId>cdi-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>javax.ws.rs</groupId>
-            <artifactId>javax.ws.rs-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>javax.json.bind</groupId>
-            <artifactId>javax.json.bind-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>javax.json</groupId>
-            <artifactId>javax.json-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>javax.annotation</groupId>
-            <artifactId>javax.annotation-api</artifactId>
-        </dependency>
+        <!-- MicroProfile specs  -->
         <dependency>
             <groupId>org.eclipse.microprofile.config</groupId>
             <artifactId>microprofile-config-api</artifactId>
@@ -286,6 +304,61 @@
     </dependencies>
 
     <profiles>
+        <profile>
+            <id>javax</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <!--  Java EE specs  -->
+                <dependency>
+                    <groupId>javax.enterprise</groupId>
+                    <artifactId>cdi-api</artifactId>
+                </dependency>
+                <dependency>
+                    <groupId>javax.ws.rs</groupId>
+                    <artifactId>javax.ws.rs-api</artifactId>
+                </dependency>
+                <dependency>
+                    <groupId>javax.json.bind</groupId>
+                    <artifactId>javax.json.bind-api</artifactId>
+                </dependency>
+                <dependency>
+                    <groupId>javax.json</groupId>
+                    <artifactId>javax.json-api</artifactId>
+                </dependency>
+                <dependency>
+                    <groupId>javax.annotation</groupId>
+                    <artifactId>javax.annotation-api</artifactId>
+                </dependency>
+            </dependencies>
+        </profile>
+        <profile>
+            <id>jakarta</id>
+            <dependencies>
+            <!--  Jakarta EE specs  -->
+                <dependency>
+                    <groupId>jakarta.enterprise</groupId>
+                    <artifactId>jakarta.enterprise.cdi-api</artifactId>
+                </dependency>
+                <dependency>
+                    <groupId>jakarta.ws.rs</groupId>
+                    <artifactId>jakarta.ws.rs-api</artifactId>
+                </dependency>
+                <dependency>
+                    <groupId>jakarta.json.bind</groupId>
+                    <artifactId>jakarta.json.bind-api</artifactId>
+                </dependency>
+                <dependency>
+                    <groupId>jakarta.json</groupId>
+                    <artifactId>jakarta.json-api</artifactId>
+                </dependency>
+                <dependency>
+                    <groupId>jakarta.annotation</groupId>
+                    <artifactId>jakarta.annotation-api</artifactId>
+                </dependency>
+            </dependencies>
+        </profile>
         <profile>
             <id>release</id>
             <build>
