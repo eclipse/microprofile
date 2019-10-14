@@ -307,7 +307,9 @@
         <profile>
             <id>javax</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <property>
+                    <name>!jakarta</name>
+                </property>
             </activation>
             <dependencies>
                 <!--  Java EE specs  -->
@@ -335,6 +337,11 @@
         </profile>
         <profile>
             <id>jakarta</id>
+            <activation>
+                <property>
+                    <name>jakarta</name>
+                </property>
+            </activation>
             <dependencies>
             <!--  Jakarta EE specs  -->
                 <dependency>
