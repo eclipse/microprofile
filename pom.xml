@@ -169,60 +169,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <!--  Java EE specs  -->
-            <dependency>
-                <groupId>javax.enterprise</groupId>
-                <artifactId>cdi-api</artifactId>
-                <version>${javax-cdi-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>javax.ws.rs</groupId>
-                <artifactId>javax.ws.rs-api</artifactId>
-                <version>${javax-jaxrs-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>javax.json.bind</groupId>
-                <artifactId>javax.json.bind-api</artifactId>
-                <version>${javax-jsonb-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>javax.json</groupId>
-                <artifactId>javax.json-api</artifactId>
-                <version>${javax-jsonp-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>javax.annotation</groupId>
-                <artifactId>javax.annotation-api</artifactId>
-                <version>${javax-annotation-version}</version>
-            </dependency>
-
-            <!--  Jakarta EE specs  -->
-            <dependency>
-                <groupId>jakarta.enterprise</groupId>
-                <artifactId>jakarta.enterprise.cdi-api</artifactId>
-                <version>${jakarta-cdi-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>jakarta.ws.rs</groupId>
-                <artifactId>jakarta.ws.rs-api</artifactId>
-                <version>${jakarta-jaxrs-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>jakarta.json.bind</groupId>
-                <artifactId>jakarta.json.bind-api</artifactId>
-                <version>${jakarta-jsonb-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>jakarta.json</groupId>
-                <artifactId>jakarta.json-api</artifactId>
-                <version>${jakarta-jsonp-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>jakarta.annotation</groupId>
-                <artifactId>jakarta.annotation-api</artifactId>
-                <version>${jakarta-annotation-version}</version>
-            </dependency>
-
             <!-- MicroProfile specs  -->
             <dependency>
                 <groupId>org.eclipse.microprofile.config</groupId>
@@ -311,6 +257,36 @@
                     <name>!jakarta</name>
                 </property>
             </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <!--  Java EE specs  -->
+                    <dependency>
+                        <groupId>javax.enterprise</groupId>
+                        <artifactId>cdi-api</artifactId>
+                        <version>${javax-cdi-version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>javax.ws.rs</groupId>
+                        <artifactId>javax.ws.rs-api</artifactId>
+                        <version>${javax-jaxrs-version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>javax.json.bind</groupId>
+                        <artifactId>javax.json.bind-api</artifactId>
+                        <version>${javax-jsonb-version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>javax.json</groupId>
+                        <artifactId>javax.json-api</artifactId>
+                        <version>${javax-jsonp-version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>javax.annotation</groupId>
+                        <artifactId>javax.annotation-api</artifactId>
+                        <version>${javax-annotation-version}</version>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
             <dependencies>
                 <!--  Java EE specs  -->
                 <dependency>
@@ -342,8 +318,38 @@
                     <name>jakarta</name>
                 </property>
             </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <!--  Jakarta EE specs  -->
+                    <dependency>
+                        <groupId>jakarta.enterprise</groupId>
+                        <artifactId>jakarta.enterprise.cdi-api</artifactId>
+                        <version>${jakarta-cdi-version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>jakarta.ws.rs</groupId>
+                        <artifactId>jakarta.ws.rs-api</artifactId>
+                        <version>${jakarta-jaxrs-version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>jakarta.json.bind</groupId>
+                        <artifactId>jakarta.json.bind-api</artifactId>
+                        <version>${jakarta-jsonb-version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>jakarta.json</groupId>
+                        <artifactId>jakarta.json-api</artifactId>
+                        <version>${jakarta-jsonp-version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>jakarta.annotation</groupId>
+                        <artifactId>jakarta.annotation-api</artifactId>
+                        <version>${jakarta-annotation-version}</version>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
             <dependencies>
-            <!--  Jakarta EE specs  -->
+                <!--  Jakarta EE specs  -->
                 <dependency>
                     <groupId>jakarta.enterprise</groupId>
                     <artifactId>jakarta.enterprise.cdi-api</artifactId>
