@@ -99,11 +99,11 @@
 
     <properties>
         <!--  Java EE specs  -->
-        <cdi-version>[2.0,2.1)</cdi-version>
-        <jaxrs-version>[2.1,2.2)</jaxrs-version>
-        <jsonb-version>[1.0,1.1)</jsonb-version>
-        <jsonp-version>[1.1,1.2)</jsonp-version>
-        <annotation-version>[1.3,1.4)</annotation-version>
+        <cdi-version>2.0</cdi-version>
+        <jaxrs-version>2.1</jaxrs-version>
+        <jsonb-version>1.0</jsonb-version>
+        <jsonp-version>1.1</jsonp-version>
+        <annotation-version>1.3</annotation-version>
 
         <!-- MicroProfile specs  -->
         <config-version>[1.3,1.4)</config-version>
