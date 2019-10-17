@@ -18,4 +18,24 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-https://www.eclipse.org/projects/tools/default_contributing_file.php?id=technology.microprofile[Auto-generated Contribution Link]
+Do you want to contribute to MicroProfile? Here is what you can do:
+
+* Create or fix an issue in one of the https://microprofile.io/projects/[projects].
+
+* Fork one of the https://microprofile.io/projects/[projects] repositories, make changes, then do a pull request.
+
+** Remember to https://help.github.com/articles/signing-commits[sign your commits].
+
+** If you contribute significant changes please make sure you have signed the https://www.eclipse.org/legal/ECA.php[Eclipse Contributor Agreement].
+
+* Join the project discussing on Gitter.
+
+* Join the project https://calendar.google.com/calendar/embed?src=gbnbc373ga40n0tvbl88nkc3r4%40group.calendar.google.com[meetings].
+
+* Join the discussions on the https://groups.google.com/forum/#!forum/microprofile[MicroProfile Google Group].
+
+* Contribute a https://microprofile.io/blog/[blog post].
+
+* Also see the https://wiki.eclipse.org/MicroProfile/ContributingGuidelines[MicroProfile Contributing Guidelines] on the https://wiki.eclipse.org/MicroProfile[Eclipse MicroProfile wiki page]
+
+* https://www.eclipse.org/projects/tools/default_contributing_file.php?id=technology.microprofile[Auto-generated Contribution Link]
