@@ -28,13 +28,13 @@ Do you want to contribute to MicroProfile? Here is what you can do:
 
 ** If you contribute significant changes please make sure you have signed the https://www.eclipse.org/legal/ECA.php[Eclipse Contributor Agreement].
 
-* Join the project discussing on Gitter.
+* Join the Gitter project discussions.
 
 * Join the project https://calendar.google.com/calendar/embed?src=gbnbc373ga40n0tvbl88nkc3r4%40group.calendar.google.com[meetings].
 
-* Join the discussions on the https://groups.google.com/forum/#!forum/microprofile[MicroProfile Google Group].
+* Become a Member of the MP google group and participate in the discussions on the https://groups.google.com/forum/#!forum/microprofile[MicroProfile Google Group].
 
-* Contribute a https://microprofile.io/blog/[blog/tutorial/video post].
+* Contribute your MicroProfile content https://microprofile.io/blog/[blog/tutorial/video post].
 
 * Also see the https://wiki.eclipse.org/MicroProfile/ContributingGuidelines[MicroProfile Contributing Guidelines] on the https://wiki.eclipse.org/MicroProfile[Eclipse MicroProfile wiki page]
 
