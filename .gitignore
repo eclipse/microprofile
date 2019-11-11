@@ -11,5 +11,6 @@ build/
 *.iml
 *.iwl
 *.ipr
+.java-version
 # Ignore a release.conf for perform_release/* script usage
 release.conf
