@@ -27,7 +27,7 @@
     <parent>
         <groupId>org.eclipse.microprofile</groupId>
         <artifactId>microprofile</artifactId>
-        <version>3.3-SNAPSHOT</version>
+        <version>3.3-RC1</version>
     </parent>
 
     <groupId>org.eclipse.microprofile</groupId>
