@@ -96,7 +96,7 @@ Thus, the complete list of functional components for MicroProfile 3.2 includes..
 
 The Maven coordinates for this Eclipse release are as follows:
 ----
-<dependency>
+<dependency> 
     <groupId>org.eclipse.microprofile</groupId>
     <artifactId>microprofile</artifactId>
     <version>3.2</version>
