@@ -164,4 +164,4 @@ Eclipse MicroProfile Rest Client provides a type-safe approach for invoking REST
 The MicroProfile Rest Client builds upon the https://github.com/jax-rs[JAX-RS 2.1 APIs] for consistency and ease-of-use.
 
 - http://microprofile.io/project/eclipse/microprofile-rest-client
-- https://github.com/eclipse/microprofile-rest-client/releases/tag/1.4
+- https://github.com/eclipse/microprofile-rest-client/releases/tag/1.4.0
