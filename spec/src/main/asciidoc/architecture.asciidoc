@@ -58,6 +58,7 @@ Thus, the complete list of functional components for MicroProfile 3.3 includes..
  - https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
 
 The Maven coordinates for this Eclipse release are as follows:
+[source,xml]
 ----
 <dependency>
     <groupId>org.eclipse.microprofile</groupId>
@@ -95,6 +96,7 @@ Thus, the complete list of functional components for MicroProfile 3.2 includes..
  - https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
 
 The Maven coordinates for this Eclipse release are as follows:
+[source,xml]
 ----
 <dependency> 
     <groupId>org.eclipse.microprofile</groupId>
@@ -133,6 +135,7 @@ Thus, the complete list of functional components for MicroProfile 3.1 includes..
  - https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
 
 The Maven coordinates for this Eclipse release are as follows:
+[source,xml]
 ----
 <dependency>
     <groupId>org.eclipse.microprofile</groupId>
@@ -178,6 +181,7 @@ Thus, the complete list of functional components for MicroProfile 3.0 includes..
  - https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
 
 The Maven coordinates for this Eclipse release are as follows:
+[source,xml]
 ----
 <dependency>
     <groupId>org.eclipse.microprofile</groupId>
@@ -215,6 +219,7 @@ Thus, the complete list of functional components for MicroProfile 2.2 includes..
  - https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
 
 The Maven coordinates for this Eclipse release are as follows:
+[source,xml]
 ----
 <dependency>
     <groupId>org.eclipse.microprofile</groupId>
@@ -251,6 +256,7 @@ Thus, the complete list of functional components for MicroProfile 2.1 includes..
  - https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
 
 The Maven coordinates for this Eclipse release are as follows:
+[source,xml]
 ----
 <dependency>
     <groupId>org.eclipse.microprofile</groupId>
@@ -272,6 +278,7 @@ The defined content for <<microprofile2.0, MicroProfile 2.0>> did not change -- 
 If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
 
 The Maven coordinates for this Eclipse release are as follows:
+[source,xml]
 ----
 <dependency>
     <groupId>org.eclipse.microprofile</groupId>
@@ -309,6 +316,7 @@ Thus, the complete list of functional components for MicroProfile 2.0 includes..
  - https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
 
 The Maven coordinates for this Eclipse release are as follows:
+[source,xml]
 ----
 <dependency>
     <groupId>org.eclipse.microprofile</groupId>
