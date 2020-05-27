@@ -18,6 +18,8 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
+Founded: MicroProfile was launched on June 2016 by a group of companies and individuals. Check Tracing on the MP google forum for more details. 
+Nutrality: This Community chose to move the project to the Eclipse Foundation on January 2017. 
 Do you want to contribute to MicroProfile? Here is what you can do:
 
 * Create or fix an issue in one of the https://microprofile.io/projects/[projects].
