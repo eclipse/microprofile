@@ -24,8 +24,8 @@
 The MicroProfile pom will identify the contents of each MicroProfile release.
 The contents will be those features and versions agreed to by the MicroProfile community.
 These features may be external to the MicroProfile community (Jakarta EE features such as
-Jakartat RESTful Web Services 2.1),
-or they be a component of the MicroProfile project (such as Config 1.3).
+Jakarta RESTful Web Services 2.1),
+or they be a component of the MicroProfile project (such as Config 2.0).
 
 Since the MicroProfile repo is an "umbrella" project, there will be no individual API or TCK generated for this component.
 Only this Specification will be generated and maintained to document the contents of each release.
@@ -34,20 +34,21 @@ In reverse chronological order, here's the specification for each MicroProfile r
 
 [[microprofile4.0-M1]]
 === MicroProfile 4.0 Milestone 1 (Q32020)
-MicroProfile 4.0-M1 is the 14th platform release for the
-https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
+// MicroProfile 4.0-M1 is the 14th platform release for the
+// https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
 MicroProfile 4.0-M1 is based on Jakarta EE 8, the first MicroProfile release to
 be based on Jakarta EE (replacing the role of Java EE).
 Although Jakarta EE 8 is API backwards compatible with Java EE 8, Jakarta EE replaces Java EE dependencies with
 Jakarta EE dependencies for all MicroProfile specifications, so all MicroProfile specifications
 are updated to major versions.
+
 The following specifications include API breaking changes:
 
-* Config
-* Fault Tolerance
-* Health
-* Metrics
-* Open API
+* https://github.com/eclipse/microprofile-config/issues?q=is%3Aissue+milestone%3A%22MP+Config+2.0%22+label%3A%22incompatible+change+%3Awarning%3A%22+is%3Aclosed[Config]
+* https://github.com/eclipse/microprofile-fault-tolerance/issues?q=is%3Aissue+milestone%3A3.0+is%3Aclosed+label%3A%22Incompatible+Changes%22[Fault Tolerance]
+* https://github.com/eclipse/microprofile-health/issues?q=is%3Aissue+label%3Abreaking_change+is%3Aclosed[Health]
+* https://github.com/eclipse/microprofile-metrics/issues?q=is%3Aissue+label%3Aapi-breaking+is%3Aclosed[Metrics]
+* https://github.com/eclipse/microprofile-open-api/issues?q=is%3Aissue+milestone%3A%22MP+OpenAPI+2.0%22+label%3Aincompatible-changes+is%3Aclosed[Open API]
 
 If you are still dependent on Java EE 8, please consider using the https://github.com/eclipse/microprofile/releases/tag/3.3[3.3 release of MicroProfile].
 If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
@@ -55,7 +56,7 @@ If you are still dependent on Java EE 7, please consider using the https://githu
 The complete list of MicroProfile 4.0-M1 specifications includes:
 
  - https://github.com/eclipse/microprofile-config/releases/tag/2.0-M1[MicroProfile Config 2.0-M1]
- - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/3.0-RC1[MicroProfile Fault Tolerance 3.0]
+ - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/3.0-RC1[MicroProfile Fault Tolerance 3.0-RC1]
  - https://github.com/eclipse/microprofile-health/releases/tag/3.0-RC3[MicroProfile Health 3.0-RC3]
  - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.2-RC1[MicroProfile JWT Authentication 1.2-RC1]
  - https://github.com/eclipse/microprofile-metrics/releases/tag/3.0-RC1[MicroProfile Metrics 3.0-RC1]

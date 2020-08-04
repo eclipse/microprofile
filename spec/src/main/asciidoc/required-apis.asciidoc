@@ -51,7 +51,7 @@ MicroProfile 4.x implementations may provide support for Java SE 9 and beyond, h
 [[jakarta-cdi]]
 === Jakarta Contexts and Dependency Injection (CDI) 2.0
 
-CDI provides the base for a growing number of APIs included in MicroProfile 4.0.
+Jakarta CDI provides the base for a growing number of APIs included in MicroProfile 4.0.
 Use of implementations beyond CDI 2.0 in MicroProfile is allowed, however, not required.
 
  - https://jakarta.ee/specifications/cdi/2.0/cdi-spec-2.0.html
@@ -60,7 +60,7 @@ Use of implementations beyond CDI 2.0 in MicroProfile is allowed, however, not r
 [[jakarta-jaxrs]]
 === Jakarta RESTful Web Services (JAX-RS) 2.1
 
-JAX-RS provides both standard client and server APIs for RESTful communication by MicroProfile 4.0 applications.
+Jakarta JAX-RS provides both standard client and server APIs for RESTful communication by MicroProfile 4.0 applications.
 Use of implementations beyond JAX-RS 2.1 in MicroProfile is allowed, however, not required as of version 4.0 of MicroProfile.
 
  - https://jakarta.ee/specifications/restful-ws/2.1/restful-ws-spec-2.1.html
@@ -69,7 +69,7 @@ Use of implementations beyond JAX-RS 2.1 in MicroProfile is allowed, however, no
 [[jakarta-jsonb]]
 === Jakarta JSON-B 1.0
 
-JSON-B is leveraged as part of MicroProfile 4.0 to provide standard APIs for binding JSON documents to Java code.
+Jakarta JSON-B is leveraged as part of MicroProfile 4.0 to provide standard APIs for binding JSON documents to Java code.
 Use of implementations beyond JSON-B 1.0 in MicroProfile is allowed, however, not required.
 
  - https://jakarta.ee/specifications/jsonb/1.0/jsonb-spec-1.0.html
@@ -78,7 +78,7 @@ Use of implementations beyond JSON-B 1.0 in MicroProfile is allowed, however, no
 [[jakarta-jsonp]]
 === Jakarta JSON-P 1.1
 
-JSON-P is leveraged as part of MicroProfile 4.0 to provide standard APIs for processing JSON documents.
+Jakarta JSON-P is leveraged as part of MicroProfile 4.0 to provide standard APIs for processing JSON documents.
 Use of implementations beyond JSON-P 1.1 in MicroProfile is allowed, however, not required.
 
  - https://jakarta.ee/specifications/jsonp/1.1/jsonp-spec-1.1.html
@@ -94,70 +94,70 @@ Use of implementations beyond Jakarta Annotations 1.3 in MicroProfile is allowed
  - https://github.com/eclipse-ee4j/common-annotations-api
 
 [[mp-config]]
-=== Eclipse MicroProfile Config 2.0
+=== Eclipse MicroProfile Config 2.0-M1
 
 Eclipse MicroProfile Config provides applications and microservices means to obtain configuration properties through several environment-aware sources both internal and external to the application and made available through dependency injection or lookup.
 
  - http://microprofile.io/project/eclipse/microprofile-config
- - https://github.com/eclipse/microprofile-config/releases/tag/2.0
+ - https://github.com/eclipse/microprofile-config/releases/tag/2.0-M1
 
 [[mp-fault-tolerance]]
-=== Eclipse MicroProfile Fault Tolerance 3.0
+=== Eclipse MicroProfile Fault Tolerance 3.0-RC1
 
 Eclipse MicroProfile Fault Tolerance provides the ability to separate execution logic from business logic.
 Key aspects of the API include TimeOut, RetryPolicy, Fallback, Bulkhead, and Circuit Breaker processing.
 Fault Tolerance 3.0 is now dependent on Jakarta EE 8 technologies.
 
  - http://microprofile.io/project/eclipse/microprofile-fault-tolerance
- - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/3.0
+ - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/3.0-RC1
 
 [[mp-health-check]]
-=== Eclipse MicroProfile Health 3.0
+=== Eclipse MicroProfile Health 3.0-RC3
 
 Eclipse MicroProfile Health provides the ability to expose the health of an application
 to the underlying platform (ex: Kubernetes)
 
  - http://microprofile.io/project/eclipse/microprofile-health
- - https://github.com/eclipse/microprofile-health/releases/tag/3.0
+ - https://github.com/eclipse/microprofile-health/releases/tag/3.0-RC3
 
 [[mp-jwt-auth]]
-=== Eclipse MicroProfile JWT Authentication 1.1
+=== Eclipse MicroProfile JWT Authentication 1.2-RC1
 
 Eclipse MicroProfile JWT Authentication provides role based access control (RBAC) microservice endpoints using OpenID Connect (OIDC) and JSON Web Tokens (JWT).
 
  - http://microprofile.io/project/eclipse/microprofile-jwt-auth
- - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1
+ - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.2-RC1
 
 [[mp-metrics]]
-=== Eclipse MicroProfile Metrics 3.0
+=== Eclipse MicroProfile Metrics 3.0-RC1
 
 Eclipse MicroProfile Metrics provides a unified way for MicroProfile applications to export monitoring data to management agents.
 Metrics will also provide a common Java API for exposing their telemetry data.
 
  - http://microprofile.io/project/eclipse/microprofile-metrics
- - https://github.com/eclipse/microprofile-metrics/releases/tag/3.0
+ - https://github.com/eclipse/microprofile-metrics/releases/tag/3.0-RC1
 
 [[mp-open-api]]
-=== Eclipse MicroProfile OpenAPI 2.0
+=== Eclipse MicroProfile OpenAPI 2.0-RC2
 
 Eclipse MicroProfile OpenAPI provides a unified Java API for the https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md[OpenAPI v3 specification] that all application developers can use to expose their API documentation.
 
  - http://microprofile.io/project/eclipse/microprofile-open-api
- - https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-2.0
+ - https://github.com/eclipse/microprofile-open-api/releases/tag/2.0-RC2
 
 [[mp-opentracing]]
-=== Eclipse MicroProfile OpenTracing 2.0
+=== Eclipse MicroProfile OpenTracing 2.0-RC1
 
 Eclipse MicroProfile OpenTracing defines an API and associated behaviors that allow services to easily participate in a distributed tracing environment.
 
  - http://microprofile.io/project/eclipse/microprofile-opentracing
- - https://github.com/eclipse/microprofile-opentracing/releases/tag/2.0
+ - https://github.com/eclipse/microprofile-opentracing/releases/tag/2.0-RC1
 
 [[mp-rest-client]]
-=== Eclipse MicroProfile Rest Client 2.0
+=== Eclipse MicroProfile Rest Client 2.0-RC2
 
 Eclipse MicroProfile Rest Client provides a type-safe approach for invoking RESTful services over HTTP.
 The MicroProfile Rest Client builds upon the https://github.com/eclipse-ee4j/jaxrs-api[JAX-RS 2.1 APIs] for consistency and ease-of-use.
 
 - http://microprofile.io/project/eclipse/microprofile-rest-client
-- https://github.com/eclipse/microprofile-rest-client/releases/tag/2.0
+- https://github.com/eclipse/microprofile-rest-client/releases/tag/2.0-RC2
