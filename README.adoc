@@ -95,6 +95,7 @@ link:https://github.com/eclipse/microprofile-rest-client[MicroProfile Rest Clien
 link:https://github.com/eclipse/microprofile-open-api[MicroProfile Open API] -- MicroProfile OpenAPI and annotations +
 link:https://github.com/eclipse/microprofile-jwt-auth[MicroProfile JWT Authentication] -- MicroProfile JWT authentication propagation +
 link:https://github.com/eclipse/microprofile-opentracing[MicroProfile OpenTracing] -- MicroProfile OpenTracing integration +
+link:https://github.com/eclipse/microprofile-graphql[MicroProfile GraphQL] -- Microprofile GraphQL Specification +
 link:https://github.com/eclipse/microprofile-conference[MicroProfile Conference App] -- "Architectural Application" to demonstrate MicroProfile on a variety of vendors
 
 A complete list of MicroProfile-related repositories within the Eclipse github organization can be found link:https://github.com/eclipse?utf8=%E2%9C%93&q=microprofile[via this link].
