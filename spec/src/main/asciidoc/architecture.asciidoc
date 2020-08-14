@@ -39,8 +39,7 @@ In reverse chronological order, here's the specification for each MicroProfile r
 MicroProfile 4.0-M1 is based on Jakarta EE 8, the first MicroProfile release to
 be based on Jakarta EE (replacing the role of Java EE).
 Although Jakarta EE 8 is API backwards compatible with Java EE 8, Jakarta EE replaces Java EE dependencies with
-Jakarta EE dependencies for all MicroProfile specifications, so all MicroProfile specifications
-are updated to major versions.
+Jakarta EE dependencies for all MicroProfile specifications.
 
 The following specifications include API incompatible changes:
 
