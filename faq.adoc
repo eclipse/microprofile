@@ -22,6 +22,7 @@
 
 . <<What is the MicroProfile?>>
 .. <<What is the relationship with Java EE?>>
+.. <<What is the relationship with Jakarta EE?>>
 .. <<What is the relationship with the JCP?>>
 . <<Who is involved?>>
 . <<How can I get involved?>>

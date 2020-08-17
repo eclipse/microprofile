@@ -28,11 +28,11 @@ Implementations may include APIs not listed below as well they may support more 
 MicroProfile applications that make use of APIs or versions not mentioned below are not considered portable.
 
  - <<javase, Java SE 8>>
- - <<javaee-cdi, CDI (Contexts and Dependency Injection for Java EE) 2.0>>
- - <<javaee-jaxrs, JAX-RS (Java(TM) API for RESTful Web Services) 2.1>>
- - <<javaee-jsonb, JSON-B (Java(TM) API for JSON Binding) 1.0>>
- - <<javaee-jsonp, JSON-P (Java(TM) API for JSON Processing) 1.1>>
- - <<javaee-common-annotations, Common Annotations for the Java(TM) Platform 1.3>>
+ - <<jakartaee-cdi, CDI (Contexts and Dependency Injection for Java EE) 2.0>>
+ - <<jakartaee-jaxrs, JAX-RS (Java(TM) API for RESTful Web Services) 2.1>>
+ - <<jakartaee-jsonb, JSON-B (Java(TM) API for JSON Binding) 1.0>>
+ - <<jakartaee-jsonp, JSON-P (Java(TM) API for JSON Processing) 1.1>>
+ - <<jakartaee-common-annotations, Common Annotations for the Java(TM) Platform 1.3>>
  - <<mp-config, Eclipse MicroProfile Config 1.4>>
  - <<mp-fault-tolerance, Eclipse MicroProfile Fault Tolerance 2.1>>
  - <<mp-health-check, Eclipse MicroProfile Health 2.2>>
@@ -48,8 +48,8 @@ MicroProfile applications that make use of APIs or versions not mentioned below 
 Libraries in use by the MicroProfile leverage new features provided in Java SE 8, therefore Java SE 7 and before are unsupported.
 MicroProfile 3.x implementations may provide support for Java SE 9 and beyond, however Java SE 8 compatibility must be maintained.
 
-[[javaee-cdi]]
-=== CDI 2.0
+[[jakartaee-cdi]]
+=== CDI 2.0.2
 
 CDI provides the base for a growing number of APIs included in MicroProfile 2.0.
 Use of implementations beyond CDI 2.0 in MicroProfile is allowed, however, not required as of version 2.0 of MicroProfile.
@@ -57,8 +57,8 @@ Use of implementations beyond CDI 2.0 in MicroProfile is allowed, however, not r
  - http://cdi-spec.org/
  - https://jcp.org/en/jsr/detail?id=365
 
-[[javaee-jaxrs]]
-=== JAX-RS 2.1
+[[jakartaee-jaxrs]]
+=== JAX-RS 2.1.6
 
 JAX-RS provides both standard client and server APIs for RESTful communication by MicroProfile 2.0 applications.
 Use of implementations beyond JAX-RS 2.1 in MicroProfile is allowed, however, not required as of version 2.0 of MicroProfile.
@@ -66,8 +66,8 @@ Use of implementations beyond JAX-RS 2.1 in MicroProfile is allowed, however, no
  - https://github.com/jax-rs
  - https://jcp.org/en/jsr/detail?id=370
 
-[[javaee-jsonb]]
-=== JSON-B 1.0
+[[jakartaee-jsonb]]
+=== JSON-B 1.0.2
 
 JSON-B is leveraged as part of MicroProfile 2.0 to provide standard APIs for binding JSON documents to Java code.
 Use of implementations beyond JSON-B 1.0 in MicroProfile is allowed, however, not required as of version 2.0 of MicroProfile.
@@ -75,8 +75,8 @@ Use of implementations beyond JSON-B 1.0 in MicroProfile is allowed, however, no
  - https://javaee.github.io/jsonb-spec
  - https://jcp.org/en/jsr/detail?id=367
 
-[[javaee-jsonp]]
-=== JSON-P 1.1
+[[jakartaee-jsonp]]
+=== JSON-P 1.1.6
 
 JSON-P is leveraged as part of MicroProfile 2.0 to provide standard APIs for processing JSON documents.
 Use of implementations beyond JSON-P 1.1 in MicroProfile is allowed, however, not required as of version 2.0 of MicroProfile.
@@ -84,8 +84,8 @@ Use of implementations beyond JSON-P 1.1 in MicroProfile is allowed, however, no
  - https://javaee.github.io/jsonp/
  - https://jcp.org/en/jsr/detail?id=374
 
-[[javaee-common-annotations]]
-=== Common Annotations 1.3
+[[jakartaee-common-annotations]]
+=== Common Annotations 1.3.5
 
 Common Annotations provides annotations for common semantic concepts across a variety of individual technologies in the Java(TM) SE and Java(TM) EE platforms.
 Use of implementations beyond Common Annotations 1.3 in MicroProfile is allowed, however, not required as of version 2.0 of MicroProfile.
