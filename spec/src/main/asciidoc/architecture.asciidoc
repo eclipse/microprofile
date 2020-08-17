@@ -43,11 +43,11 @@ Jakarta EE dependencies for all MicroProfile specifications.
 
 The following specifications include API incompatible changes:
 
-* https://github.com/eclipse/microprofile-config/issues?q=is%3Aissue+milestone%3A%22MP+Config+2.0%22+label%3A%22incompatible+change+%3Awarning%3A%22+is%3Aclosed[Config]
-* https://github.com/eclipse/microprofile-fault-tolerance/issues?q=is%3Aissue+milestone%3A3.0+is%3Aclosed+label%3A%22Incompatible+Changes%22[Fault Tolerance]
-* https://github.com/eclipse/microprofile-health/issues?q=is%3Aissue+label%3Abreaking_change+is%3Aclosed[Health]
+* https://download.eclipse.org/microprofile/microprofile-config-2.0-M1/microprofile-config-spec.html#_incompatible_changes[Config]
+* https://download.eclipse.org/microprofile/microprofile-fault-tolerance-3.0-RC1/microprofile-fault-tolerance-spec.html#_backward_incompatible_changes[Fault Tolerance]
+* https://download.eclipse.org/microprofile/microprofile-health-3.0-RC3/microprofile-health-spec.html#release_notes_3_0[Health]
 * https://download.eclipse.org/microprofile/microprofile-metrics-3.0-RC1/microprofile-metrics-spec-3.0-RC1.html#_breaking_changes[Metrics]
-* https://github.com/eclipse/microprofile-open-api/issues?q=is%3Aissue+milestone%3A%22MP+OpenAPI+2.0%22+label%3Aincompatible-changes+is%3Aclosed[Open API]
+* https://download.eclipse.org/microprofile/microprofile-open-api-2.0-RC2/microprofile-openapi-spec.html#_release_notes_for_microprofile_openapi_2_0[Open API]
 
 If you are still dependent on Java EE 8, please consider using the https://github.com/eclipse/microprofile/releases/tag/3.3[3.3 release of MicroProfile].
 If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
