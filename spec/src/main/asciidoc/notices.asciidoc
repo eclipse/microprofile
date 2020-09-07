@@ -23,18 +23,18 @@
 
 === Compatibility Disclaimer
 
-APIs originating from the Eclipse MicroProfile community, such as Config 1.0, should be considered pre-standard and experimental in nature.  While these APIs are developed collaboratively and generally considered best-of-breed, the MicroProfile community reserves the right to make backwards incompatible changes based on substantial user feedback.
+APIs originating from the MicroProfile community, such as Config 1.0, should be considered pre-standard and experimental in nature.  While these APIs are developed collaboratively and generally considered best-of-breed, the MicroProfile community reserves the right to make backwards incompatible changes based on substantial user feedback.
 
-It is the overarching goal of the Eclipse MicroProfile community to iterate quickly and prioritize innovation over legacy.  Thus, APIs included are offered with the express purpose of feedback and rapid innovation through proven real-world usage.  Developers should use these APIs with this knowledge in mind and are encouraged to provide feedback of any kind, including proposals of fundamental change to the design of the APIs themselves.
+It is the overarching goal of the MicroProfile community to iterate quickly and prioritize innovation over legacy.  Thus, APIs included are offered with the express purpose of feedback and rapid innovation through proven real-world usage.  Developers should use these APIs with this knowledge in mind and are encouraged to provide feedback of any kind, including proposals of fundamental change to the design of the APIs themselves.
 
 === Contribution
 
-The Eclipse MicroProfile community is an open source community part of the Eclipse Foundation.  We accept contributions from corporations or individuals.  To learn how to contribute to the Eclipse MicroProfile see:
+The MicroProfile community is an open source community part of the Eclipse Foundation.  We accept contributions from corporations or individuals.  To learn how to contribute to MicroProfile see:
 
  - https://wiki.eclipse.org/MicroProfile/FeatureInit
 
 === Feedback
 
-Comments, questions or feedback on this document should be directed to The Eclipse MicroProfile community as a whole at microprofile@googlegroups.com.  Archives are available via the Google Group page:
+Comments, questions or feedback on this document should be directed to The MicroProfile community as a whole at microprofile@googlegroups.com.  Archives are available via the Google Group page:
 
  - https://groups.google.com/forum/#!forum/microprofile

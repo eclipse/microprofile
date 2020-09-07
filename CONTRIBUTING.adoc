@@ -42,6 +42,6 @@ Do you want to contribute to MicroProfile? Here is what you can do:
 
 ** Q4-2019 https://microprofile.io/2019/10/24/tutorials-on-each-eclipse-microprofile-specification/[blog] & https://www.youtube.com/watch?v=0h3QceSBBiY&list=PLFjB4VDnlT_3vXkrLkSBW7j6ygQRXBypA[video] tutorials make it easy for YOU, a newcomer, to navigate MicroProfile's 12 APIs.
 
-* Also see the https://wiki.eclipse.org/MicroProfile/ContributingGuidelines[MicroProfile Contributing Guidelines] on the https://wiki.eclipse.org/MicroProfile[Eclipse MicroProfile wiki page]
+* Also see the https://wiki.eclipse.org/MicroProfile/ContributingGuidelines[MicroProfile Contributing Guidelines] on the https://wiki.eclipse.org/MicroProfile[MicroProfile wiki page]
 
 * https://www.eclipse.org/projects/tools/default_contributing_file.php?id=technology.microprofile[Auto-generated Contribution Link]

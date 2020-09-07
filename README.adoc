@@ -40,7 +40,7 @@ This repository also houses the link:https://github.com/eclipse/microprofile/blo
     <dependency>
         <groupId>org.eclipse.microprofile</groupId>
         <artifactId>microprofile</artifactId>
-        <version>4.0-M1</version>
+        <version>4.0-RC1</version>
         <type>pom</type>
         <scope>provided</scope>
     </dependency>
@@ -55,7 +55,7 @@ This repository also houses the link:https://github.com/eclipse/microprofile/blo
         <dependency>
             <groupId>org.eclipse.microprofile</groupId>
             <artifactId>microprofile</artifactId>
-            <version>4.0-M1</version>
+            <version>4.0-RC1</version>
             <scope>import</scope>
             <type>pom</type>
         </dependency>
@@ -104,8 +104,8 @@ Some of the repositories are hosted under the link:https://github.com/microprofi
 link:https://github.com/microprofile/microprofile-blog[MicroProfile.io blogs] -- Easy mechanism for updating the entries on the link:http://microprofile.io/blog[MicroProfile blog site] +
 link:https://github.com/microprofile/microprofile-site[Microprofile.io site] -- source code of the application that powers the link:http://microprofile.io[microprofile.io] site +
 
-=== Eclipse MicroProfile and Microprofile.io
-The MicroProfile community has two portals to information.  The main site is the link:https://projects.eclipse.org/projects/technology.microprofile[Eclipse MicroProfile project].
+=== MicroProfile and Microprofile.io
+The MicroProfile community has two portals to information.  The main site is the link:https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project].
 In addition to this portal to our community at Eclipse, we will continue to maintain our external site at link:http://microprofile.io[microprofile.io].
 Both sites will be maintained to promote the development and use of MicroProfile in the industry.
 
@@ -117,7 +117,7 @@ The https://wiki.eclipse.org/MicroProfile[MicroProfile wiki] contains up-to-date
 The link:https://groups.google.com/forum/#!forum/microprofile[Microprofile Google Group] is the preferred place for discussions to take place.
 
 === Mailing Lists
-Besides the Google Group threads (main source of communication), there is also an link:https://dev.eclipse.org/mailman/listinfo/microprofile-dev[Eclipse microprofile-dev mailing list] which should be used for conversation specific to the Eclipse way of doing things.
+Besides the Google Group threads (main source of communication), there is also an link:https://dev.eclipse.org/mailman/listinfo/microprofile-dev[microprofile-dev mailing list] which should be used for conversation specific to the Eclipse way of doing things.
 By using this mailing list, the Eclipse team can more quickly recognize and respond to our requests. +
 
 Since the link:https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project] is still in incubation, another useful mailing list is the link:https://dev.eclipse.org/mailman/listinfo/incubation[incubation mailing list] for asking general Eclipse process questions.
@@ -125,4 +125,4 @@ Since the link:https://projects.eclipse.org/projects/technology.microprofile[Mic
 == Notable Contributors
 There is a very large number of people and vendors already involved in the link:https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project].
 The most complete list of contributors can be found at our link:https://microprofile.io/contributors[microprofile.io site].
-Specific to our Eclipse efforts, another page is automatically maintained at link:https://projects.eclipse.org/projects/technology.microprofile/who[Eclipse MicroProfile] for the Eclipse committers and project leads.
+Specific to our Eclipse efforts, another page is automatically maintained at link:https://projects.eclipse.org/projects/technology.microprofile/who[MicroProfile] for the Eclipse committers and project leads.

@@ -35,7 +35,7 @@
     <url>https://github.com/eclipse/microprofile</url>
     <inceptionYear>2017</inceptionYear>
     <organization>
-        <name>Eclipse MicroProfile</name>
+        <name>MicroProfile</name>
         <url>http://www.eclipse.org/microprofile</url>
     </organization>
 
@@ -86,7 +86,7 @@
             <post>microprofile@googlegroups.com</post>
         </mailingList>
         <mailingList>
-            <name>Eclipse MicroProfile Dev</name>
+            <name>MicroProfile Dev</name>
             <subscribe>https://dev.eclipse.org/mailman/listinfo/microprofile-dev</subscribe>
             <post>microprofile-dev@eclipse.org</post>
         </mailingList>
