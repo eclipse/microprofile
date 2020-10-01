@@ -94,12 +94,12 @@ Use of implementations beyond Jakarta Annotations 1.3 in MicroProfile is allowed
  - https://github.com/eclipse-ee4j/common-annotations-api
 
 [[mp-config]]
-=== MicroProfile Config 2.0-M1
+=== MicroProfile Config 2.0-RC1
 
 MicroProfile Config provides applications and microservices means to obtain configuration properties through several environment-aware sources both internal and external to the application and made available through dependency injection or lookup.
 
  - http://microprofile.io/project/eclipse/microprofile-config
- - https://github.com/eclipse/microprofile-config/releases/tag/2.0-M1
+ - https://github.com/eclipse/microprofile-config/releases/tag/2.0-RC1
 
 [[mp-fault-tolerance]]
 === MicroProfile Fault Tolerance 3.0-RC1

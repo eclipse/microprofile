@@ -43,7 +43,7 @@ Jakarta EE dependencies for all MicroProfile specifications.
 
 The following specifications include API incompatible changes:
 
-* https://download.eclipse.org/microprofile/microprofile-config-2.0-M1/microprofile-config-spec.html#_incompatible_changes[Config]
+* https://download.eclipse.org/microprofile/microprofile-config-2.0-RC1/microprofile-config-spec.html#_incompatible_changes[Config]
 * https://download.eclipse.org/microprofile/microprofile-fault-tolerance-3.0-RC1/microprofile-fault-tolerance-spec.html#_backward_incompatible_changes[Fault Tolerance]
 * https://download.eclipse.org/microprofile/microprofile-health-3.0-RC3/microprofile-health-spec.html#release_notes_3_0[Health]
 * https://download.eclipse.org/microprofile/microprofile-metrics-3.0-RC1/microprofile-metrics-spec-3.0-RC1.html#_breaking_changes[Metrics]
@@ -54,7 +54,7 @@ If you are still dependent on Java EE 7, please consider using the https://githu
 
 The complete list of MicroProfile 4.0-RC1 specifications includes:
 
- - https://github.com/eclipse/microprofile-config/releases/tag/2.0-M1[MicroProfile Config 2.0-M1]
+ - https://github.com/eclipse/microprofile-config/releases/tag/2.0-RC1[MicroProfile Config 2.0-RC1]
  - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/3.0-RC1[MicroProfile Fault Tolerance 3.0-RC1]
  - https://github.com/eclipse/microprofile-health/releases/tag/3.0-RC3[MicroProfile Health 3.0-RC3]
  - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.2-RC1[MicroProfile JWT Authentication 1.2-RC1]
