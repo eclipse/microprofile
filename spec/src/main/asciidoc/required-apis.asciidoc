@@ -38,7 +38,7 @@ MicroProfile applications that make use of APIs or versions not mentioned below 
  - <<mp-health-check, MicroProfile Health 2.2>>
  - <<mp-jwt-auth, MicroProfile JWT Authentication 1.1>>
  - <<mp-metrics, MicroProfile Metrics 2.3>>
- - <<mp-openapi, MicroProfile OpenAPI 1.1>>
+ - <<mp-open-api, MicroProfile OpenAPI 1.1>>
  - <<mp-opentracing, MicroProfile OpenTracing 1.3>>
  - <<mp-rest-client, MicroProfile Rest Client 1.4>>
 
@@ -102,23 +102,23 @@ MicroProfile Config provides applications and microservices means to obtain conf
  - https://github.com/eclipse/microprofile-config/releases/tag/2.0-RC1
 
 [[mp-fault-tolerance]]
-=== MicroProfile Fault Tolerance 3.0-RC1
+=== MicroProfile Fault Tolerance 3.0-RC2
 
 MicroProfile Fault Tolerance provides the ability to separate execution logic from business logic.
 Key aspects of the API include TimeOut, RetryPolicy, Fallback, Bulkhead, and Circuit Breaker processing.
 Fault Tolerance 3.0 is now dependent on Jakarta EE 8 technologies.
 
  - http://microprofile.io/project/eclipse/microprofile-fault-tolerance
- - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/3.0-RC1
+ - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/3.0-RC2
 
 [[mp-health-check]]
-=== MicroProfile Health 3.0-RC3
+=== MicroProfile Health 3.0-RC5
 
 MicroProfile Health provides the ability to expose the health of an application
 to the underlying platform (ex: Kubernetes)
 
  - http://microprofile.io/project/eclipse/microprofile-health
- - https://github.com/eclipse/microprofile-health/releases/tag/3.0-RC3
+ - https://github.com/eclipse/microprofile-health/releases/tag/3.0-RC5
 
 [[mp-jwt-auth]]
 === MicroProfile JWT Authentication 1.2-RC1
@@ -129,29 +129,29 @@ MicroProfile JWT Authentication provides role based access control (RBAC) micros
  - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.2-RC1
 
 [[mp-metrics]]
-=== MicroProfile Metrics 3.0-RC1
+=== MicroProfile Metrics 3.0-RC2
 
 MicroProfile Metrics provides a unified way for MicroProfile applications to export monitoring data to management agents.
 Metrics will also provide a common Java API for exposing their telemetry data.
 
  - http://microprofile.io/project/eclipse/microprofile-metrics
- - https://github.com/eclipse/microprofile-metrics/releases/tag/3.0-RC1
+ - https://github.com/eclipse/microprofile-metrics/releases/tag/3.0-RC2
 
 [[mp-open-api]]
-=== MicroProfile OpenAPI 2.0-RC2
+=== MicroProfile OpenAPI 2.0-RC3
 
 MicroProfile OpenAPI provides a unified Java API for the https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md[OpenAPI v3 specification] that all application developers can use to expose their API documentation.
 
  - http://microprofile.io/project/eclipse/microprofile-open-api
- - https://github.com/eclipse/microprofile-open-api/releases/tag/2.0-RC2
+ - https://github.com/eclipse/microprofile-open-api/releases/tag/2.0-RC3
 
 [[mp-opentracing]]
-=== MicroProfile OpenTracing 2.0-RC1
+=== MicroProfile OpenTracing 2.0-RC2
 
 MicroProfile OpenTracing defines an API and associated behaviors that allow services to easily participate in a distributed tracing environment.
 
  - http://microprofile.io/project/eclipse/microprofile-opentracing
- - https://github.com/eclipse/microprofile-opentracing/releases/tag/2.0-RC1
+ - https://github.com/eclipse/microprofile-opentracing/releases/tag/2.0-RC2
 
 [[mp-rest-client]]
 === MicroProfile Rest Client 2.0-RC2
