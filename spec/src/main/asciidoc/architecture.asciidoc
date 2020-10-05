@@ -45,9 +45,9 @@ The following specifications include API incompatible changes:
 
 * https://download.eclipse.org/microprofile/microprofile-config-2.0-RC1/microprofile-config-spec.html#_incompatible_changes[Config]
 * https://download.eclipse.org/microprofile/microprofile-fault-tolerance-3.0-RC2/microprofile-fault-tolerance-spec.html#_backward_incompatible_changes[Fault Tolerance]
-* https://download.eclipse.org/microprofile/microprofile-health-3.0-RC5/microprofile-health-spec.html#release_notes_3_0[Health]
+* https://download.eclipse.org/microprofile/microprofile-health-3.0-RC5/microprofile-health-spec.html#_incompatible_changes[Health]
 * https://download.eclipse.org/microprofile/microprofile-metrics-3.0-RC2/microprofile-metrics-spec-3.0-RC2.html#_breaking_changes[Metrics]
-* https://download.eclipse.org/microprofile/microprofile-open-api-2.0-RC3/microprofile-openapi-spec.html#_release_notes_for_microprofile_openapi_2_0[Open API]
+* https://download.eclipse.org/microprofile/microprofile-open-api-2.0-RC3/microprofile-openapi-spec.html#_incompatible_changes[Open API]
 
 If you are still dependent on Java EE 8, please consider using the https://github.com/eclipse/microprofile/releases/tag/3.3[3.3 release of MicroProfile].
 If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
