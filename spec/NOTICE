@@ -4,7 +4,7 @@ Portions of this software were originally based on the following:
   under Apache License, v2.0
 
 SPDXVersion: SPDX-2.1
-PackageName: Microprofile
+PackageName: MicroProfile
 PackageHomePage: http://www.eclipse.org/microprofile
 PackageLicenseDeclared: Apache-2.0
 
