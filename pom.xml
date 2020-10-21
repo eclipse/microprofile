@@ -39,13 +39,6 @@
         <url>http://www.eclipse.org/microprofile</url>
     </organization>
 
-    <mailingLists>
-        <mailingList>
-            <name>MicroProfile Working Group Mailing List</name>
-            <post>microprofile-wg@eclipse.org</post>
-        </mailingList>
-    </mailingLists>
-
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -97,7 +90,10 @@
             <subscribe>https://dev.eclipse.org/mailman/listinfo/microprofile-dev</subscribe>
             <post>microprofile-dev@eclipse.org</post>
         </mailingList>
-
+        <mailingList>
+            <name>MicroProfile Working Group Mailing List</name>
+            <post>microprofile-wg@eclipse.org</post>
+        </mailingList>
     </mailingLists>
 
     <modules>
