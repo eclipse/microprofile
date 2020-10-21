@@ -20,7 +20,7 @@
 
 image:https://badges.gitter.im/eclipse/microprofile-bom.svg[link="https://gitter.im/eclipse/microprofile-bom"]
 
-# Eclipse MicroProfile "Bill of Materials"
+# MicroProfile "Bill of Materials"
 Eclipse github repository for defining the content of the MicroProfile deliverables.
 
 ## Usage

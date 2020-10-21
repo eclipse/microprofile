@@ -36,7 +36,7 @@ MicroProfile is a collection of features designed for a microservice-focused pla
 There is no formal relationship with Java EE. The 1.0 release of MicroProfile was based on three APIs (CDI, JSON-P and JAX-RS) which are Java EE APIs, but the MicroProfile effort is not limited to the Java EE APIs. Brand new APIs are equally as valid as established APIs.
 
 ===== What is the relationship with Jakarta EE?
-Both Eclipse MicroProfile and link:https://jakarta.ee/[Jakarta EE] are under the Eclipse Foundation umbrella. While there is no formal relationship with Jakarta EE at the moment, the two projects are discussing link:https://www.eclipse.org/org/workinggroups/about.php[Eclipse Working Group] alignment and collaboration options.
+Both MicroProfile and link:https://jakarta.ee/[Jakarta EE] are under the Eclipse Foundation umbrella. While there is no formal relationship with Jakarta EE at the moment, the two projects are discussing link:https://www.eclipse.org/org/workinggroups/about.php[Eclipse Working Group] alignment and collaboration options.
 
 ===== What is the relationship with the JCP?
 MicroProfile is not governed by the JCP. Rather, it is an independent effort governed under the link:https://projects.eclipse.org/projects/technology.microprofile[Eclipse Foundation] and licensed under the link:https://www.apache.org/licenses/LICENSE-2.0[Apache v2 Software License].
