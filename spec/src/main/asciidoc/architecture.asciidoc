@@ -32,11 +32,11 @@ Only this Specification will be generated and maintained to document the content
 
 In reverse chronological order, here's the specification for each MicroProfile release.
 
-[[microprofile4.0]]
-=== MicroProfile 4.0 (Q12021)
-// MicroProfile 4.0 is the 14th platform release for the
+[[microprofile4.0-RC2]]
+=== MicroProfile 4.0 Release Candidate 2 (Q12021)
+// MicroProfile 4.0-RC2 is the 14th platform release for the
 // https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project].
-MicroProfile 4.0 is based on Jakarta EE 8, the first MicroProfile release to
+MicroProfile 4.0-RC2 is based on Jakarta EE 8, the first MicroProfile release to
 be based on Jakarta EE (replacing the role of Java EE).
 Although Jakarta EE 8 is API backwards compatible with Java EE 8, Jakarta EE replaces Java EE dependencies with
 Jakarta EE dependencies for all MicroProfile specifications.
@@ -52,7 +52,7 @@ The following specifications include API incompatible changes:
 If you are still dependent on Java EE 8, please consider using the https://github.com/eclipse/microprofile/releases/tag/3.3[3.3 release of MicroProfile].
 If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
 
-The complete list of MicroProfile 4.0 specifications includes:
+The complete list of MicroProfile 4.0-RC2 specifications includes:
 
  - https://github.com/eclipse/microprofile-config/releases/tag/2.0[MicroProfile Config 2.0]
  - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/3.0[MicroProfile Fault Tolerance 3.0]
@@ -74,13 +74,13 @@ The Maven coordinates for this Eclipse release are as follows:
 <dependency>
     <groupId>org.eclipse.microprofile</groupId>
     <artifactId>microprofile</artifactId>
-    <version>4.0</version>
+    <version>4.0-RC2</version>
     <type>pom</type>
     <scope>provided</scope>
 </dependency>
 ----
 
-Here is the link to https://github.com/eclipse/microprofile/releases/tag/4.0[the github repository] for this Eclipse-based project.
+Here is the link to https://github.com/eclipse/microprofile/releases/tag/4.0-RC2[the github repository] for this Eclipse-based project.
 
 
 [[microprofile3.3]]
