@@ -32,27 +32,27 @@ Only this Specification will be generated and maintained to document the content
 
 In reverse chronological order, here's the specification for each MicroProfile release.
 
-[[microprofile4.0-RC3]]
-=== MicroProfile 4.0 Release Candidate 3 (Q42020)
-// MicroProfile 4.0-RC3 is the 14th platform release for the
+[[microprofile4.0-RC4]]
+=== MicroProfile 4.0 Release Candidate 4 (Q42020)
+// MicroProfile 4.0-RC4 is the 14th platform release for the
 // https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project].
-MicroProfile 4.0-RC3 is based on Jakarta EE 8, the first MicroProfile release to
+MicroProfile 4.0-RC4 is based on Jakarta EE 8, the first MicroProfile release to
 be based on Jakarta EE (replacing the role of Java EE).
 Although Jakarta EE 8 is API backwards compatible with Java EE 8, Jakarta EE replaces Java EE dependencies with
 Jakarta EE dependencies for all MicroProfile specifications.
 
 The following specifications include API incompatible changes:
 
-* https://download.eclipse.org/microprofile/microprofile-config-2.0/microprofile-config-spec.html#_incompatible_changes[Config]
-* https://download.eclipse.org/microprofile/microprofile-fault-tolerance-3.0/microprofile-fault-tolerance-spec.html#_backward_incompatible_changes[Fault Tolerance]
-* https://download.eclipse.org/microprofile/microprofile-health-3.0/microprofile-health-spec.html#_incompatible_changes[Health]
+* https://download.eclipse.org/microprofile/microprofile-config-2.0/microprofile-config-spec-2.0.html#_incompatible_changes[Config]
+* https://download.eclipse.org/microprofile/microprofile-fault-tolerance-3.0/microprofile-fault-tolerance-spec-3.0.html#_backward_incompatible_changes[Fault Tolerance]
+* https://download.eclipse.org/microprofile/microprofile-health-3.0/microprofile-health-spec-3.0.html#_incompatible_changes[Health]
 * https://download.eclipse.org/microprofile/microprofile-metrics-3.0/microprofile-metrics-spec-3.0.html#_breaking_changes[Metrics]
-* https://download.eclipse.org/microprofile/microprofile-open-api-2.0/microprofile-openapi-spec.html#_incompatible_changes[Open API]
+* https://download.eclipse.org/microprofile/microprofile-open-api-2.0/microprofile-openapi-spec-2.0.html#_incompatible_changes[Open API]
 
 If you are still dependent on Java EE 8, please consider using the https://github.com/eclipse/microprofile/releases/tag/3.3[3.3 release of MicroProfile].
 If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
 
-The complete list of MicroProfile 4.0-RC3 specifications includes:
+The complete list of MicroProfile 4.0-RC4 specifications includes:
 
  - https://github.com/eclipse/microprofile-config/releases/tag/2.0[MicroProfile Config 2.0]
  - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/3.0[MicroProfile Fault Tolerance 3.0]
@@ -74,13 +74,13 @@ The Maven coordinates for this Eclipse release are as follows:
 <dependency>
     <groupId>org.eclipse.microprofile</groupId>
     <artifactId>microprofile</artifactId>
-    <version>4.0-RC3</version>
+    <version>4.0-RC4</version>
     <type>pom</type>
     <scope>provided</scope>
 </dependency>
 ----
 
-Here is the link to https://github.com/eclipse/microprofile/releases/tag/4.0-RC3[the github repository] for this Eclipse-based project.
+Here is the link to https://github.com/eclipse/microprofile/releases/tag/4.0-RC4[the github repository] for this Eclipse-based project.
 
 
 [[microprofile3.3]]
