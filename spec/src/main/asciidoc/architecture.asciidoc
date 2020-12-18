@@ -33,7 +33,7 @@ Only this Specification will be generated and maintained to document the content
 In reverse chronological order, here's the specification for each MicroProfile release.
 
 [[microprofile4.0-RC2]]
-=== MicroProfile 4.0 Release Candidate 2 (Q12021)
+=== MicroProfile 4.0 Release Candidate 2 (Q42020)
 // MicroProfile 4.0-RC2 is the 14th platform release for the
 // https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project].
 MicroProfile 4.0-RC2 is based on Jakarta EE 8, the first MicroProfile release to
