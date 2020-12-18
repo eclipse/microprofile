@@ -40,7 +40,7 @@ This repository also houses the link:https://github.com/eclipse/microprofile/blo
     <dependency>
         <groupId>org.eclipse.microprofile</groupId>
         <artifactId>microprofile</artifactId>
-        <version>4.0-RC4</version>
+        <version>4.0</version>
         <type>pom</type>
         <scope>provided</scope>
     </dependency>
@@ -55,7 +55,7 @@ This repository also houses the link:https://github.com/eclipse/microprofile/blo
         <dependency>
             <groupId>org.eclipse.microprofile</groupId>
             <artifactId>microprofile</artifactId>
-            <version>4.0-RC4</version>
+            <version>4.0</version>
             <scope>import</scope>
             <type>pom</type>
         </dependency>
