@@ -36,8 +36,8 @@ ifdef::backend-pdf[]
 endif::[]
 
 // == License
-
-include::license-alv2.asciidoc[]
+:sectnums!:
+include::license-efsl.adoc[]
 
 // == MicroProfile
 
