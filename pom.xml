@@ -28,7 +28,7 @@
     <groupId>org.eclipse.microprofile</groupId>
     <artifactId>microprofile</artifactId>
     <packaging>pom</packaging>
-    <version>4.0.1-RC1</version>
+    <version>4.1-SNAPSHOT</version>
 
     <name>MicroProfile</name>
     <description>The MicroProfile Specification and Information Repository</description>
@@ -57,7 +57,7 @@
         <url>https://github.com/eclipse/microprofile</url>
         <connection>scm:git:https://github.com/eclipse/microprofile.git</connection>
         <developerConnection>scm:git:git@github.com:eclipse/microprofile.git</developerConnection>
-        <tag>4.0.1-RC1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
