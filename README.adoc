@@ -125,5 +125,5 @@ Since the link:https://projects.eclipse.org/projects/technology.microprofile[Mic
 
 == Notable Contributors
 There is a very large number of people and vendors already involved in the link:https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project].
-The complete list of contributors can be found at our link:https://microprofile.io/contributors[microprofile.io site].
+The complete list of contributors can be found at our link:https://microprofile.io/contributors[microprofile.io] site.
 Specific to our Eclipse efforts, another page is automatically maintained at link:https://projects.eclipse.org/projects/technology.microprofile/who[MicroProfile] for the Eclipse committers and project leads.
