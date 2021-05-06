@@ -1,7 +1,7 @@
 ---
 name: Compatible Certification Request
 about: Request certification of a compatibile implementation of MicroProfile Platform release
-title: 'Compatibility certification request for [product/project name] for MciroProfile [plaftorm release verseion]'
+title: 'Compatibility certification request for [product/project name] for MciroProfile [plaftorm release version]'
 labels: 'Certification :trophy:'
 assignees: ''
 
@@ -13,8 +13,6 @@ assignees: ''
   // Add here
 - [ ] Specification Name, Version and download URL:<br/>
    // Add here
-- [ ] (Optional) TCK Version, digital SHA-256 fingerprint and download URL:<br/>
-  // Add here
 - [ ] Public URL of TCK Results Summary for the included MicroProfile component specifications (Config, Fault Tolerance, OpenAPI, Rest Client, Health, Metrics, Open Tracing, JWT):<br/>
   // Add here
 - [ ] (Optional) Any Additional Jakarta EE Specification TCKs such as the included CDI, JAX-RS, JSON-B, JSON-P, Annotation:<br/>
