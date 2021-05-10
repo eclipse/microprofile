@@ -1,7 +1,7 @@
 ---
 name: Compatible Certification Request
 about: Request certification of a compatibile implementation of MicroProfile Platform release
-title: 'Compatibility certification request for [product/project name] for MciroProfile [plaftorm release version]'
+title: 'Compatibility certification request for [product/project name] for MicroProfile [platform release version]'
 labels: 'Certification :trophy:'
 assignees: ''
 
