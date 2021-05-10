@@ -17,7 +17,7 @@ assignees: ''
   // Add here
 - [ ] (Optional) Any Additional Jakarta EE Specification TCKs such as the included CDI, JAX-RS, JSON-B, JSON-P, Annotation:<br/>
   // Add here
-- [ ] Java runtime used to run the implementation:<br/>
+- [ ] Java runtime (Java SE 8 or higher) used to run the implementation:<br/>
   // Add here
 - [ ] Summary of the information for the certification environment, operating system, cloud, ...:<br/>
   // Add here
