@@ -21,12 +21,8 @@
 [[required-apis]]
 == Required APIs
 
-Compliant implementations of MicroProfile 4.0 must include the following specifications and pass their respective TCKs.
-These APIs and versions guarantee application developers a minimum set of APIs and are not intended to be restrictive.
+MicroProfile implementations must include the following specifications:
 
-MicroProfile applications that make use of APIs or versions not mentioned below are not considered portable.
-
- - <<javase, Java SE 8>>
  - <<jakarta-cdi, CDI (Jakarta Contexts and Dependency Injection) 2.0>>
  - <<jakarta-jaxrs, JAX-RS (Jakarta RESTful Web Services) 2.1>>
  - <<jakarta-jsonb, JSON-B (Jakarta JSON Binding) 1.0>>
@@ -41,16 +37,25 @@ MicroProfile applications that make use of APIs or versions not mentioned below 
  - <<mp-opentracing, MicroProfile OpenTracing 2.0>>
  - <<mp-rest-client, MicroProfile Rest Client 2.0>>
 
-[[javase]]
-=== Java SE 8
+A MicroProfile compatible implementation must pass *all* required TCKs provided by each MicroProfile specification.
+Passing the MicroProfile optional TCKs is not required. Passing the Jakarta specifications TCKs is optional.
 
-Libraries in use by the MicroProfile leverage new features provided in Java SE 8, therefore Java SE 7 and before are unsupported.
-MicroProfile 4.x implementations may provide support for Java SE 9 and beyond, however Java SE 8 compatibility must be maintained.
+These APIs and versions guarantee application developers a minimum set of APIs, but they are not intended to be
+restrictive.
+
+[[javase]]
+=== Java SE
+
+Libraries in use by the MicroProfile leverage new features provided in Java SE 8, therefore Java SE 7 and before are
+unsupported.
+
+MicroProfile APIs and specifications use Java SE 8 for both source and target compatibility. MicroProfile
+implementations are free to provide support for runtimes starting at Java SE 8 or higher.
 
 [[jakarta-cdi]]
 === Jakarta Contexts and Dependency Injection (CDI) 2.0
 
-Jakarta CDI provides the base for a growing number of APIs included in MicroProfile 4.0.
+Jakarta CDI provides the base for a growing number of APIs included in MicroProfile.
 Use of implementations beyond CDI 2.0 in MicroProfile is allowed, however, not required.
 
  - https://jakarta.ee/specifications/cdi/2.0/cdi-spec-2.0.html
@@ -59,8 +64,8 @@ Use of implementations beyond CDI 2.0 in MicroProfile is allowed, however, not r
 [[jakarta-jaxrs]]
 === Jakarta RESTful Web Services (JAX-RS) 2.1
 
-Jakarta JAX-RS provides both standard client and server APIs for RESTful communication by MicroProfile 4.0 applications.
-Use of implementations beyond JAX-RS 2.1 in MicroProfile is allowed, however, not required as of version 4.0 of MicroProfile.
+Jakarta JAX-RS provides both standard client and server APIs for RESTful communication by MicroProfile applications.
+Use of implementations beyond JAX-RS 2.1 in MicroProfile is allowed, however, not required.
 
  - https://jakarta.ee/specifications/restful-ws/2.1/restful-ws-spec-2.1.html
  - https://github.com/eclipse-ee4j/jaxrs-api
@@ -68,7 +73,7 @@ Use of implementations beyond JAX-RS 2.1 in MicroProfile is allowed, however, no
 [[jakarta-jsonb]]
 === Jakarta JSON-B 1.0
 
-Jakarta JSON-B is leveraged as part of MicroProfile 4.0 to provide standard APIs for binding JSON documents to Java code.
+Jakarta JSON-B is leveraged as part of MicroProfile to provide standard APIs for binding JSON documents to Java code.
 Use of implementations beyond JSON-B 1.0 in MicroProfile is allowed, however, not required.
 
  - https://jakarta.ee/specifications/jsonb/1.0/jsonb-spec-1.0.html
@@ -77,7 +82,7 @@ Use of implementations beyond JSON-B 1.0 in MicroProfile is allowed, however, no
 [[jakarta-jsonp]]
 === Jakarta JSON-P 1.1
 
-Jakarta JSON-P is leveraged as part of MicroProfile 4.0 to provide standard APIs for processing JSON documents.
+Jakarta JSON-P is leveraged as part of MicroProfile to provide standard APIs for processing JSON documents.
 Use of implementations beyond JSON-P 1.1 in MicroProfile is allowed, however, not required.
 
  - https://jakarta.ee/specifications/jsonp/1.1/jsonp-spec-1.1.html
