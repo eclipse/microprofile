@@ -18,7 +18,7 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-    Founded: MicroProfile was launched on June 2016 by a group of companies and individuals. Check Tracing on the MP google forum for more details. 
+    Founded: MicroParofile was launched on June 2016 by a group of companies and individuals. Check Tracing on the MP google forum for more details. 
 
     Vendor Neutral: This Community chose to move the project to the Eclipse Foundation, the transfer was complited on January 2017. 
 
