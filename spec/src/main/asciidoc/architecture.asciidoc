@@ -45,7 +45,7 @@ The complete list of MicroProfile 4.1-RC1 specifications includes:
 
  - https://github.com/eclipse/microprofile-config/releases/tag/2.0[MicroProfile Config 2.0]
  - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/3.0[MicroProfile Fault Tolerance 3.0]
- - https://github.com/eclipse/microprofile-health/releases/tag/3.0[MicroProfile Health 3.1-RC3]
+ - https://github.com/eclipse/microprofile-health/releases/tag/3.1-RC3[MicroProfile Health 3.1-RC3]
  - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.2[MicroProfile JWT Authentication 1.2]
  - https://github.com/eclipse/microprofile-metrics/releases/tag/3.0[MicroProfile Metrics 3.0]
  - https://github.com/eclipse/microprofile-open-api/releases/tag/2.0[MicroProfile OpenAPI 2.0]
