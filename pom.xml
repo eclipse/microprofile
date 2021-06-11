@@ -113,7 +113,7 @@
         <!-- MicroProfile specs  -->
         <config-version>2.0</config-version>
         <ft-version>3.0</ft-version>
-        <health-version>3.0</health-version>
+        <health-version>3.1-RC3</health-version>
         <metrics-version>3.0</metrics-version>
         <jwt-version>1.2</jwt-version>
         <openapi-version>2.0</openapi-version>
