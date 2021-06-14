@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2017-2020 Contributors to the Eclipse Foundation
+// Copyright (c) 2017-2021 Contributors to the Eclipse Foundation
 //
 // See the NOTICE file(s) distributed with this work for additional
 // information regarding copyright ownership.
@@ -31,6 +31,46 @@ Since the MicroProfile repo is an "umbrella" project, there will be no individua
 Only this Specification will be generated and maintained to document the contents of each release.
 
 In reverse chronological order, here's the specification for each MicroProfile release.
+
+[[microprofile4.1-RC1]]
+=== MicroProfile 4.1-RC1 (Q32021)
+MicroProfile 4.1-RC1 is based on Jakarta EE 8. Although Jakarta EE 8 is API backwards compatible with Java EE 8, Jakarta EE replaces Java EE dependencies with Jakarta EE dependencies for all MicroProfile specifications.
+
+Based on MicroProfile's time-boxed release process, this is an incremental release that includes an update to https://github.com/eclipse/microprofile-health/releases/tag/3.1-RC3[MicroProfile Health 3.1-RC3]
+
+If you are still dependent on Java EE 8, please consider using the https://github.com/eclipse/microprofile/releases/tag/3.3[3.3 release of MicroProfile].
+If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
+
+The complete list of MicroProfile 4.1-RC1 specifications includes:
+
+ - https://github.com/eclipse/microprofile-config/releases/tag/2.0[MicroProfile Config 2.0]
+ - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/3.0[MicroProfile Fault Tolerance 3.0]
+ - https://github.com/eclipse/microprofile-health/releases/tag/3.1-RC3[MicroProfile Health 3.1-RC3]
+ - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.2[MicroProfile JWT Authentication 1.2]
+ - https://github.com/eclipse/microprofile-metrics/releases/tag/3.0[MicroProfile Metrics 3.0]
+ - https://github.com/eclipse/microprofile-open-api/releases/tag/2.0[MicroProfile OpenAPI 2.0]
+ - https://github.com/eclipse/microprofile-opentracing/releases/tag/2.0[MicroProfile OpenTracing 2.0]
+ - https://github.com/eclipse/microprofile-rest-client/releases/tag/2.0[MicroProfile Rest Client 2.0]
+ - https://jakarta.ee/specifications/cdi/2.0/cdi-spec-2.0.html[Jakarta Contexts and Dependency Injection 2.0]
+ - https://jakarta.ee/specifications/annotations/1.3/annotations-spec-1.3.html[Jakarta Annotations 1.3]
+ - https://jakarta.ee/specifications/restful-ws/2.1/restful-ws-spec-2.1.html[Jakarta RESTful Web Services 2.1]
+ - https://jakarta.ee/specifications/jsonb/1.0/jsonb-spec-1.0.html[Jakarta JSON Binding 1.0]
+ - https://jakarta.ee/specifications/jsonp/1.1/jsonp-spec-1.1.html[Jakarta JSON Processing 1.1]
+
+The Maven coordinates for this Eclipse release are as follows:
+[source,xml]
+----
+<dependency>
+    <groupId>org.eclipse.microprofile</groupId>
+    <artifactId>microprofile</artifactId>
+    <version>4.1-RC1</version>
+    <type>pom</type>
+    <scope>provided</scope>
+</dependency>
+----
+
+Here is the link to https://github.com/eclipse/microprofile/releases/tag/4.1-RC1[the github repository] for this Eclipse-based project.
+
 
 [[microprofile4.0]]
 === MicroProfile 4.0 (Q42020)
