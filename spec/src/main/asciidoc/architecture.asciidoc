@@ -34,7 +34,13 @@ In reverse chronological order, here's the specification for each MicroProfile r
 
 [[microprofile4.1-RC2]]
 === MicroProfile 4.1-RC2 (Q32021)
-MicroProfile 4.1-RC2 aligns with Jakarta Contexts and Dependency Injection 2.0, Jakarta Annotations 1.3, Jakarta RESTful Web Services 2.1, Jakarta JSON Binding 1.0, and Jakarta JSON Processing 1.1.
+MicroProfile 4.1-RC2 aligns with the following specifications from Jakarta EE 8:
+
+ - Jakarta Contexts and Dependency Injection 2.0
+ - Jakarta Annotations 1.3
+ - Jakarta RESTful Web Services 2.1
+ - Jakarta JSON Binding 1.0
+ - Jakarta JSON Processing 1.1 specifications
 
 Based on MicroProfile's time-boxed release process, this is an incremental release that includes an update to https://github.com/eclipse/microprofile-health/releases/tag/3.1-RC3[MicroProfile Health 3.1-RC3]
 
