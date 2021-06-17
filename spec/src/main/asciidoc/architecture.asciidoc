@@ -33,7 +33,7 @@ Only this Specification will be generated and maintained to document the content
 In reverse chronological order, here's the specification for each MicroProfile release.
 
 [[microprofile4.1-RC2]]
-=== MicroProfile 4.1-RC2 (Q32021)
+=== MicroProfile 4.1-RC2
 MicroProfile 4.1-RC2 aligns with the following specifications from Jakarta EE 8:
 
  - Jakarta Contexts and Dependency Injection 2.0
