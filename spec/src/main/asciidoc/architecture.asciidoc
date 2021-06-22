@@ -32,9 +32,9 @@ Only this Specification will be generated and maintained to document the content
 
 In reverse chronological order, here's the specification for each MicroProfile release.
 
-[[microprofile4.1-RC2]]
-=== MicroProfile 4.1-RC2
-MicroProfile 4.1-RC2 aligns with the following specifications from Jakarta EE 8:
+[[microprofile4.1]]
+=== MicroProfile 4.1
+MicroProfile 4.1 aligns with the following specifications from Jakarta EE 8:
 
  - Jakarta Contexts and Dependency Injection 2.0
  - Jakarta Annotations 1.3
@@ -42,16 +42,16 @@ MicroProfile 4.1-RC2 aligns with the following specifications from Jakarta EE 8:
  - Jakarta JSON Binding 1.0
  - Jakarta JSON Processing 1.1 specifications
 
-Based on MicroProfile's time-boxed release process, this is an incremental release that includes an update to https://github.com/eclipse/microprofile-health/releases/tag/3.1-RC3[MicroProfile Health 3.1-RC3]
+Based on MicroProfile's time-boxed release process, this is an incremental release that includes an update to https://github.com/eclipse/microprofile-health/releases/tag/3.1[MicroProfile Health 3.1]
 
 If you are still dependent on Java EE 8, please consider using the https://github.com/eclipse/microprofile/releases/tag/3.3[3.3 release of MicroProfile].
 If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
 
-The complete list of MicroProfile 4.1-RC2 specifications includes:
+The complete list of MicroProfile 4.1 specifications includes:
 
  - https://github.com/eclipse/microprofile-config/releases/tag/2.0[MicroProfile Config 2.0]
  - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/3.0[MicroProfile Fault Tolerance 3.0]
- - https://github.com/eclipse/microprofile-health/releases/tag/3.1-RC3[MicroProfile Health 3.1-RC3]
+ - https://github.com/eclipse/microprofile-health/releases/tag/3.1[MicroProfile Health 3.1]
  - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.2[MicroProfile JWT Authentication 1.2]
  - https://github.com/eclipse/microprofile-metrics/releases/tag/3.0[MicroProfile Metrics 3.0]
  - https://github.com/eclipse/microprofile-open-api/releases/tag/2.0[MicroProfile OpenAPI 2.0]
@@ -69,13 +69,13 @@ The Maven coordinates for this Eclipse release are as follows:
 <dependency>
     <groupId>org.eclipse.microprofile</groupId>
     <artifactId>microprofile</artifactId>
-    <version>4.1-RC2</version>
+    <version>4.1</version>
     <type>pom</type>
     <scope>provided</scope>
 </dependency>
 ----
 
-Here is the link to https://github.com/eclipse/microprofile/releases/tag/4.1-RC2[the github repository] for this Eclipse-based project.
+Here is the link to https://github.com/eclipse/microprofile/releases/tag/4.1[the github repository] for this Eclipse-based project.
 
 
 [[microprofile4.0]]
