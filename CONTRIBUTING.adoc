@@ -26,7 +26,7 @@ Do you want to contribute to MicroProfile? Here is what you can do:
 
 * Create or fix an issue in one of the https://microprofile.io/projects/[projects].
 
-* Fork one of the https://microprofile.io/projects/[projects] repositories, make changes, then do a pull request.
+* Fork one of the https://microprofile.io/projects/[projects] repositories, make changes, then link:how-to-pr.adoc[do a pull request].
 
 ** Remember to https://help.github.com/articles/signing-commits[sign your commits].
 

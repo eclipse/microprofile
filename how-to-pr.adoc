@@ -1,0 +1,49 @@
+= Workflow to make your first Pull Request
+
+Assuming that you already have an Eclipse User account and signed the Eclipse Contribution Agreement, the following is how you can create PR's for MicroProfile related project:
+
+- If it's the first time you are going to work on a repository: Fork into your github account.
+
+- Download (you can use the Github UI option `Open With Github Desktop`) your new fork into your computer.
+
+- In your local repository, create a branch for the contribution, example:
+
+    git checkout -b microProfilePatch
+
+
+- Set your upstream to your origin:
+
+    git push --set-upstream origin microProfilePatch
+
+- Add, edit or perform the changes required in your contribution.
+
+- Stage your new files:
+
+   git add .
+
+- Assuming your GitHub username is: `CONTRIBUTOR` and the email address used for your Eclipse account is: `CONTRIBUTOR@mail.com`, the following is the line you can use to commit and sign your contribution. Before you do so, verify that you have configured Git with the correct email using `git config --get user.email`
+
+        git commit -m "Added my contribution" -s
+
+[NOTE]
+====
+If your Eclipse account was configure using a different email address than the one you normally use in your local git `user.email` configuration, you have a couple of options to modify your `email` in your contribution:
+
+1. You can configure the specific email address in your `.git/config` for a specific repository. From within the repository execute:
+
+    git config user.email "NEWEMAIL@mail.com"
+
+2. Or, Amend the commit with the specific email address:
+
+     git commit --amend --author="CONTRIBUTOR <NEWEMAIL@mail.com>"
+
+====
+
+- Push your changes to your remote repository
+
+    git push
+
+- Navigating to Github web UI, create the Pull request.
+
+
+We know you may be already  familiar with the Git and Github PR process and there are many ways to accomplish what we described above, but this question is a recurring one so we like to provide visibility to others and, also learn something new with the feedback we got when posting this kind of micro recipes 👍
