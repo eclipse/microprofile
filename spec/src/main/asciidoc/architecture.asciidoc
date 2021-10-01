@@ -32,6 +32,59 @@ Only this Specification will be generated and maintained to document the content
 
 In reverse chronological order, here's the specification for each MicroProfile release.
 
+[[microprofile5.0-RC1]]
+=== MicroProfile 5.0 Release Candidate 1
+
+MicroProfile 5.0-RC1 aligns with Jakarta EE 9.1. It means this release will not work with previous version of Jakarta EE such as Jakarta EE 8. This effectively creates an incompatible change due to the namespace change from javax to jakarta in the code. This release has no other functional update when compared to MicroProfile Release 4.1, except the dependencies on Jakarta namespaces.
+
+    Config 3.0
+    Fault Tolerance 4.0
+    Health 4.0
+    JWT RBAC 2.0
+    Metrics 4.0
+    Open API 3.0
+    Open Tracing 3.0
+    Rest Client 3.0
+
+The following specifications include API incompatible changes:
+
+* https://download.eclipse.org/microprofile/microprofile-config-3.0-RC5/microprofile-config-spec-3.0-RC5.html#_incompatible_changes[Config]
+* https://download.eclipse.org/microprofile/microprofile-fault-tolerance-4.0-RC4/microprofile-fault-tolerance-spec-4.0-RC4.html#_incompatible_changes[Fault Tolerance]
+* https://download.eclipse.org/microprofile/microprofile-health-4.0-RC3/microprofile-health-spec-4.0-RC3.html#_incompatible_changes[Health]
+* https://download.eclipse.org/microprofile/microprofile-metrics-4.0-RC4/microprofile-metrics-spec-4.0-RC4.html#_incompatible_changes[Metrics]
+* https://download.eclipse.org/microprofile/microprofile-open-api-3.0-RC3/microprofile-openapi-spec-3.0-RC3.html#_incompatible_changes[Open API]
+* https://download.eclipse.org/microprofile/microprofile-rest-client-3.0-RC3/microprofile-rest-client-spec-3.0-RC3.html#_incompatible_changes[Rest Client]
+* https://download.eclipse.org/microprofile/microprofile-jwt-auth-2.0-RC2/microprofile-jwt-auth-spec-2.0-RC2.html#_incompatible_changes[JWT]
+* https://download.eclipse.org/microprofile/microprofile-opentracing-3.0-RC3/microprofile-opentracing-spec-3.0-RC3.html#_incompatible_changes[Open Tracing]
+
+If you are still dependent on Java EE 8, please consider using the https://github.com/eclipse/microprofile/releases/tag/4.1[4.1 release of MicroProfile].
+If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
+
+The complete list of MicroProfile 5.0-RC1 specifications includes:
+
+ - https://github.com/eclipse/microprofile-config/releases/tag/3.0-RC5[MicroProfile Config 3.0-RC5]
+ - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/4.0-RC4[MicroProfile Fault Tolerance 4.0-RC4]
+ - https://github.com/eclipse/microprofile-metrics/releases/tag/4.0-RC4[MicroProfile Metrics 4.0-RC4]
+ - https://github.com/eclipse/microprofile-health/releases/tag/4.0-RC3[MicroProfile Health 4.0-RC3]
+ - https://github.com/eclipse/microprofile-opentracing/releases/tag/3.0-RC3[MicroProfile OpenTracing 3.0-RC3]
+ - https://github.com/eclipse/microprofile-open-api/releases/tag/3.0-RC3[MicroProfile OpenAPI 3.0-RC3]
+ - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/2.0-RC2[MicroProfile JWT Authentication 2.0-RC2]
+ - https://github.com/eclipse/microprofile-rest-client/releases/tag/3.0-RC3[MicroProfile Rest Client 3.0-RC3]
+
+The Maven coordinates for this Eclipse release are as follows:
+[source,xml]
+----
+<dependency>
+    <groupId>org.eclipse.microprofile</groupId>
+    <artifactId>microprofile</artifactId>
+    <version>5.0-RC1</version>
+    <type>pom</type>
+    <scope>provided</scope>
+</dependency>
+----
+
+Here is the link to https://github.com/eclipse/microprofile/releases/tag/5.0-RC1[the github repository] for this Eclipse-based project.
+
 [[microprofile4.1]]
 === MicroProfile 4.1
 MicroProfile 4.1 aligns with the following specifications from Jakarta EE 8:
