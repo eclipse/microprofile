@@ -23,11 +23,11 @@
 
 MicroProfile implementations must include the following specifications:
 
- - <<jakarta-cdi, CDI (Jakarta Contexts and Dependency Injection) 2.0.2>>
- - <<jakarta-jaxrs, JAX-RS (Jakarta RESTful Web Services) 2.1.6>>
- - <<jakarta-jsonb, JSON-B (Jakarta JSON Binding) 1.0.2>>
- - <<jakarta-jsonp, JSON-P (Jakarta JSON Processing) 1.1.6>>
- - <<jakarta-annotations, Jakarta Annotations 1.3.5>>
+ - <<jakarta-cdi, Jakarta Contexts and Dependency Injection 3.0>>
+ - <<jakarta-annotations, Jakarta Annotations 2.0>>
+ - <<jakarta-jaxrs, Jakarta RESTful Web Services 3.0>>
+ - <<jakarta-jsonb, Jakarta JSON Binding 2.0>>
+ - <<jakarta-jsonp, Jakarta JSON Processing 2.0>>
  - <<mp-config, MicroProfile Config 3.0-RC5>>
  - <<mp-fault-tolerance, MicroProfile Fault Tolerance 4.0-RC2>>
  - <<mp-health-check, MicroProfile Health 4.0-RC2>>
@@ -53,49 +53,51 @@ MicroProfile APIs and specifications use Java SE 8 for both source and target co
 implementations are free to provide support for runtimes starting at Java SE 8 or higher.
 
 [[jakarta-cdi]]
-=== Jakarta Contexts and Dependency Injection (CDI) 2.0
+=== Jakarta Contexts and Dependency Injection (CDI) 3.0
 
 Jakarta CDI provides the base for a growing number of APIs included in MicroProfile.
-Use of implementations beyond CDI 2.0 in MicroProfile is allowed, however, not required.
+Use of implementations beyond CDI 3.0 in MicroProfile is allowed, however, not required.
 
- - https://jakarta.ee/specifications/cdi/2.0/cdi-spec-2.0.html
+ - https://jakarta.ee/specifications/cdi/3.0/jakarta-cdi-spec-3.0.html
  - http://cdi-spec.org/
 
+[[jakarta-annotations]]
+=== Jakarta Annotations 2.0
+
+Jakarta Annotations provides annotations for common semantic concepts across a variety of individual technologies in the Java(TM) SE and Jakarta EE platforms.
+Use of implementations beyond Jakarta Annotations 2.0 
+
+ - https://jakarta.ee/specifications/annotations/2.0/annotations-spec-2.0.html
+ - https://github.com/eclipse-ee4j/common-annotations-api
+
 [[jakarta-jaxrs]]
-=== Jakarta RESTful Web Services (JAX-RS) 2.1
+=== Jakarta RESTful Web Services (JAX-RS) 3.0
 
 Jakarta JAX-RS provides both standard client and server APIs for RESTful communication by MicroProfile applications.
-Use of implementations beyond JAX-RS 2.1 in MicroProfile is allowed, however, not required.
+Use of implementations beyond JAX-RS 3.0 in MicroProfile is allowed, however, not required.
 
- - https://jakarta.ee/specifications/restful-ws/2.1/restful-ws-spec-2.1.html
+ - https://jakarta.ee/specifications/restful-ws/3.0/jakarta-restful-ws-spec-3.0.html
  - https://github.com/eclipse-ee4j/jaxrs-api
 
 [[jakarta-jsonb]]
-=== Jakarta JSON-B 1.0
+=== Jakarta JSON-B 2.0
 
 Jakarta JSON-B is leveraged as part of MicroProfile to provide standard APIs for binding JSON documents to Java code.
-Use of implementations beyond JSON-B 1.0 in MicroProfile is allowed, however, not required.
+Use of implementations beyond JSON-B 2.0 in MicroProfile is allowed, however, not required.
 
- - https://jakarta.ee/specifications/jsonb/1.0/jsonb-spec-1.0.html
+ - https://jakarta.ee/specifications/jsonb/2.0/jakarta-jsonb-spec-2.0.html
  - https://github.com/eclipse-ee4j/jsonb-api
 
 [[jakarta-jsonp]]
-=== Jakarta JSON-P 1.1
+=== Jakarta JSON-P 2.0
 
 Jakarta JSON-P is leveraged as part of MicroProfile to provide standard APIs for processing JSON documents.
-Use of implementations beyond JSON-P 1.1 in MicroProfile is allowed, however, not required.
+Use of implementations beyond JSON-P 2.0 in MicroProfile is allowed, however, not required.
 
- - https://jakarta.ee/specifications/jsonp/1.1/jsonp-spec-1.1.html
+ - https://jakarta.ee/specifications/jsonp/2.0/apidocs/
  - https://github.com/eclipse-ee4j/jsonp
 
-[[jakarta-annotations]]
-=== Jakarta Annotations 1.3
 
-Jakarta Annotations provides annotations for common semantic concepts across a variety of individual technologies in the Java(TM) SE and Jakarta EE platforms.
-Use of implementations beyond Jakarta Annotations 1.3 in MicroProfile is allowed, however, not required.
-
- - https://jakarta.ee/specifications/annotations/1.3/annotations-spec-1.3.html
- - https://github.com/eclipse-ee4j/common-annotations-api
 
 [[mp-config]]
 === MicroProfile Config 3.0-RC5

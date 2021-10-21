@@ -46,6 +46,12 @@ MicroProfile 5.0-RC1 aligns with Jakarta EE 9.1. It means this release will not 
     Open Tracing 3.0
     Rest Client 3.0
 
+    Jakarta Contexts and Dependency Injection 3.0
+    Jakarta Annotations 2.0
+    Jakarta RESTful Web Services 3.0
+    Jakarta JSON Binding 2.0
+    Jakarta JSON Processing 2.0
+    
 The following specifications include API incompatible changes:
 
 * https://download.eclipse.org/microprofile/microprofile-config-3.0-RC5/microprofile-config-spec-3.0-RC5.html#_incompatible_changes[Config]
