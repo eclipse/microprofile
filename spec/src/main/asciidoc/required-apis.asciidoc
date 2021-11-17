@@ -65,7 +65,7 @@ Use of implementations beyond CDI 3.0 in MicroProfile is allowed, however, not r
 === Jakarta Annotations 2.0
 
 Jakarta Annotations provides annotations for common semantic concepts across a variety of individual technologies in the Java(TM) SE and Jakarta EE platforms.
-Use of implementations beyond Jakarta Annotations 2.0 
+Use of implementations beyond Jakarta Annotations 2.0
 
  - https://jakarta.ee/specifications/annotations/2.0/annotations-spec-2.0.html
  - https://github.com/eclipse-ee4j/common-annotations-api
@@ -108,14 +108,14 @@ MicroProfile Config provides applications and microservices means to obtain conf
  - https://github.com/eclipse/microprofile-config/releases/tag/3.0-RC5
 
 [[mp-fault-tolerance]]
-=== MicroProfile Fault Tolerance 4.0-RC4
+=== MicroProfile Fault Tolerance 4.0-RC5
 
 MicroProfile Fault Tolerance provides the ability to separate execution logic from business logic.
 Key aspects of the API include TimeOut, RetryPolicy, Fallback, Bulkhead, and Circuit Breaker processing.
 Fault Tolerance 3.0 is now dependent on Jakarta EE 8 technologies.
 
  - http://microprofile.io/project/eclipse/microprofile-fault-tolerance
- - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/4.0-RC4
+ - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/4.0-RC5
 
 [[mp-health-check]]
 === MicroProfile Health 4.0-RC3
@@ -144,26 +144,26 @@ Metrics will also provide a common Java API for exposing their telemetry data.
  - https://github.com/eclipse/microprofile-metrics/releases/tag/4.0-RC4
 
 [[mp-open-api]]
-=== MicroProfile OpenAPI 3.0-RC3
+=== MicroProfile OpenAPI 3.0-RC5
 
 MicroProfile OpenAPI provides a unified Java API for the https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md[OpenAPI v3 specification] that all application developers can use to expose their API documentation.
 
  - http://microprofile.io/project/eclipse/microprofile-open-api
- - https://github.com/eclipse/microprofile-open-api/releases/tag/3.0-RC3
+ - https://github.com/eclipse/microprofile-open-api/releases/tag/3.0-RC5
 
 [[mp-opentracing]]
-=== MicroProfile OpenTracing 3.0-RC3
+=== MicroProfile OpenTracing 3.0-RC4
 
 MicroProfile OpenTracing defines an API and associated behaviors that allow services to easily participate in a distributed tracing environment.
 
  - http://microprofile.io/project/eclipse/microprofile-opentracing
- - https://github.com/eclipse/microprofile-opentracing/releases/tag/3.0-RC3
+ - https://github.com/eclipse/microprofile-opentracing/releases/tag/3.0-RC4
 
 [[mp-rest-client]]
-=== MicroProfile Rest Client 3.0-RC3
+=== MicroProfile Rest Client 3.0-RC5
 
 MicroProfile Rest Client provides a type-safe approach for invoking RESTful services over HTTP.
 The MicroProfile Rest Client builds upon the https://github.com/eclipse-ee4j/jaxrs-api[JAX-RS 2.1 APIs] for consistency and ease-of-use.
 
 - http://microprofile.io/project/eclipse/microprofile-rest-client
-- https://github.com/eclipse/microprofile-rest-client/releases/tag/3.0-RC3
+- https://github.com/eclipse/microprofile-rest-client/releases/tag/3.0-RC5
