@@ -104,21 +104,21 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!--  Jakarta EE specs  -->
-        <cdi-version>2.0.2</cdi-version>
-        <jaxrs-version>2.1.6</jaxrs-version>
-        <jsonb-version>1.0.2</jsonb-version>
-        <jsonp-version>1.1.6</jsonp-version>
-        <annotation-version>1.3.5</annotation-version>
+        <cdi-version>3.0.0</cdi-version>
+        <jaxrs-version>3.0.0</jaxrs-version>
+        <jsonb-version>2.0.0</jsonb-version>
+        <jsonp-version>2.0.1</jsonp-version>
+        <annotation-version>2.0.0</annotation-version>
 
         <!-- MicroProfile specs  -->
-        <config-version>2.0</config-version>
-        <ft-version>3.0</ft-version>
-        <health-version>3.1</health-version>
-        <metrics-version>3.0</metrics-version>
-        <jwt-version>1.2</jwt-version>
-        <openapi-version>2.0</openapi-version>
-        <rest-client-version>2.0</rest-client-version>
-        <opentracing-version>2.0</opentracing-version>
+        <config-version>3.0</config-version>
+        <ft-version>4.0</ft-version>
+        <health-version>4.0</health-version>
+        <metrics-version>4.0</metrics-version>
+        <jwt-version>2.0</jwt-version>
+        <openapi-version>3.0</openapi-version>
+        <rest-client-version>3.0</rest-client-version>
+        <opentracing-version>3.0</opentracing-version>
 
         <!-- other props  -->
         <!-- whether autorelease maven central staging repositories - default false to allow review and manually release repositories -->
