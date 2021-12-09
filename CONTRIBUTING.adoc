@@ -17,13 +17,12 @@
 // limitations under the License.
 //
 // SPDX-License-Identifier: Apache-2.0
-[width=25%] 
-:table-caption!: 
-.Languages
-[role=right]
-|===
-|English | https://github.com/eclipse/microprofile/blob/master/CONTRIBUTING_es.adoc[Español]
-|===
+
+[sidebar]
+//.Languages
+--
+English, https://github.com/eclipse/microprofile/blob/master/CONTRIBUTING_es.adoc[Español]
+--
 
     Founded: MicroProfile was launched on June 2016 by a group of companies and individuals. Check Tracing on the MP google forum for more details. 
 
