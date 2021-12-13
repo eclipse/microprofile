@@ -18,6 +18,12 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
+[sidebar]
+//.Languages
+****
+https://github.com/eclipse/microprofile/blob/master/CONTRIBUTING_es.adoc[English], Español
+****
+
     Fundado por: MicroProfile se lanzó en junio de 2016 por un grupo de compañías e individuos. Visita el foro de MP Google para más detalles.
     
     Proveedor neutral: Esta comunidad eligió trasladar el proyecto a la Fundación Eclipse, la transferencia se completó en enero de 2017.
