@@ -162,8 +162,7 @@ MicroProfile OpenTracing defines an API and associated behaviors that allow serv
 [[mp-rest-client]]
 === MicroProfile Rest Client 3.0
 
-MicroProfile Rest Client provides a type-safe approach for invoking RESTful services over HTTP.
-The MicroProfile Rest Client builds upon the https://github.com/eclipse-ee4j/jaxrs-api[JAX-RS 2.1 APIs] for consistency and ease-of-use.
+The MicroProfile Rest Client provides a type-safe approach to invoke RESTful services over HTTP. As much as possible the MicroProfile Rest Client attempts to use https://eclipse-ee4j.github.io/jaxrs-api/[Jakarta RESTful Web Services APIs] for consistency and easier re-use.
 
 - http://microprofile.io/project/eclipse/microprofile-rest-client
 - https://github.com/eclipse/microprofile-rest-client/releases/tag/3.0
