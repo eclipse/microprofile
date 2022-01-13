@@ -88,11 +88,11 @@ Several Eclipse github repos exist for the development of MicroProfile features.
 
 link:https://github.com/eclipse/microprofile[MicroProfile] -- Top-level repo used for the umbrella MicroProfile specifications and other MicroProfile-related information (this repo) +
 link:https://github.com/eclipse/microprofile-config[MicroProfile Config] -- MicroProfile application configuration +
-link:https://github.com/eclipse/microprofile-health[MicroProfile Health Check] -- MicroProfile simple health check +
+link:https://github.com/eclipse/microprofile-health[MicroProfile Health] -- MicroProfile simple health check +
 link:https://github.com/eclipse/microprofile-metrics[MicroProfile Metrics] -- MicroProfile metrics +
 link:https://github.com/eclipse/microprofile-fault-tolerance[MicroProfile Fault Tolerance] -- MicroProfile fault tolerance +
 link:https://github.com/eclipse/microprofile-rest-client[MicroProfile Rest Client] -- MicroProfile type-safe REST client +
-link:https://github.com/eclipse/microprofile-open-api[MicroProfile Open API] -- MicroProfile OpenAPI and annotations +
+link:https://github.com/eclipse/microprofile-open-api[MicroProfile OpenAPI] -- MicroProfile OpenAPI and annotations +
 link:https://github.com/eclipse/microprofile-jwt-auth[MicroProfile JWT Authentication] -- MicroProfile JWT authentication propagation +
 link:https://github.com/eclipse/microprofile-opentracing[MicroProfile OpenTracing] -- MicroProfile OpenTracing integration +
 link:https://github.com/eclipse/microprofile-graphql[MicroProfile GraphQL] -- Microprofile GraphQL Specification +
