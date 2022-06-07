@@ -24,6 +24,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
+    
 
     <groupId>org.eclipse.microprofile</groupId>
     <artifactId>microprofile</artifactId>
@@ -115,10 +116,10 @@
         <ft-version>4.0</ft-version>
         <health-version>4.0</health-version>
         <metrics-version>4.0</metrics-version>
-        <jwt-version>2.0</jwt-version>
-        <openapi-version>3.0</openapi-version>
-        <rest-client-version>3.0</rest-client-version>
-        <opentracing-version>3.0</opentracing-version>
+        <jwt-version>2.0-RC2</jwt-version>
+        <openapi-version>3.0-RC5</openapi-version>
+        <rest-client-version>3.0-RC5</rest-client-version>
+        <opentracing-version>3.0-RC4</opentracing-version>
 
         <!-- other props  -->
         <!-- whether autorelease maven central staging repositories - default false to allow review and manually release repositories -->
