@@ -40,7 +40,7 @@ This repository also houses the link:https://github.com/eclipse/microprofile/blo
     <dependency>
         <groupId>org.eclipse.microprofile</groupId>
         <artifactId>microprofile</artifactId>
-        <version>5.0</version>
+        <version>6.0</version>
         <type>pom</type>
         <scope>provided</scope>
     </dependency>
@@ -55,7 +55,7 @@ This repository also houses the link:https://github.com/eclipse/microprofile/blo
         <dependency>
             <groupId>org.eclipse.microprofile</groupId>
             <artifactId>microprofile</artifactId>
-            <version>5.0</version>
+            <version>6.0</version>
             <scope>import</scope>
             <type>pom</type>
         </dependency>
@@ -94,7 +94,7 @@ link:https://github.com/eclipse/microprofile-fault-tolerance[MicroProfile Fault 
 link:https://github.com/eclipse/microprofile-rest-client[MicroProfile Rest Client] -- MicroProfile type-safe REST client +
 link:https://github.com/eclipse/microprofile-open-api[MicroProfile OpenAPI] -- MicroProfile OpenAPI and annotations +
 link:https://github.com/eclipse/microprofile-jwt-auth[MicroProfile JWT Authentication] -- MicroProfile JWT authentication propagation +
-link:https://github.com/eclipse/microprofile-opentracing[MicroProfile OpenTracing] -- MicroProfile OpenTracing integration +
+link:https://github.com/eclipse/microprofile-telemetry[MicroProfile Telemetry] -- MicroProfile OpenTracing integration +
 link:https://github.com/eclipse/microprofile-graphql[MicroProfile GraphQL] -- Microprofile GraphQL Specification +
 link:https://github.com/eclipse/microprofile-conference[MicroProfile Conference App] -- "Architectural Application" to demonstrate MicroProfile on a variety of vendors
 

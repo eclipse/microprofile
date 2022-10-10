@@ -28,7 +28,7 @@
     <groupId>org.eclipse.microprofile</groupId>
     <artifactId>microprofile</artifactId>
     <packaging>pom</packaging>
-    <version>5.1-SNAPSHOT</version>
+    <version>6.0-SNAPSHOT</version>
 
     <name>MicroProfile</name>
     <description>The MicroProfile Specification and Information Repository</description>
@@ -104,21 +104,17 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!--  Jakarta EE specs  -->
-        <cdi-version>3.0.0</cdi-version>
-        <jaxrs-version>3.0.0</jaxrs-version>
-        <jsonb-version>2.0.0</jsonb-version>
-        <jsonp-version>2.0.1</jsonp-version>
-        <annotation-version>2.0.0</annotation-version>
+        <jakarta-version>10.0.0</jakarta-version>
 
         <!-- MicroProfile specs  -->
-        <config-version>3.0</config-version>
-        <ft-version>4.0</ft-version>
-        <health-version>4.0</health-version>
-        <metrics-version>4.0</metrics-version>
+        <config-version>3.0.2</config-version>
+        <ft-version>4.0.1</ft-version>
+        <health-version>4.0.1</health-version>
+        <metrics-version>5.0.0-RC3</metrics-version> <!-- TODO Update to 5.0 -->
         <jwt-version>2.0</jwt-version>
-        <openapi-version>3.0</openapi-version>
-        <rest-client-version>3.0</rest-client-version>
-        <opentracing-version>3.0</opentracing-version>
+        <openapi-version>3.1-RC4</openapi-version> <!-- TODO UPDATE TO 3.1 -->
+        <rest-client-version>3.0.1</rest-client-version>
+        <telemetry-version>1.0-RC3</telemetry-version> <!-- TODO UPDATE TO 1.0 -->
 
         <!-- other props  -->
         <!-- whether autorelease maven central staging repositories - default false to allow review and manually release repositories -->
@@ -142,6 +138,16 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <failOnError>false</failOnError> <!-- TODO - Metrics 5.0.0-RC3 failing javadoc -->
+                    <additionalDependencies>
+                        <additionalDependency>
+                            <groupId>org.osgi</groupId>
+                            <artifactId>osgi.annotation</artifactId>
+                            <version>8.1.0</version>
+                        </additionalDependency>
+                        <additionalDependency><groupId>org.osgi</groupId><artifactId>org.osgi.service.cdi</artifactId><version>1.0.1</version></additionalDependency>
+                        <additionalDependency><groupId>biz.aQute.bnd</groupId><artifactId>biz.aQute.bnd.annotation</artifactId><version>6.2.0</version></additionalDependency>
+                    </additionalDependencies>
                     <includeDependencySources>true</includeDependencySources>
                     <dependencySourceIncludes>
                         <dependencySourceInclude>org.eclipse.microprofile.*:*</dependencySourceInclude>
@@ -168,9 +174,10 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>jakarta.enterprise</groupId>
-                <artifactId>jakarta.enterprise.cdi-api</artifactId>
-                <version>${cdi-version}</version>
+                <groupId>jakarta.platform</groupId>
+                <artifactId>jakarta.jakartaee-core-api</artifactId>
+                <version>${jakarta-version}</version>
+<!-- TODO This was a CDI exclusion. Still required?
                 <exclusions>
                     <exclusion>
                         <groupId>jakarta.ejb</groupId>
@@ -181,26 +188,7 @@
                         <artifactId>jakarta.el-api</artifactId>
                     </exclusion>
                 </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>jakarta.ws.rs</groupId>
-                <artifactId>jakarta.ws.rs-api</artifactId>
-                <version>${jaxrs-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>jakarta.json.bind</groupId>
-                <artifactId>jakarta.json.bind-api</artifactId>
-                <version>${jsonb-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>jakarta.json</groupId>
-                <artifactId>jakarta.json-api</artifactId>
-                <version>${jsonp-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>jakarta.annotation</groupId>
-                <artifactId>jakarta.annotation-api</artifactId>
-                <version>${annotation-version}</version>
+-->
             </dependency>
             <dependency>
                 <groupId>org.eclipse.microprofile.config</groupId>
@@ -237,34 +225,21 @@
                 <artifactId>microprofile-rest-client-api</artifactId>
                 <version>${rest-client-version}</version>
             </dependency>
+<!-- TODO I'm assuming we don't need this since telemetry does not have an MP API
             <dependency>
-                <groupId>org.eclipse.microprofile.opentracing</groupId>
-                <artifactId>microprofile-opentracing-api</artifactId>
-                <version>${opentracing-version}</version>
+                <groupId>org.eclipse.microprofile.telemetry.tracing</groupId>
+                <artifactId>microprofile-telemetry-tracing-parent</artifactId>
+                <version>${telemetry-version}</version>
             </dependency>
+-->
+            <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.annotation.versioning -->
         </dependencies>
     </dependencyManagement>
 
     <dependencies>
         <dependency>
-            <groupId>jakarta.enterprise</groupId>
-            <artifactId>jakarta.enterprise.cdi-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>jakarta.ws.rs</groupId>
-            <artifactId>jakarta.ws.rs-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>jakarta.json.bind</groupId>
-            <artifactId>jakarta.json.bind-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>jakarta.json</groupId>
-            <artifactId>jakarta.json-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>jakarta.annotation</groupId>
-            <artifactId>jakarta.annotation-api</artifactId>
+            <groupId>jakarta.platform</groupId>
+            <artifactId>jakarta.jakartaee-core-api</artifactId>
         </dependency>
         <dependency>
             <groupId>org.eclipse.microprofile.config</groupId>
@@ -294,10 +269,12 @@
             <groupId>org.eclipse.microprofile.rest.client</groupId>
             <artifactId>microprofile-rest-client-api</artifactId>
         </dependency>
+<!-- TODO I'm assuming we don't need this since telemetry does not have an MP API
         <dependency>
-            <groupId>org.eclipse.microprofile.opentracing</groupId>
-            <artifactId>microprofile-opentracing-api</artifactId>
+            <groupId>org.eclipse.microprofile.telemetry.tracing</groupId>
+            <artifactId>microprofile-telemetry-tracing-parent</artifactId>
         </dependency>
+-->
     </dependencies>
 
     <profiles>

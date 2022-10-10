@@ -27,7 +27,7 @@
     <parent>
         <groupId>org.eclipse.microprofile</groupId>
         <artifactId>microprofile</artifactId>
-        <version>5.1-SNAPSHOT</version>
+        <version>6.0-SNAPSHOT</version>
     </parent>
 
     <groupId>org.eclipse.microprofile</groupId>
@@ -36,7 +36,7 @@
     <name>MicroProfile Specification</name>
 
     <properties>
-        <asciidoctor-maven.version>1.5.6</asciidoctor-maven.version>
+        <asciidoctor-maven.version>1.5.8</asciidoctor-maven.version>
         <asciidoctorj-pdf.version>1.5.0-alpha.15</asciidoctorj-pdf.version>
         <build-helper-maven-plugin.version>1.12</build-helper-maven-plugin.version>
 
