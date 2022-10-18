@@ -94,7 +94,7 @@ link:https://github.com/eclipse/microprofile-fault-tolerance[MicroProfile Fault 
 link:https://github.com/eclipse/microprofile-rest-client[MicroProfile Rest Client] -- MicroProfile type-safe REST client +
 link:https://github.com/eclipse/microprofile-open-api[MicroProfile OpenAPI] -- MicroProfile OpenAPI and annotations +
 link:https://github.com/eclipse/microprofile-jwt-auth[MicroProfile JWT Authentication] -- MicroProfile JWT authentication propagation +
-link:https://github.com/eclipse/microprofile-telemetry[MicroProfile Telemetry] -- MicroProfile OpenTracing integration +
+link:https://github.com/eclipse/microprofile-telemetry[MicroProfile Telemetry] -- MicroProfile Telemetry integration +
 link:https://github.com/eclipse/microprofile-graphql[MicroProfile GraphQL] -- Microprofile GraphQL Specification +
 link:https://github.com/eclipse/microprofile-conference[MicroProfile Conference App] -- "Architectural Application" to demonstrate MicroProfile on a variety of vendors
 
