@@ -111,7 +111,7 @@
         <ft-version>4.0.1</ft-version>
         <health-version>4.0.1</health-version>
         <metrics-version>5.0.0-RC3</metrics-version> <!-- TODO Update to 5.0 -->
-        <jwt-version>2.0</jwt-version>
+        <jwt-version>2.1-RC5</jwt-version>
         <openapi-version>3.1-RC4</openapi-version> <!-- TODO UPDATE TO 3.1 -->
         <rest-client-version>3.0.1</rest-client-version>
         <telemetry-version>1.0-RC3</telemetry-version> <!-- TODO UPDATE TO 1.0 -->
