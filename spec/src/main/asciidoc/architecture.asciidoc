@@ -22,15 +22,62 @@
 == Architecture
 
 The MicroProfile pom will identify the contents of each MicroProfile release.
-The contents will be those features and versions agreed to by the MicroProfile community.
-These features may be external to the MicroProfile community (Jakarta EE features such as
-Jakarta RESTful Web Services 2.1),
-or they be a component of the MicroProfile project (such as Config 2.0).
+The contents include those features and versions agreed to by the MicroProfile community.
+These features may be external to the MicroProfile community, like those provided by Jakarta EE
+Core Profile or the Cloud Native Computing Foundation (like Open Telemetry),
+or they are component specifications of the MicroProfile project (such as Config).
 
-Since the MicroProfile repo is an "umbrella" project, there will be no individual API or TCK generated for this component.
-Only this Specification will be generated and maintained to document the contents of each release.
+Since the MicroProfile repo is an "umbrella" project, no individual API or TCK is generated for this specification.
+This specification documents the component specification contents of each release.
 
-In reverse chronological order, here's the specification for each MicroProfile release.
+The specifications for each release are listed in reverse chronological order.
+
+[[microprofile6.0]]
+=== MicroProfile 6.0
+
+MicroProfile 6.0 replaces required individual Jakarta specifications in prior releases like Jakarta Restful in
+Web Services and JSON Binding with Jakarta EE 10 Core Profile.
+
+Based on MicroProfile's time-boxed release process, this is a major release that includes backward incompatible changes. This release requires Jakarta EE Core Profile 10, which uses the `jakarta` namespace introduced in Jakarta EE 9.
+
+* https://download.eclipse.org/microprofile/microprofile-config-3.0.2/microprofile-config-spec-3.0.2.html#_incompatible_changes[Config]
+* https://download.eclipse.org/microprofile/microprofile-fault-tolerance-4.0.1/microprofile-fault-tolerance-spec-4.0.1.html#_incompatible_changes[Fault Tolerance]
+* https://download.eclipse.org/microprofile/microprofile-health-4.0.1/microprofile-health-spec-4.0.1.html#_incompatible_changes[Health]
+* https://download.eclipse.org/microprofile/microprofile-metrics-5.0/microprofile-metrics-spec-5.0.html#_incompatible_changes[Metrics]
+* https://download.eclipse.org/microprofile/microprofile-open-api-3.1/microprofile-openapi-spec-3.1.html#_incompatible_changes[OpenAPI]
+* https://download.eclipse.org/microprofile/microprofile-rest-client-3.0.1/microprofile-rest-client-spec-3.0.1.html#_incompatible_changes[Rest Client]
+* https://download.eclipse.org/microprofile/microprofile-jwt-auth-2.0/microprofile-jwt-auth-spec-2.0.html#_incompatible_changes[JWT] (TODO - Update to JWT 2.1?)
+* https://download.eclipse.org/microprofile/microprofile-telemetry-1.0/microprofile-telemetry-spec-1.0.html#_incompatible_changes[Telemetry]
+
+If you are still dependent on Jakarta EE 8, please consider using the https://github.com/eclipse/microprofile/releases/tag/4.1[4.1 release of MicroProfile].
+If you are still dependent on Java EE 8, please consider using the https://github.com/eclipse/microprofile/releases/tag/3.3[3.3 release of MicroProfile].
+If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
+
+The complete list of MicroProfile 6.0 specifications includes:
+
+ - https://github.com/eclipse/microprofile-config/releases/tag/3.0.2[MicroProfile Config 3.0]
+ - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/4.0.1[MicroProfile Fault Tolerance 4.0]
+ - https://github.com/eclipse/microprofile-metrics/releases/tag/5.0[MicroProfile Metrics 5.0]
+ - https://github.com/eclipse/microprofile-health/releases/tag/4.0.1[MicroProfile Health 4.0]
+ - https://github.com/eclipse/microprofile-telemetry/releases/tag/1.0[MicroProfile Telemetry 1.0]
+ - https://github.com/eclipse/microprofile-open-api/releases/tag/3.1[MicroProfile OpenAPI 3.1]
+ - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/2.0[MicroProfile JWT Authentication 2.0] (TODO: Update to 2.1?)
+ - https://github.com/eclipse/microprofile-rest-client/releases/tag/3.0.1[MicroProfile Rest Client 3.0]
+ - https://jakarta.ee/specifications/coreprofile/10/[Jakarta JSON Processing 2.0]
+
+The Maven coordinates for this Eclipse release are as follows:
+[source,xml]
+----
+<dependency>
+    <groupId>org.eclipse.microprofile</groupId>
+    <artifactId>microprofile</artifactId>
+    <version>6.0</version>
+    <type>pom</type>
+    <scope>provided</scope>
+</dependency>
+----
+
+Here is the link to https://github.com/eclipse/microprofile/releases/tag/6.0[the github repository] for this Eclipse-based project.
 
 [[microprofile5.0]]
 === MicroProfile 5.0
