@@ -269,12 +269,6 @@
             <groupId>org.eclipse.microprofile.rest.client</groupId>
             <artifactId>microprofile-rest-client-api</artifactId>
         </dependency>
-<!-- TODO I'm assuming we don't need this since telemetry does not have an MP API
-        <dependency>
-            <groupId>org.eclipse.microprofile.telemetry.tracing</groupId>
-            <artifactId>microprofile-telemetry-tracing-parent</artifactId>
-        </dependency>
--->
     </dependencies>
 
     <profiles>
