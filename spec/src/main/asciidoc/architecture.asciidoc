@@ -60,7 +60,7 @@ MicroProfile 6.0 has the following backward incompatible changes compared to Mic
 
 * https://download.eclipse.org/microprofile/microprofile-metrics-5.0.0/microprofile-metrics-spec-5.0.0.html#_incompatible_changes[MicroProfile Metrics Incompatible changes]
 * MicroProfile OpenTracing replaced by MicroProfile Telemetry
-* Based on Jakarta EE 10 Core Profile instead of the five specifications in Jakarta EE 9.1
+* Includes Jakarta EE 10 Core Profile instead of the five specifications in Jakarta EE 9.1
 
 The Maven coordinates for this Eclipse release are as follows:
 [source,xml]
