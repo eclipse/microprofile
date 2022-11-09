@@ -77,7 +77,7 @@ Key aspects of the API include TimeOut, RetryPolicy, Fallback, Bulkhead, and Cir
 Fault Tolerance 3.0 is now dependent on Jakarta EE 8 technologies.
 
  - http://microprofile.io/project/eclipse/microprofile-fault-tolerance
- - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/4.0.1
+ - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/4.0.2
 
 [[mp-health-check]]
 === MicroProfile Health 4.0
@@ -103,7 +103,7 @@ MicroProfile Metrics provides a unified way for MicroProfile applications to exp
 Metrics will also provide a common Java API for exposing their telemetry data.
 
  - http://microprofile.io/project/eclipse/microprofile-metrics
- - https://github.com/eclipse/microprofile-metrics/releases/tag/5.0
+ - https://github.com/eclipse/microprofile-metrics/releases/tag/5.0.0
 
 [[mp-open-api]]
 === MicroProfile OpenAPI 3.1

@@ -108,13 +108,13 @@
 
         <!-- MicroProfile specs  -->
         <config-version>3.0.2</config-version>
-        <ft-version>4.0.1</ft-version>
+        <ft-version>4.0.2</ft-version>
         <health-version>4.0.1</health-version>
-        <metrics-version>5.0.0-RC3</metrics-version> <!-- TODO Update to 5.0 -->
-        <jwt-version>2.1-RC5</jwt-version>
-        <openapi-version>3.1-RC4</openapi-version> <!-- TODO UPDATE TO 3.1 -->
+        <metrics-version>5.0.0</metrics-version> 
+        <jwt-version>2.1</jwt-version>
+        <openapi-version>3.1</openapi-version> 
         <rest-client-version>3.0.1</rest-client-version>
-        <telemetry-version>1.0-RC3</telemetry-version> <!-- TODO UPDATE TO 1.0 -->
+        <telemetry-version>1.0</telemetry-version> 
 
         <!-- other props  -->
         <!-- whether autorelease maven central staging repositories - default false to allow review and manually release repositories -->
@@ -138,7 +138,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <failOnError>false</failOnError> <!-- TODO - Metrics 5.0.0-RC3 failing javadoc -->
+                    <failOnError>false</failOnError> 
                     <additionalDependencies>
                         <additionalDependency>
                             <groupId>org.osgi</groupId>
@@ -177,18 +177,6 @@
                 <groupId>jakarta.platform</groupId>
                 <artifactId>jakarta.jakartaee-core-api</artifactId>
                 <version>${jakarta-version}</version>
-<!-- TODO This was a CDI exclusion. Still required?
-                <exclusions>
-                    <exclusion>
-                        <groupId>jakarta.ejb</groupId>
-                        <artifactId>jakarta.ejb-api</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>jakarta.el</groupId>
-                        <artifactId>jakarta.el-api</artifactId>
-                    </exclusion>
-                </exclusions>
--->
             </dependency>
             <dependency>
                 <groupId>org.eclipse.microprofile.config</groupId>
@@ -225,14 +213,6 @@
                 <artifactId>microprofile-rest-client-api</artifactId>
                 <version>${rest-client-version}</version>
             </dependency>
-<!-- TODO I'm assuming we don't need this since telemetry does not have an MP API
-            <dependency>
-                <groupId>org.eclipse.microprofile.telemetry.tracing</groupId>
-                <artifactId>microprofile-telemetry-tracing-parent</artifactId>
-                <version>${telemetry-version}</version>
-            </dependency>
--->
-            <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.annotation.versioning -->
         </dependencies>
     </dependencyManagement>
 
