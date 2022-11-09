@@ -49,7 +49,7 @@ The complete list of MicroProfile 6.0 specifications includes:
  - https://jakarta.ee/specifications/coreprofile/10/[Jakarta EE 10 Core Profile]
  - https://github.com/eclipse/microprofile-config/releases/tag/3.0.2[MicroProfile Config 3.0]
  - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/4.0.2[MicroProfile Fault Tolerance 4.0]
- - https://github.com/eclipse/microprofile-metrics/releases/tag/5.0[MicroProfile Metrics 5.0]
+ - https://github.com/eclipse/microprofile-metrics/releases/tag/5.0.0[MicroProfile Metrics 5.0]
  - https://github.com/eclipse/microprofile-health/releases/tag/4.0.1[MicroProfile Health 4.0]
  - https://github.com/eclipse/microprofile-telemetry/releases/tag/1.0[MicroProfile Telemetry 1.0]
  - https://github.com/eclipse/microprofile-open-api/releases/tag/3.1[MicroProfile OpenAPI 3.1]
@@ -60,7 +60,7 @@ MicroProfile 6.0 has the following backward incompatible changes compared to Mic
 
 * https://download.eclipse.org/microprofile/microprofile-metrics-5.0.0/microprofile-metrics-spec-5.0.0.html#_incompatible_changes[MicroProfile Metrics Incompatible changes]
 * MicroProfile OpenTracing replaced by MicroProfile Telemetry
-* Includes Jakarta EE 10 Core Profile instead of the five specifications in Jakarta EE 9.1
+* Includes Jakarta EE 10 Core Profile 
 
 The Maven coordinates for this Eclipse release are as follows:
 [source,xml]
