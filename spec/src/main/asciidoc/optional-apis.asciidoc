@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2017-2020 Contributors to the Eclipse Foundation
+// Copyright (c) 2017-2021 Contributors to the Eclipse Foundation
 //
 // See the NOTICE file(s) distributed with this work for additional
 // information regarding copyright ownership.
@@ -18,33 +18,19 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-= MicroProfile
-:authors: MicroProfile Team, http://microprofile.io
-:email: microprofile@googlegroups.com
-:version-label!:
-:sectanchors:
-:doctype: book
-:license: Apache License v2.0
-:source-highlighter: coderay
-:toc: left
-:toclevels: 4
-:sectnumlevels: 4
-ifdef::backend-pdf[]
-:pagenums:
-:numbered:
-:title-logo-image: image:MP-logo-w-tagline.png[pdfwidth=4.25in,align=right]
-endif::[]
+[[optional-apis]]
+== Optional APIs
 
-// == License
-:sectnums!:
-include::license-efsl.adoc[]
+MicroProfile includes the following specifications which are optional for implementations:
 
-// == MicroProfile
+- <<mp-metrics, MicroProfile Metrics 5.0>>
 
-include::architecture.asciidoc[]
+[[mp-metrics]]
+=== MicroProfile Metrics 5.0
 
-include::required-apis.asciidoc[]
+MicroProfile Metrics provides a unified way for MicroProfile applications to export monitoring data to management agents.
+Metrics will also provide a common Java API for exposing their telemetry data.
 
-include::optional-apis.asciidoc[]
+ - http://microprofile.io/project/eclipse/microprofile-metrics
+ - https://github.com/eclipse/microprofile-metrics/releases/tag/5.0.0
 
-include::notices.asciidoc[]

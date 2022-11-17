@@ -96,15 +96,6 @@ MicroProfile JWT Authentication provides role based access control (RBAC) micros
  - http://microprofile.io/project/eclipse/microprofile-jwt-auth
  - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/2.1
 
-[[mp-metrics]]
-=== MicroProfile Metrics 5.0
-
-MicroProfile Metrics provides a unified way for MicroProfile applications to export monitoring data to management agents.
-Metrics will also provide a common Java API for exposing their telemetry data.
-
- - http://microprofile.io/project/eclipse/microprofile-metrics
- - https://github.com/eclipse/microprofile-metrics/releases/tag/5.0.0
-
 [[mp-open-api]]
 === MicroProfile OpenAPI 3.1
 
