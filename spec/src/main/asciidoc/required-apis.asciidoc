@@ -28,7 +28,6 @@ MicroProfile implementations must include the following specifications:
  - <<mp-fault-tolerance, MicroProfile Fault Tolerance 4.0>>
  - <<mp-health-check, MicroProfile Health 4.0>>
  - <<mp-jwt-auth, MicroProfile JWT Authentication 2.1>>
- - <<mp-metrics, MicroProfile Metrics 5.0>>
  - <<mp-open-api, MicroProfile OpenAPI 3.1>>
  - <<mp-rest-client, MicroProfile Rest Client 3.0>>
  - <<mp-telemetry, MicroProfile Telemetry 1.0>>
