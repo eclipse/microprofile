@@ -66,7 +66,7 @@ MicroProfile 6.0 allows optional support for Jakarta EE 9.1 and other Jakarta EE
 * Jakarta Annotations 2.0 _or higher_
 * Jakarta Contexts and Dependency Injection 3.0 _or higher_
 * Jakarta Dependency Injection 2.0 _or higher_
-* Jakarta Interceptors 2.1 _or higher_
+* Jakarta Interceptors 2.0 _or higher_
 * Jakarta JSON Binding 2.0 _or higher_
 * Jakarta JSON Processing 2.0 _or higher_
 * Jakarta RESTful Web Services 3.0 _or higher_
