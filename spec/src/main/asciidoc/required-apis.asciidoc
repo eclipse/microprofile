@@ -23,7 +23,6 @@
 
 MicroProfile implementations must include the following specifications:
 
- - <<jakartaee-core-profile, Jakarta EE Core Profile 10>>
  - <<mp-config, MicroProfile Config 3.0>>
  - <<mp-fault-tolerance, MicroProfile Fault Tolerance 4.0>>
  - <<mp-health-check, MicroProfile Health 4.0>>
@@ -33,8 +32,7 @@ MicroProfile implementations must include the following specifications:
  - <<mp-rest-client, MicroProfile Rest Client 3.0>>
  - <<mp-telemetry, MicroProfile Telemetry 1.0>>
 
-A MicroProfile compatible implementation must pass *all* required TCKs provided by each MicroProfile specification,
-including the Jakarta EE Core Profile 10 TCK.
+A MicroProfile compatible implementation must pass *all* required TCKs provided by each MicroProfile specification.
 Passing the MicroProfile optional TCKs is not required.
 
 These APIs and versions guarantee application developers a minimum set of APIs, but they are not intended to be
@@ -46,10 +44,10 @@ restrictive.
 This MicroProfile platform specification requires Java SE 11 for both source and target compatibility. Some component specifications may still support a Java SE 8 minimum version when used standalone. MicroProfile
 implementations that support the MicroProfile platform specification can provide support Java SE 11 or higher.
 
-[[jakartaee-core-profile]]
-=== Jakarta EE Core Profile 10
+[[jakartaee]]
+=== Jakarta EE
 
-MicroProfile 6.0 and above requires https://jakarta.ee/specifications/coreprofile/10/[Jakarta EE 10 Core Profile] support.
+MicroProfile 6.0 adds support for the https://jakarta.ee/specifications/coreprofile/10/[Jakarta EE 10 Core Profile].
 
 * Jakarta Annotations 2.1
 * Jakarta Contexts and Dependency Injection (Lite Section) 4.0**
@@ -59,7 +57,21 @@ MicroProfile 6.0 and above requires https://jakarta.ee/specifications/coreprofil
 * Jakarta JSON Processing 2.1
 * Jakarta RESTful Web Services 3.1
 
+Implementations based on the Jakarta EE 10 Core Profile must pass *all* required Jakarta EE 10 Core Profile TCKs.
+
 pass:[**] Full CDI support is not required. CDI SE support is not required.
+
+MicroProfile 6.0 allows optional support for Jakarta EE 9.1 and other Jakarta EE profiles provided the minimum APIs are implemented and *all* required TCK tests pass:
+
+* Jakarta Annotations 2.0 _or higher_
+* Jakarta Contexts and Dependency Injection 3.0 _or higher_
+* Jakarta Dependency Injection 2.0 _or higher_
+* Jakarta Interceptors 2.1 _or higher_
+* Jakarta JSON Binding 2.0 _or higher_
+* Jakarta JSON Processing 2.0 _or higher_
+* Jakarta RESTful Web Services 3.0 _or higher_
+
+Implementations must list in CCRs and Public TCK Results Summary pages the exact Jakarta EE version and profile that is supported.
 
 [[mp-config]]
 === MicroProfile Config 3.0
