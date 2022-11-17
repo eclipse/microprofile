@@ -21,7 +21,7 @@
 [[optional-apis]]
 == Optional APIs
 
-MicroProfile includes the following specifications which are optional for implementations:
+MicroProfile includes the following specifications which are optional for implementations.  Implementations must list in CCRs and Public TCK Results Summary pages each optional API that is not implemented.
 
 - <<mp-metrics, MicroProfile Metrics 5.0>>
 
