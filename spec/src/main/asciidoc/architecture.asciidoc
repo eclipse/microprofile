@@ -35,11 +35,10 @@ The specifications for each release are listed in reverse chronological order.
 [[microprofile6.0]]
 === MicroProfile 6.0
 
-MicroProfile 6.0 replaces required individual Jakarta specifications in prior releases like Jakarta Restful Web Services and JSON Binding with the Jakarta EE 10 Core Profile.
 
-Based on MicroProfile's time-boxed release process, this is a major release that includes backward incompatible changes. This release requires Jakarta EE Core Profile 10, which uses the `jakarta` namespace introduced in Jakarta EE 9.
+MicroProfile 6.0 adds support for the Jakarta EE 10 Core Profile as an alternative to supporting individual Jakarta specifications like Jakarta Restful Web Services and JSON Binding as in prior releases.  Additionally, 6.0 adds requirements for all required Jakarta TCKs to be passed.
 
-If you are still dependent on Jakarta EE 9.1, please consider using the https://github.com/eclipse/microprofile/releases/tag/5.0[5.0 release of MicroProfile].
+Support for individual Jakarta EE 9.1 is no longer required.  If you are still dependent on Jakarta EE 9.1, please see the compatible implementations page on microprofile.io for implementations that support Jakarta EE 9.1 or consider using the https://github.com/eclipse/microprofile/releases/tag/5.0[5.0 release of MicroProfile].
 If you are still dependent on Jakarta EE 8, please consider using the https://github.com/eclipse/microprofile/releases/tag/4.1[4.1 release of MicroProfile].
 If you are still dependent on Java EE 8, please consider using the https://github.com/eclipse/microprofile/releases/tag/3.3[3.3 release of MicroProfile].
 If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
@@ -60,7 +59,7 @@ MicroProfile 6.0 has the following backward incompatible changes compared to Mic
 
 * https://download.eclipse.org/microprofile/microprofile-metrics-5.0.0/microprofile-metrics-spec-5.0.0.html#_incompatible_changes[MicroProfile Metrics Incompatible changes]
 * MicroProfile OpenTracing replaced by MicroProfile Telemetry
-* Includes Jakarta EE 10 Core Profile 
+* Support for individual Jakarta EE 9.1 APIs no longer required
 
 The Maven coordinates for this Eclipse release are as follows:
 [source,xml]
