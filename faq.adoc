@@ -22,6 +22,7 @@
 
 . <<What is the MicroProfile?>>
 .. <<What is the relationship with Java EE?>>
+.. <<What is the relationship with Jakarta EE?>>
 .. <<What is the relationship with the JCP?>>
 . <<Who is involved?>>
 . <<How can I get involved?>>
@@ -29,19 +30,19 @@
 .. <<How do I submit a proposal?>>
 . <<What are the logo restrictions?>>
 
-=== What is the MicroProfile?
+== What is the MicroProfile?
 MicroProfile is a collection of features designed for a microservice-focused platform.
 
-===== What is the relationship with Java EE?
+=== What is the relationship with Java EE?
 There is no formal relationship with Java EE. The 1.0 release of MicroProfile was based on three APIs (CDI, JSON-P and JAX-RS) which are Java EE APIs, but the MicroProfile effort is not limited to the Java EE APIs. Brand new APIs are equally as valid as established APIs.
 
-===== What is the relationship with Jakarta EE?
+=== What is the relationship with Jakarta EE?
 Both MicroProfile and link:https://jakarta.ee/[Jakarta EE] are under the Eclipse Foundation umbrella. While there is no formal relationship with Jakarta EE at the moment, the two projects are discussing link:https://www.eclipse.org/org/workinggroups/about.php[Eclipse Working Group] alignment and collaboration options.
 
-===== What is the relationship with the JCP?
+=== What is the relationship with the JCP?
 MicroProfile is not governed by the JCP. Rather, it is an independent effort governed under the link:https://projects.eclipse.org/projects/technology.microprofile[Eclipse Foundation] and licensed under the link:https://www.apache.org/licenses/LICENSE-2.0[Apache v2 Software License].
 
-=== Who is involved?
+== Who is involved?
 Current vendors implementing MicroProfile specifications include:
 
 * Fujitsu (Launcher)
@@ -57,16 +58,16 @@ A more complete list of the various MicroProfile implementations and the specifi
 
 There are link:http://microprofile.io/contributors[many individuals who contribute] to the MicroProfile project. The Java community as a whole is encouraged to take part and contribute to the project; there are no restrictions.
 
-=== How can I get involved?
+== How can I get involved?
 * Read through, comment on, and create new topics on the link:https://groups.google.com/forum/#!forum/microprofile[MicroProfile Google Group]
 * Test the sample apps, fix bugs and submit a pull request, or create a new one (link:https://projects.eclipse.org/projects/technology.microprofile/developer[Developer resources])
 * Submit a proposal (link:https://wiki.eclipse.org/MicroProfile/FeatureInit[Introducing New Ideas to MicroProfile])
 
-===== How do I join?
+=== How do I join?
 There is no formal "joining" process, since anyone is welcome to join the discussion in the link:https://groups.google.com/forum/#!forum/microprofile[Google Group].  Depending on how involved you want to be, however, you may need to sign an link:https://www.eclipse.org/legal/ECA.php[Eclipse Contributor Agreement] to contribute to the project.
 
-===== How do I submit a proposal?
+=== How do I submit a proposal?
 A process has been created specifically for the evolution of the MicroProfile, and can be found under link:https://wiki.eclipse.org/MicroProfile/FeatureInit[the Feature Initialization section of the wiki].
 
-=== What are the logo restrictions?
+== What are the logo restrictions?
 Use of branding for any vendor is subject to the restrictions of that vendor.
