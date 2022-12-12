@@ -115,11 +115,13 @@ MicroProfile OpenAPI provides a unified Java API for the https://github.com/OAI/
 [[mp-telemetry]]
 === MicroProfile Telemetry 1.0
 
-MicroProfile Telemetry telemetry data is needed to power observability products.
+MicroProfile Telemetry provides an adoption of the https://opentelemetry.io[OpenTelemetry] specification (currently for Distributed Tracing and Baggage in that context only).
 
-Traditionally, telemetry data has been provided by either open-source projects or commercial vendors. With a lack of standardization, the net result is the lack of data portability and the burden on the user to maintain the instrumentation.
+Telemetry data is needed to power observability products.
+Traditionally, telemetry data has been provided by either open-source projects or commercial vendors.
+With a lack of standardization, the net result is the lack of data portability and the burden on the user to maintain the instrumentation.
 
-The OpenTelemetry project solves these problems by providing a single, vendor-agnostic solution.
+The https://opentelemetry.io[OpenTelemetry] project solves these problems by providing a single, vendor-agnostic solution.
 
 * http://microprofile.io/project/eclipse/microprofile-telemetry
 * https://github.com/eclipse/microprofile-telemetry/releases/tag/1.0
