@@ -115,8 +115,7 @@ MicroProfile OpenAPI provides a unified Java API for the https://github.com/OAI/
 [[mp-telemetry]]
 === MicroProfile Telemetry 1.0
 
-MicroProfile Telemetry
-Telemetry data is needed to power observability products.
+MicroProfile Telemetry telemetry data is needed to power observability products.
 
 Traditionally, telemetry data has been provided by either open-source projects or commercial vendors. With a lack of standardization, the net result is the lack of data portability and the burden on the user to maintain the instrumentation.
 
