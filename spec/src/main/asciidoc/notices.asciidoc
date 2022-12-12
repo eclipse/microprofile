@@ -31,10 +31,10 @@ It is the overarching goal of the MicroProfile community to iterate quickly and 
 
 The MicroProfile community is an open source community part of the Eclipse Foundation.  We accept contributions from corporations or individuals.  To learn how to contribute to MicroProfile see:
 
- - https://wiki.eclipse.org/MicroProfile/FeatureInit
+* https://wiki.eclipse.org/MicroProfile/FeatureInit
 
 === Feedback
 
 Comments, questions or feedback on this document should be directed to The MicroProfile community as a whole at microprofile@googlegroups.com.  Archives are available via the Google Group page:
 
- - https://groups.google.com/forum/#!forum/microprofile
+* https://groups.google.com/forum/#!forum/microprofile
