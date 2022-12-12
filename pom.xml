@@ -33,7 +33,7 @@
     <name>MicroProfile</name>
     <description>The MicroProfile Specification and Information Repository</description>
     <url>https://github.com/eclipse/microprofile</url>
-    <inceptionYear>2017</inceptionYear>
+    <inceptionYear>2016</inceptionYear>
     <organization>
         <name>MicroProfile</name>
         <url>https://www.eclipse.org/microprofile</url>
