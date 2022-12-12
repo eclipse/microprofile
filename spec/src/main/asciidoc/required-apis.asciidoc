@@ -74,7 +74,6 @@ MicroProfile Config provides applications and microservices means to obtain conf
 
 MicroProfile Fault Tolerance provides the ability to separate execution logic from business logic.
 Key aspects of the API include TimeOut, RetryPolicy, Fallback, Bulkhead, and Circuit Breaker processing.
-Fault Tolerance 3.0 is now dependent on Jakarta EE 8 technologies.
 
  - http://microprofile.io/project/eclipse/microprofile-fault-tolerance
  - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/4.0.2
