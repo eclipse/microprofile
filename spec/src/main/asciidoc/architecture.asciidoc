@@ -24,7 +24,7 @@
 The MicroProfile pom will identify the contents of each MicroProfile release.
 The contents include those features and versions agreed to by the MicroProfile community.
 These features may be external to the MicroProfile community, like those provided by Jakarta EE
-Core Profile or the Cloud Native Computing Foundation (like Open Telemetry),
+Core Profile or the Cloud Native Computing Foundation (like OpenTelemetry),
 or they are component specifications of the MicroProfile project (such as Config).
 
 Since the MicroProfile repo is an "umbrella" project, no individual API or TCK is generated for this specification.
