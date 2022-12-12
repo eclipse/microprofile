@@ -5,7 +5,7 @@ Portions of this software were originally based on the following:
 
 SPDXVersion: SPDX-2.1
 PackageName: MicroProfile
-PackageHomePage: http://www.eclipse.org/microprofile
+PackageHomePage: https://www.eclipse.org/microprofile
 PackageLicenseDeclared: Apache-2.0
 
 PackageCopyrightText: <text>

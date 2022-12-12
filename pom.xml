@@ -36,7 +36,7 @@
     <inceptionYear>2017</inceptionYear>
     <organization>
         <name>MicroProfile</name>
-        <url>http://www.eclipse.org/microprofile</url>
+        <url>https://www.eclipse.org/microprofile</url>
     </organization>
 
     <licenses>
@@ -82,7 +82,7 @@
     <mailingLists>
         <mailingList>
             <name>MicroProfile</name>
-            <subscribe>http://groups.google.com/group/microprofile/subscribe</subscribe>
+            <subscribe>https://groups.google.com/group/microprofile/subscribe</subscribe>
             <post>microprofile@googlegroups.com</post>
         </mailingList>
         <mailingList>

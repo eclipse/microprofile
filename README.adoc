@@ -102,8 +102,8 @@ A complete list of MicroProfile-related repositories within the Eclipse github o
 
 Some of the repositories are hosted under the link:https://github.com/microprofile[MicroProfile github organization], including the following repos:
 
-link:https://github.com/microprofile/microprofile-blog[MicroProfile.io blogs] -- Easy mechanism for updating the entries on the link:http://microprofile.io/blog[MicroProfile blog site] +
-link:https://github.com/microprofile/microprofile-site[MicroProfile.io site] -- source code of the application that powers the link:http://microprofile.io[microprofile.io] site +
+link:https://github.com/microprofile/microprofile-blog[MicroProfile.io blogs] -- Easy mechanism for updating the entries on the link:https://microprofile.io/blog[MicroProfile blog site] +
+link:https://github.com/microprofile/microprofile-site[MicroProfile.io site] -- source code of the application that powers the link:https://microprofile.io[microprofile.io] site +
 
 === MicroProfile and MicroProfile.io
 The MicroProfile community has two portals to information.  The main site is the link:https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project].

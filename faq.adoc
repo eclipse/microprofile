@@ -56,7 +56,7 @@ Current vendors implementing MicroProfile specifications include:
 
 A more complete list of the various MicroProfile implementations and the specification versions they support can be found on the link:https://wiki.eclipse.org/MicroProfile/Implementation[MicroProfile wiki].
 
-There are link:http://microprofile.io/contributors[many individuals who contribute] to the MicroProfile project. The Java community as a whole is encouraged to take part and contribute to the project; there are no restrictions.
+There are link:https://microprofile.io/contributors[many individuals who contribute] to the MicroProfile project. The Java community as a whole is encouraged to take part and contribute to the project; there are no restrictions.
 
 == How can I get involved?
 * Read through, comment on, and create new topics on the link:https://groups.google.com/forum/#!forum/microprofile[MicroProfile Google Group]
