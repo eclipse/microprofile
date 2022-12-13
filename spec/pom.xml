@@ -111,6 +111,7 @@
                         </goals>
                         <phase>validate</phase>
                         <configuration>
+                            <locale>en,US</locale>
                             <name>currentYear</name>
                             <pattern>yyyy</pattern>
                         </configuration>
