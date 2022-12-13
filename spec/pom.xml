@@ -27,7 +27,7 @@
     <parent>
         <groupId>org.eclipse.microprofile</groupId>
         <artifactId>microprofile</artifactId>
-        <version>6.1-SNAPSHOT</version>
+        <version>6.0-RC4</version>
     </parent>
 
     <groupId>org.eclipse.microprofile</groupId>
@@ -103,7 +103,7 @@
                     <!-- Attributes common to all output formats -->
                     <attributes>
                         <icons>font</icons>
-                        <idprefix/>
+                        <idprefix />
                         <idseparator>-</idseparator>
                         <!-- Images located to documents source -->
                         <imagesdir>./image</imagesdir>
@@ -150,8 +150,8 @@
                             <outputFile>${spec.pdf}</outputFile>
                             <!-- Attributes specific to output formats -->
                             <attributes>
-                                <pagenums/>
-                                <toc/>
+                                <pagenums />
+                                <toc />
                             </attributes>
                         </configuration>
                     </execution>
