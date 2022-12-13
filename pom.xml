@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 /**********************************************************************
- * Copyright (c) 2017-2021 Contributors to the Eclipse Foundation
+ * Copyright (c) 2017-2022 Contributors to the Eclipse Foundation
  *
  * See the NOTICES file(s) distributed with this work for additional
  * information regarding copyright ownership.
@@ -33,10 +33,10 @@
     <name>MicroProfile</name>
     <description>The MicroProfile Specification and Information Repository</description>
     <url>https://github.com/eclipse/microprofile</url>
-    <inceptionYear>2017</inceptionYear>
+    <inceptionYear>2016</inceptionYear>
     <organization>
         <name>MicroProfile</name>
-        <url>http://www.eclipse.org/microprofile</url>
+        <url>https://www.eclipse.org/microprofile</url>
     </organization>
 
     <licenses>
@@ -82,7 +82,7 @@
     <mailingLists>
         <mailingList>
             <name>MicroProfile</name>
-            <subscribe>http://groups.google.com/group/microprofile/subscribe</subscribe>
+            <subscribe>https://groups.google.com/group/microprofile/subscribe</subscribe>
             <post>microprofile@googlegroups.com</post>
         </mailingList>
         <mailingList>

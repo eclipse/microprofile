@@ -24,7 +24,7 @@
 The MicroProfile pom will identify the contents of each MicroProfile release.
 The contents include those features and versions agreed to by the MicroProfile community.
 These features may be external to the MicroProfile community, like those provided by Jakarta EE
-Core Profile or the Cloud Native Computing Foundation (like Open Telemetry),
+Core Profile or the Cloud Native Computing Foundation (like OpenTelemetry),
 or they are component specifications of the MicroProfile project (such as Config).
 
 Since the MicroProfile repo is an "umbrella" project, no individual API or TCK is generated for this specification.
@@ -46,15 +46,15 @@ If you are still dependent on Java EE 7, please consider using the https://githu
 
 The complete list of MicroProfile 6.0 specifications includes:
 
- - https://jakarta.ee/specifications/coreprofile/10/[Jakarta EE 10 Core Profile]
- - https://github.com/eclipse/microprofile-config/releases/tag/3.0.2[MicroProfile Config 3.0]
- - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/4.0.2[MicroProfile Fault Tolerance 4.0]
- - https://github.com/eclipse/microprofile-metrics/releases/tag/5.0.0[MicroProfile Metrics 5.0]
- - https://github.com/eclipse/microprofile-health/releases/tag/4.0.1[MicroProfile Health 4.0]
- - https://github.com/eclipse/microprofile-telemetry/releases/tag/1.0[MicroProfile Telemetry 1.0]
- - https://github.com/eclipse/microprofile-open-api/releases/tag/3.1[MicroProfile OpenAPI 3.1]
- - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/2.1[MicroProfile JWT Authentication 2.1]
- - https://github.com/eclipse/microprofile-rest-client/releases/tag/3.0.1[MicroProfile Rest Client 3.0]
+* https://jakarta.ee/specifications/coreprofile/10/[Jakarta EE 10 Core Profile]
+* https://github.com/eclipse/microprofile-config/releases/tag/3.0.2[MicroProfile Config 3.0]
+* https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/4.0.2[MicroProfile Fault Tolerance 4.0]
+* https://github.com/eclipse/microprofile-metrics/releases/tag/5.0.0[MicroProfile Metrics 5.0]
+* https://github.com/eclipse/microprofile-health/releases/tag/4.0.1[MicroProfile Health 4.0]
+* https://github.com/eclipse/microprofile-telemetry/releases/tag/1.0[MicroProfile Telemetry 1.0]
+* https://github.com/eclipse/microprofile-open-api/releases/tag/3.1[MicroProfile OpenAPI 3.1]
+* https://github.com/eclipse/microprofile-jwt-auth/releases/tag/2.1[MicroProfile JWT Authentication 2.1]
+* https://github.com/eclipse/microprofile-rest-client/releases/tag/3.0.1[MicroProfile Rest Client 3.0]
 
 MicroProfile 6.0 has the following backward incompatible changes compared to MicroProfile 5.0.
 
@@ -81,11 +81,11 @@ Here is the link to https://github.com/eclipse/microprofile/releases/tag/6.0[the
 
 MicroProfile 5.0 aligns with the following specifications from Jakarta EE 9.1:
 
- - Jakarta Contexts and Dependency Injection 3.0
- - Jakarta Annotations 2.0
- - Jakarta RESTful Web Services 3.0
- - Jakarta JSON Binding 2.0
- - Jakarta JSON Processing 2.0
+* Jakarta Contexts and Dependency Injection 3.0
+* Jakarta Annotations 2.0
+* Jakarta RESTful Web Services 3.0
+* Jakarta JSON Binding 2.0
+* Jakarta JSON Processing 2.0
 
 Based on MicroProfile's time-boxed release process, this is a major release that includes backwards incompatible changes. This means that this release will not work with previous versions of Jakarta EE, such as Jakarta EE 8, due to the namespace change from `javax` to `jakarta` in the code. This release contains no other functional updates when compared to MicroProfile Release 4.1.
 
@@ -104,19 +104,19 @@ If you are still dependent on Java EE 7, please consider using the https://githu
 
 The complete list of MicroProfile 5.0 specifications includes:
 
- - https://github.com/eclipse/microprofile-config/releases/tag/3.0[MicroProfile Config 3.0]
- - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/4.0[MicroProfile Fault Tolerance 4.0]
- - https://github.com/eclipse/microprofile-metrics/releases/tag/4.0[MicroProfile Metrics 4.0]
- - https://github.com/eclipse/microprofile-health/releases/tag/4.0[MicroProfile Health 4.0]
- - https://github.com/eclipse/microprofile-opentracing/releases/tag/3.0[MicroProfile OpenTracing 3.0]
- - https://github.com/eclipse/microprofile-open-api/releases/tag/3.0[MicroProfile OpenAPI 3.0]
- - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/2.0[MicroProfile JWT Authentication 2.0]
- - https://github.com/eclipse/microprofile-rest-client/releases/tag/3.0[MicroProfile Rest Client 3.0]
- - https://jakarta.ee/specifications/cdi/3.0/jakarta-cdi-spec-3.0.html[Jakarta Contexts and Dependency Injection 3.0]
- - https://jakarta.ee/specifications/annotations/2.0/annotations-spec-2.0.html[Jakarta Annotations 2.0]
- - https://jakarta.ee/specifications/restful-ws/3.0/jakarta-restful-ws-spec-3.0.html[Jakarta RESTful Web Services 3.0]
- - https://jakarta.ee/specifications/jsonb/2.0/jakarta-jsonb-spec-2.0.html[Jakarta JSON Binding 2.0]
- - https://jakarta.ee/specifications/jsonp/2.0/[Jakarta JSON Processing 2.0]
+* https://github.com/eclipse/microprofile-config/releases/tag/3.0[MicroProfile Config 3.0]
+* https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/4.0[MicroProfile Fault Tolerance 4.0]
+* https://github.com/eclipse/microprofile-metrics/releases/tag/4.0[MicroProfile Metrics 4.0]
+* https://github.com/eclipse/microprofile-health/releases/tag/4.0[MicroProfile Health 4.0]
+* https://github.com/eclipse/microprofile-opentracing/releases/tag/3.0[MicroProfile OpenTracing 3.0]
+* https://github.com/eclipse/microprofile-open-api/releases/tag/3.0[MicroProfile OpenAPI 3.0]
+* https://github.com/eclipse/microprofile-jwt-auth/releases/tag/2.0[MicroProfile JWT Authentication 2.0]
+* https://github.com/eclipse/microprofile-rest-client/releases/tag/3.0[MicroProfile Rest Client 3.0]
+* https://jakarta.ee/specifications/cdi/3.0/jakarta-cdi-spec-3.0.html[Jakarta Contexts and Dependency Injection 3.0]
+* https://jakarta.ee/specifications/annotations/2.0/annotations-spec-2.0.html[Jakarta Annotations 2.0]
+* https://jakarta.ee/specifications/restful-ws/3.0/jakarta-restful-ws-spec-3.0.html[Jakarta RESTful Web Services 3.0]
+* https://jakarta.ee/specifications/jsonb/2.0/jakarta-jsonb-spec-2.0.html[Jakarta JSON Binding 2.0]
+* https://jakarta.ee/specifications/jsonp/2.0/[Jakarta JSON Processing 2.0]
 
 The Maven coordinates for this Eclipse release are as follows:
 [source,xml]
@@ -136,11 +136,11 @@ Here is the link to https://github.com/eclipse/microprofile/releases/tag/5.0[the
 === MicroProfile 4.1
 MicroProfile 4.1 aligns with the following specifications from Jakarta EE 8:
 
- - Jakarta Contexts and Dependency Injection 2.0
- - Jakarta Annotations 1.3
- - Jakarta RESTful Web Services 2.1
- - Jakarta JSON Binding 1.0
- - Jakarta JSON Processing 1.1
+* Jakarta Contexts and Dependency Injection 2.0
+* Jakarta Annotations 1.3
+* Jakarta RESTful Web Services 2.1
+* Jakarta JSON Binding 1.0
+* Jakarta JSON Processing 1.1
 
 Based on MicroProfile's time-boxed release process, this is an incremental release that includes an update to https://github.com/eclipse/microprofile-health/releases/tag/3.1[MicroProfile Health 3.1]
 
@@ -149,19 +149,19 @@ If you are still dependent on Java EE 7, please consider using the https://githu
 
 The complete list of MicroProfile 4.1 specifications includes:
 
- - https://github.com/eclipse/microprofile-config/releases/tag/2.0[MicroProfile Config 2.0]
- - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/3.0[MicroProfile Fault Tolerance 3.0]
- - https://github.com/eclipse/microprofile-health/releases/tag/3.1[MicroProfile Health 3.1]
- - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.2[MicroProfile JWT Authentication 1.2]
- - https://github.com/eclipse/microprofile-metrics/releases/tag/3.0[MicroProfile Metrics 3.0]
- - https://github.com/eclipse/microprofile-open-api/releases/tag/2.0[MicroProfile OpenAPI 2.0]
- - https://github.com/eclipse/microprofile-opentracing/releases/tag/2.0[MicroProfile OpenTracing 2.0]
- - https://github.com/eclipse/microprofile-rest-client/releases/tag/2.0[MicroProfile Rest Client 2.0]
- - https://jakarta.ee/specifications/cdi/2.0/cdi-spec-2.0.html[Jakarta Contexts and Dependency Injection 2.0]
- - https://jakarta.ee/specifications/annotations/1.3/annotations-spec-1.3.html[Jakarta Annotations 1.3]
- - https://jakarta.ee/specifications/restful-ws/2.1/restful-ws-spec-2.1.html[Jakarta RESTful Web Services 2.1]
- - https://jakarta.ee/specifications/jsonb/1.0/jsonb-spec-1.0.html[Jakarta JSON Binding 1.0]
- - https://jakarta.ee/specifications/jsonp/1.1/jsonp-spec-1.1.html[Jakarta JSON Processing 1.1]
+* https://github.com/eclipse/microprofile-config/releases/tag/2.0[MicroProfile Config 2.0]
+* https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/3.0[MicroProfile Fault Tolerance 3.0]
+* https://github.com/eclipse/microprofile-health/releases/tag/3.1[MicroProfile Health 3.1]
+* https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.2[MicroProfile JWT Authentication 1.2]
+* https://github.com/eclipse/microprofile-metrics/releases/tag/3.0[MicroProfile Metrics 3.0]
+* https://github.com/eclipse/microprofile-open-api/releases/tag/2.0[MicroProfile OpenAPI 2.0]
+* https://github.com/eclipse/microprofile-opentracing/releases/tag/2.0[MicroProfile OpenTracing 2.0]
+* https://github.com/eclipse/microprofile-rest-client/releases/tag/2.0[MicroProfile Rest Client 2.0]
+* https://jakarta.ee/specifications/cdi/2.0/cdi-spec-2.0.html[Jakarta Contexts and Dependency Injection 2.0]
+* https://jakarta.ee/specifications/annotations/1.3/annotations-spec-1.3.html[Jakarta Annotations 1.3]
+* https://jakarta.ee/specifications/restful-ws/2.1/restful-ws-spec-2.1.html[Jakarta RESTful Web Services 2.1]
+* https://jakarta.ee/specifications/jsonb/1.0/jsonb-spec-1.0.html[Jakarta JSON Binding 1.0]
+* https://jakarta.ee/specifications/jsonp/1.1/jsonp-spec-1.1.html[Jakarta JSON Processing 1.1]
 
 The Maven coordinates for this Eclipse release are as follows:
 [source,xml]
@@ -200,19 +200,19 @@ If you are still dependent on Java EE 7, please consider using the https://githu
 
 The complete list of MicroProfile 4.0 specifications includes:
 
- - https://github.com/eclipse/microprofile-config/releases/tag/2.0[MicroProfile Config 2.0]
- - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/3.0[MicroProfile Fault Tolerance 3.0]
- - https://github.com/eclipse/microprofile-health/releases/tag/3.0[MicroProfile Health 3.0]
- - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.2[MicroProfile JWT Authentication 1.2]
- - https://github.com/eclipse/microprofile-metrics/releases/tag/3.0[MicroProfile Metrics 3.0]
- - https://github.com/eclipse/microprofile-open-api/releases/tag/2.0[MicroProfile OpenAPI 2.0]
- - https://github.com/eclipse/microprofile-opentracing/releases/tag/2.0[MicroProfile OpenTracing 2.0]
- - https://github.com/eclipse/microprofile-rest-client/releases/tag/2.0[MicroProfile Rest Client 2.0]
- - https://jakarta.ee/specifications/cdi/2.0/cdi-spec-2.0.html[Jakarta Contexts and Dependency Injection 2.0]
- - https://jakarta.ee/specifications/annotations/1.3/annotations-spec-1.3.html[Jakarta Annotations 1.3]
- - https://jakarta.ee/specifications/restful-ws/2.1/restful-ws-spec-2.1.html[Jakarta RESTful Web Services 2.1]
- - https://jakarta.ee/specifications/jsonb/1.0/jsonb-spec-1.0.html[Jakarta JSON Binding 1.0]
- - https://jakarta.ee/specifications/jsonp/1.1/jsonp-spec-1.1.html[Jakarta JSON Processing 1.1]
+* https://github.com/eclipse/microprofile-config/releases/tag/2.0[MicroProfile Config 2.0]
+* https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/3.0[MicroProfile Fault Tolerance 3.0]
+* https://github.com/eclipse/microprofile-health/releases/tag/3.0[MicroProfile Health 3.0]
+* https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.2[MicroProfile JWT Authentication 1.2]
+* https://github.com/eclipse/microprofile-metrics/releases/tag/3.0[MicroProfile Metrics 3.0]
+* https://github.com/eclipse/microprofile-open-api/releases/tag/2.0[MicroProfile OpenAPI 2.0]
+* https://github.com/eclipse/microprofile-opentracing/releases/tag/2.0[MicroProfile OpenTracing 2.0]
+* https://github.com/eclipse/microprofile-rest-client/releases/tag/2.0[MicroProfile Rest Client 2.0]
+* https://jakarta.ee/specifications/cdi/2.0/cdi-spec-2.0.html[Jakarta Contexts and Dependency Injection 2.0]
+* https://jakarta.ee/specifications/annotations/1.3/annotations-spec-1.3.html[Jakarta Annotations 1.3]
+* https://jakarta.ee/specifications/restful-ws/2.1/restful-ws-spec-2.1.html[Jakarta RESTful Web Services 2.1]
+* https://jakarta.ee/specifications/jsonb/1.0/jsonb-spec-1.0.html[Jakarta JSON Binding 1.0]
+* https://jakarta.ee/specifications/jsonp/1.1/jsonp-spec-1.1.html[Jakarta JSON Processing 1.1]
 
 The Maven coordinates for this Eclipse release are as follows:
 [source,xml]
@@ -242,19 +242,19 @@ MicroProfile 3.x releases build upon a small subset of Java EE 8 features. If yo
 
 Thus, the complete list of functional components for MicroProfile 3.3 includes:
 
-- https://github.com/eclipse/microprofile-config/releases/tag/1.4[MicroProfile Config 1.4]
-- https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.1[MicroProfile Fault Tolerance 2.1]
-- https://github.com/eclipse/microprofile-health/releases/tag/2.2[MicroProfile Health 2.2]
-- https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
-- https://github.com/eclipse/microprofile-metrics/releases/tag/2.3[MicroProfile Metrics 2.3]
-- https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-1.1[MicroProfile OpenAPI 1.1]
-- https://github.com/eclipse/microprofile-opentracing/releases/tag/1.3[MicroProfile OpenTracing 1.3]
-- https://github.com/eclipse/microprofile-rest-client/releases/tag/1.4.0[MicroProfile Rest Client 1.4]
-- https://jcp.org/en/jsr/detail?id=365[CDI 2.0]
-- https://jcp.org/en/jsr/detail?id=250[Common Annotations 1.3]
-- https://jcp.org/en/jsr/detail?id=370[JAX-RS 2.1]
-- https://jcp.org/en/jsr/detail?id=367[JSON-B 1.0]
-- https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
+* https://github.com/eclipse/microprofile-config/releases/tag/1.4[MicroProfile Config 1.4]
+* https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.1[MicroProfile Fault Tolerance 2.1]
+* https://github.com/eclipse/microprofile-health/releases/tag/2.2[MicroProfile Health 2.2]
+* https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
+* https://github.com/eclipse/microprofile-metrics/releases/tag/2.3[MicroProfile Metrics 2.3]
+* https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-1.1[MicroProfile OpenAPI 1.1]
+* https://github.com/eclipse/microprofile-opentracing/releases/tag/1.3[MicroProfile OpenTracing 1.3]
+* https://github.com/eclipse/microprofile-rest-client/releases/tag/1.4.0[MicroProfile Rest Client 1.4]
+* https://jcp.org/en/jsr/detail?id=365[CDI 2.0]
+* https://jcp.org/en/jsr/detail?id=250[Common Annotations 1.3]
+* https://jcp.org/en/jsr/detail?id=370[JAX-RS 2.1]
+* https://jcp.org/en/jsr/detail?id=367[JSON-B 1.0]
+* https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
 
 The Maven coordinates for this Eclipse release are as follows:
 [source,xml]
@@ -280,19 +280,19 @@ MicroProfile 3.x releases build upon a small subset of Java EE 8 features. If yo
 
 Thus, the complete list of functional components for MicroProfile 3.2 includes:
 
- - https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
- - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.0[MicroProfile Fault Tolerance 2.0]
- - https://github.com/eclipse/microprofile-health/releases/tag/2.1[MicroProfile Health 2.1]
- - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
- - https://github.com/eclipse/microprofile-metrics/releases/tag/2.2[MicroProfile Metrics 2.2]
- - https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-1.1[MicroProfile OpenAPI 1.1]
- - https://github.com/eclipse/microprofile-opentracing/releases/tag/1.3[MicroProfile OpenTracing 1.3]
- - https://github.com/eclipse/microprofile-rest-client/releases/tag/1.3[MicroProfile Rest Client 1.3]
- - https://jcp.org/en/jsr/detail?id=365[CDI 2.0]
- - https://jcp.org/en/jsr/detail?id=250[Common Annotations 1.3]
- - https://jcp.org/en/jsr/detail?id=370[JAX-RS 2.1]
- - https://jcp.org/en/jsr/detail?id=367[JSON-B 1.0]
- - https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
+* https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
+* https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.0[MicroProfile Fault Tolerance 2.0]
+* https://github.com/eclipse/microprofile-health/releases/tag/2.1[MicroProfile Health 2.1]
+* https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
+* https://github.com/eclipse/microprofile-metrics/releases/tag/2.2[MicroProfile Metrics 2.2]
+* https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-1.1[MicroProfile OpenAPI 1.1]
+* https://github.com/eclipse/microprofile-opentracing/releases/tag/1.3[MicroProfile OpenTracing 1.3]
+* https://github.com/eclipse/microprofile-rest-client/releases/tag/1.3[MicroProfile Rest Client 1.3]
+* https://jcp.org/en/jsr/detail?id=365[CDI 2.0]
+* https://jcp.org/en/jsr/detail?id=250[Common Annotations 1.3]
+* https://jcp.org/en/jsr/detail?id=370[JAX-RS 2.1]
+* https://jcp.org/en/jsr/detail?id=367[JSON-B 1.0]
+* https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
 
 The Maven coordinates for this Eclipse release are as follows:
 [source,xml]
@@ -319,19 +319,19 @@ MicroProfile 3.x releases build upon a small subset of Java EE 8 features. If yo
 
 Thus, the complete list of functional components for MicroProfile 3.1 includes:
 
- - https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
- - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.0[MicroProfile Fault Tolerance 2.0]
- - https://github.com/eclipse/microprofile-health/releases/tag/2.1[MicroProfile Health 2.1]
- - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
- - https://github.com/eclipse/microprofile-metrics/releases/tag/2.1.0[MicroProfile Metrics 2.1.0]
- - https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-1.1[MicroProfile OpenAPI 1.1]
- - https://github.com/eclipse/microprofile-opentracing/releases/tag/1.3[MicroProfile OpenTracing 1.3]
- - https://github.com/eclipse/microprofile-rest-client/releases/tag/1.3[MicroProfile Rest Client 1.3]
- - https://jcp.org/en/jsr/detail?id=365[CDI 2.0]
- - https://jcp.org/en/jsr/detail?id=250[Common Annotations 1.3]
- - https://jcp.org/en/jsr/detail?id=370[JAX-RS 2.1]
- - https://jcp.org/en/jsr/detail?id=367[JSON-B 1.0]
- - https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
+* https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
+* https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.0[MicroProfile Fault Tolerance 2.0]
+* https://github.com/eclipse/microprofile-health/releases/tag/2.1[MicroProfile Health 2.1]
+* https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
+* https://github.com/eclipse/microprofile-metrics/releases/tag/2.1.0[MicroProfile Metrics 2.1.0]
+* https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-1.1[MicroProfile OpenAPI 1.1]
+* https://github.com/eclipse/microprofile-opentracing/releases/tag/1.3[MicroProfile OpenTracing 1.3]
+* https://github.com/eclipse/microprofile-rest-client/releases/tag/1.3[MicroProfile Rest Client 1.3]
+* https://jcp.org/en/jsr/detail?id=365[CDI 2.0]
+* https://jcp.org/en/jsr/detail?id=250[Common Annotations 1.3]
+* https://jcp.org/en/jsr/detail?id=370[JAX-RS 2.1]
+* https://jcp.org/en/jsr/detail?id=367[JSON-B 1.0]
+* https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
 
 The Maven coordinates for this Eclipse release are as follows:
 [source,xml]
@@ -365,19 +365,19 @@ If you are still dependent on Java EE 7, please consider using the https://githu
 
 Thus, the complete list of functional components for MicroProfile 3.0 includes:
 
- - https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
- - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.0[MicroProfile Fault Tolerance 2.0]
- - https://github.com/eclipse/microprofile-health/releases/tag/2.0[MicroProfile Health 2.0]
- - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
- - https://github.com/eclipse/microprofile-metrics/releases/tag/2.0.0[MicroProfile Metrics 2.0.0]
- - https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-1.1[MicroProfile OpenAPI 1.1]
- - https://github.com/eclipse/microprofile-opentracing/releases/tag/1.3[MicroProfile OpenTracing 1.3]
- - https://github.com/eclipse/microprofile-rest-client/releases/tag/1.3[MicroProfile Rest Client 1.3]
- - https://jcp.org/en/jsr/detail?id=365[CDI 2.0]
- - https://jcp.org/en/jsr/detail?id=250[Common Annotations 1.3]
- - https://jcp.org/en/jsr/detail?id=370[JAX-RS 2.1]
- - https://jcp.org/en/jsr/detail?id=367[JSON-B 1.0]
- - https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
+* https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
+* https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.0[MicroProfile Fault Tolerance 2.0]
+* https://github.com/eclipse/microprofile-health/releases/tag/2.0[MicroProfile Health 2.0]
+* https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
+* https://github.com/eclipse/microprofile-metrics/releases/tag/2.0.0[MicroProfile Metrics 2.0.0]
+* https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-1.1[MicroProfile OpenAPI 1.1]
+* https://github.com/eclipse/microprofile-opentracing/releases/tag/1.3[MicroProfile OpenTracing 1.3]
+* https://github.com/eclipse/microprofile-rest-client/releases/tag/1.3[MicroProfile Rest Client 1.3]
+* https://jcp.org/en/jsr/detail?id=365[CDI 2.0]
+* https://jcp.org/en/jsr/detail?id=250[Common Annotations 1.3]
+* https://jcp.org/en/jsr/detail?id=370[JAX-RS 2.1]
+* https://jcp.org/en/jsr/detail?id=367[JSON-B 1.0]
+* https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
 
 The Maven coordinates for this Eclipse release are as follows:
 [source,xml]
@@ -403,19 +403,19 @@ If you are still dependent on Java EE 7, please consider using the https://githu
 
 Thus, the complete list of functional components for MicroProfile 2.2 includes:
 
- - https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
- - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.0[MicroProfile Fault Tolerance 2.0]
- - https://github.com/eclipse/microprofile-health/releases/tag/1.0[MicroProfile Health 1.0]
- - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
- - https://github.com/eclipse/microprofile-metrics/releases/tag/1.1[MicroProfile Metrics 1.1]
- - https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-1.1[MicroProfile OpenAPI 1.1]
- - https://github.com/eclipse/microprofile-opentracing/releases/tag/1.3[MicroProfile OpenTracing 1.3]
- - https://github.com/eclipse/microprofile-rest-client/releases/tag/1.2.0[MicroProfile Rest Client 1.2.0]
- - https://jcp.org/en/jsr/detail?id=365[CDI 2.0]
- - https://jcp.org/en/jsr/detail?id=250[Common Annotations 1.3]
- - https://jcp.org/en/jsr/detail?id=370[JAX-RS 2.1]
- - https://jcp.org/en/jsr/detail?id=367[JSON-B 1.0]
- - https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
+* https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
+* https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/2.0[MicroProfile Fault Tolerance 2.0]
+* https://github.com/eclipse/microprofile-health/releases/tag/1.0[MicroProfile Health 1.0]
+* https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
+* https://github.com/eclipse/microprofile-metrics/releases/tag/1.1[MicroProfile Metrics 1.1]
+* https://github.com/eclipse/microprofile-open-api/releases/tag/mp-openapi-1.1[MicroProfile OpenAPI 1.1]
+* https://github.com/eclipse/microprofile-opentracing/releases/tag/1.3[MicroProfile OpenTracing 1.3]
+* https://github.com/eclipse/microprofile-rest-client/releases/tag/1.2.0[MicroProfile Rest Client 1.2.0]
+* https://jcp.org/en/jsr/detail?id=365[CDI 2.0]
+* https://jcp.org/en/jsr/detail?id=250[Common Annotations 1.3]
+* https://jcp.org/en/jsr/detail?id=370[JAX-RS 2.1]
+* https://jcp.org/en/jsr/detail?id=367[JSON-B 1.0]
+* https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
 
 The Maven coordinates for this Eclipse release are as follows:
 [source,xml]
@@ -440,19 +440,19 @@ If you are still dependent on Java EE 7, please consider using the https://githu
 
 Thus, the complete list of functional components for MicroProfile 2.1 includes:
 
- - https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
- - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/1.1[MicroProfile Fault Tolerance 1.1]
- - https://github.com/eclipse/microprofile-health/releases/tag/1.0[MicroProfile Health 1.0]
- - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
- - https://github.com/eclipse/microprofile-metrics/releases/tag/1.1[MicroProfile Metrics 1.1]
- - https://github.com/eclipse/microprofile-open-api/releases/tag/1.0[MicroProfile OpenAPI 1.0]
- - https://github.com/eclipse/microprofile-opentracing/releases/tag/1.2[MicroProfile OpenTracing 1.2]
- - https://github.com/eclipse/microprofile-rest-client/releases/tag/1.2.0[MicroProfile Rest Client 1.2]
- - https://jcp.org/en/jsr/detail?id=365[CDI 2.0]
- - https://jcp.org/en/jsr/detail?id=250[Common Annotations 1.3]
- - https://jcp.org/en/jsr/detail?id=370[JAX-RS 2.1]
- - https://jcp.org/en/jsr/detail?id=367[JSON-B 1.0]
- - https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
+* https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
+* https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/1.1[MicroProfile Fault Tolerance 1.1]
+* https://github.com/eclipse/microprofile-health/releases/tag/1.0[MicroProfile Health 1.0]
+* https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
+* https://github.com/eclipse/microprofile-metrics/releases/tag/1.1[MicroProfile Metrics 1.1]
+* https://github.com/eclipse/microprofile-open-api/releases/tag/1.0[MicroProfile OpenAPI 1.0]
+* https://github.com/eclipse/microprofile-opentracing/releases/tag/1.2[MicroProfile OpenTracing 1.2]
+* https://github.com/eclipse/microprofile-rest-client/releases/tag/1.2.0[MicroProfile Rest Client 1.2]
+* https://jcp.org/en/jsr/detail?id=365[CDI 2.0]
+* https://jcp.org/en/jsr/detail?id=250[Common Annotations 1.3]
+* https://jcp.org/en/jsr/detail?id=370[JAX-RS 2.1]
+* https://jcp.org/en/jsr/detail?id=367[JSON-B 1.0]
+* https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
 
 The Maven coordinates for this Eclipse release are as follows:
 [source,xml]
@@ -500,19 +500,19 @@ If you are still dependent on Java EE 7, please consider using the https://githu
 Based on our time-boxed process, the content for MicroProfile 2.0 will be MicroProfile 1.4 plus Java EE 8.
 Thus, the complete list of functional components for MicroProfile 2.0 includes:
 
- - https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
- - https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/1.1[MicroProfile Fault Tolerance 1.1]
- - https://github.com/eclipse/microprofile-health/releases/tag/1.0[MicroProfile Health 1.0]
- - https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
- - https://github.com/eclipse/microprofile-metrics/releases/tag/1.1[MicroProfile Metrics 1.1]
- - https://github.com/eclipse/microprofile-open-api/releases/tag/1.0[MicroProfile OpenAPI 1.0]
- - https://github.com/eclipse/microprofile-opentracing/releases/tag/1.1[MicroProfile OpenTracing 1.1]
- - https://github.com/eclipse/microprofile-rest-client/releases/tag/1.1[MicroProfile Rest Client 1.1]
- - https://jcp.org/en/jsr/detail?id=365[CDI 2.0]
- - https://jcp.org/en/jsr/detail?id=250[Common Annotations 1.3]
- - https://jcp.org/en/jsr/detail?id=370[JAX-RS 2.1]
- - https://jcp.org/en/jsr/detail?id=367[JSON-B 1.0]
- - https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
+* https://github.com/eclipse/microprofile-config/releases/tag/1.3[MicroProfile Config 1.3]
+* https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/1.1[MicroProfile Fault Tolerance 1.1]
+* https://github.com/eclipse/microprofile-health/releases/tag/1.0[MicroProfile Health 1.0]
+* https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.1[MicroProfile JWT Authentication 1.1]
+* https://github.com/eclipse/microprofile-metrics/releases/tag/1.1[MicroProfile Metrics 1.1]
+* https://github.com/eclipse/microprofile-open-api/releases/tag/1.0[MicroProfile OpenAPI 1.0]
+* https://github.com/eclipse/microprofile-opentracing/releases/tag/1.1[MicroProfile OpenTracing 1.1]
+* https://github.com/eclipse/microprofile-rest-client/releases/tag/1.1[MicroProfile Rest Client 1.1]
+* https://jcp.org/en/jsr/detail?id=365[CDI 2.0]
+* https://jcp.org/en/jsr/detail?id=250[Common Annotations 1.3]
+* https://jcp.org/en/jsr/detail?id=370[JAX-RS 2.1]
+* https://jcp.org/en/jsr/detail?id=367[JSON-B 1.0]
+* https://jcp.org/en/jsr/detail?id=374[JSON-P 1.1]
 
 The Maven coordinates for this Eclipse release are as follows:
 [source,xml]
