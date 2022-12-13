@@ -36,8 +36,13 @@
     <name>MicroProfile Specification</name>
 
     <properties>
-        <asciidoctor-maven.version>1.5.8</asciidoctor-maven.version>
-        <asciidoctorj-pdf.version>1.5.0-alpha.15</asciidoctorj-pdf.version>
+        <asciidoctor.maven.plugin.version>2.2.2</asciidoctor.maven.plugin.version>
+        <!-- Required dependency overwrite versions for the AsciiDoctor Maven Plugin version -->
+        <asciidoctorj.version>2.5.7</asciidoctorj.version>
+        <asciidoctorj.diagram.version>2.2.3</asciidoctorj.diagram.version>
+        <asciidoctorj.pdf.version>2.3.0</asciidoctorj.pdf.version>
+        <jruby.version>9.3.8.0</jruby.version>
+        
         <build.helper.maven.plugin.version>3.3.0</build.helper.maven.plugin.version>
 
         <maven.build.timestamp.format>MMMM dd, yyyy</maven.build.timestamp.format>
@@ -54,15 +59,85 @@
             <plugin>
                 <groupId>org.asciidoctor</groupId>
                 <artifactId>asciidoctor-maven-plugin</artifactId>
-                <version>${asciidoctor-maven.version}</version>
+                <version>${asciidoctor.maven.plugin.version}</version>
                 <dependencies>
+                    <!-- Comment this section to use the default jruby artifact provided by the plugin -->
+                    <dependency>
+                        <groupId>org.jruby</groupId>
+                        <artifactId>jruby</artifactId>
+                        <version>${jruby.version}</version>
+                    </dependency>
+                    <!-- Comment this section to use the default AsciidoctorJ artifact provided by the plugin -->
+                    <dependency>
+                        <groupId>org.asciidoctor</groupId>
+                        <artifactId>asciidoctorj</artifactId>
+                        <version>${asciidoctorj.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.asciidoctor</groupId>
+                        <artifactId>asciidoctorj-diagram</artifactId>
+                        <version>${asciidoctorj.diagram.version}</version>
+                    </dependency>
+                    <!-- Since asciidoctorj-diagram v2.2.0, uncomment to use specific version of plantuml or ditaa -->
+                    <!--
+                    <dependency>
+                        <groupId>org.asciidoctor</groupId>
+                        <artifactId>asciidoctorj-diagram-plantuml</artifactId>
+                        <version>1.2022.5</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.asciidoctor</groupId>
+                        <artifactId>asciidoctorj-diagram-ditaamini</artifactId>
+                        <version>1.0.3</version>
+                    </dependency>
+                    -->
                     <dependency>
                         <groupId>org.asciidoctor</groupId>
                         <artifactId>asciidoctorj-pdf</artifactId>
-                        <version>${asciidoctorj-pdf.version}</version>
+                        <version>${asciidoctorj.pdf.version}</version>
                     </dependency>
                 </dependencies>
+                <configuration>
+                    <sourceDirectory>src/main/asciidoc</sourceDirectory>
+                    <sourceDocumentName>microprofile-spec.adoc</sourceDocumentName>
+                    <!-- Attributes common to all output formats -->
+                    <attributes>
+                        <icons>font</icons>
+                        <idprefix/>
+                        <idseparator>-</idseparator>
+                        <!-- Images located to documents source -->
+                        <imagesdir>./image</imagesdir>
+                        <sourcedir>${project.build.sourceDirectory}</sourcedir>
+                        <license>Apache License v2.0</license>
+                        <revnumber>${project.version}</revnumber>
+                        <revremark>${revremark}</revremark>
+                        <revdate>${revisiondate}</revdate>
+                        <inceptionYear>${inceptionYear}</inceptionYear>
+                        <currentYear>${currentYear}</currentYear>
+                        <organization>${project.organiazation.name}</organization>
+                        <source-highlighter>coderay</source-highlighter>
+                    </attributes>
+                    <requires>
+                        <require>asciidoctor-diagram</require>
+                    </requires>
+                </configuration>
                 <executions>
+                    <execution>
+                        <id>generate-html-doc</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>process-asciidoc</goal>
+                        </goals>
+                        <configuration>
+                            <backend>html5</backend>
+                            <outputFile>${spec.html}</outputFile>
+                            <!-- Attributes specific to output formats -->
+                            <attributes>
+                                <toc>left</toc>
+                                <sectanchors>true</sectanchors>
+                            </attributes>
+                        </configuration>
+                    </execution>
                     <execution>
                         <id>generate-pdf-doc</id>
                         <phase>generate-resources</phase>
@@ -71,33 +146,16 @@
                         </goals>
                         <configuration>
                             <backend>pdf</backend>
+                            <doctype>book</doctype>
                             <outputFile>${spec.pdf}</outputFile>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>output-html</id>
-                        <phase>generate-resources</phase>
-                        <goals>
-                            <goal>process-asciidoc</goal>
-                        </goals>
-                        <configuration>
-                            <backend>html5</backend>
-                            <outputFile>${spec.html}</outputFile>
+                            <!-- Attributes specific to output formats -->
+                            <attributes>
+                                <pagenums/>
+                                <toc/>
+                            </attributes>
                         </configuration>
                     </execution>
                 </executions>
-                <configuration>
-                    <sourceDocumentName>microprofile-spec.asciidoc</sourceDocumentName>
-                    <sourceHighlighter>coderay</sourceHighlighter>
-                    <attributes>
-                        <license>Apache License v2.0</license>
-                        <revnumber>${project.version}</revnumber>
-                        <revremark>${revremark}</revremark>
-                        <revdate>${revisiondate}</revdate>
-                        <inceptionYear>${inceptionYear}</inceptionYear>
-                        <currentYear>${currentYear}</currentYear>
-                    </attributes>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -139,6 +197,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>
