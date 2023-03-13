@@ -39,9 +39,9 @@
         <asciidoctor.maven.plugin.version>2.2.2</asciidoctor.maven.plugin.version>
         <!-- Required dependency overwrite versions for the AsciiDoctor Maven Plugin version -->
         <asciidoctorj.version>2.5.7</asciidoctorj.version>
-        <asciidoctorj.diagram.version>2.2.3</asciidoctorj.diagram.version>
-        <asciidoctorj.pdf.version>2.3.0</asciidoctorj.pdf.version>
-        <jruby.version>9.3.8.0</jruby.version>
+        <asciidoctorj.diagram.version>2.2.4</asciidoctorj.diagram.version>
+        <asciidoctorj.pdf.version>2.3.4</asciidoctorj.pdf.version>
+        <jruby.version>9.3.10.0</jruby.version>
         <netty.version>4.1.89.Final</netty.version>
 
         <build.helper.maven.plugin.version>3.3.0</build.helper.maven.plugin.version>
