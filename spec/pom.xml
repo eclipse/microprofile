@@ -36,13 +36,12 @@
     <name>MicroProfile Specification</name>
 
     <properties>
-        <asciidoctor.maven.plugin.version>2.2.2</asciidoctor.maven.plugin.version>
+        <asciidoctor.maven.plugin.version>2.2.3</asciidoctor.maven.plugin.version>
         <!-- Required dependency overwrite versions for the AsciiDoctor Maven Plugin version -->
         <asciidoctorj.version>2.5.7</asciidoctorj.version>
         <asciidoctorj.diagram.version>2.2.4</asciidoctorj.diagram.version>
         <asciidoctorj.pdf.version>2.3.4</asciidoctorj.pdf.version>
         <jruby.version>9.3.10.0</jruby.version>
-        <netty.version>4.1.89.Final</netty.version>
 
         <build.helper.maven.plugin.version>3.3.0</build.helper.maven.plugin.version>
 
@@ -68,13 +67,6 @@
                         <artifactId>jruby</artifactId>
                         <version>${jruby.version}</version>
                     </dependency>
-                    <!-- Comment this section to use the default netty-codec-http artifact provided by the plugin -->
-                    <!-- Workaround for security issues (fix CVE-2022-41915, CVE-2022-24823) in asciidoctor-maven-plugin v2.2.2 -->
-                    <dependency>
-                       <groupId>io.netty</groupId>
-                       <artifactId>netty-codec-http</artifactId>
-                       <version>${netty.version}</version>
-                    </dependency>
                     <!-- Comment this section to use the default AsciidoctorJ artifact provided by the plugin -->
                     <dependency>
                         <groupId>org.asciidoctor</groupId>
@@ -91,7 +83,7 @@
                     <dependency>
                         <groupId>org.asciidoctor</groupId>
                         <artifactId>asciidoctorj-diagram-plantuml</artifactId>
-                        <version>1.2022.5</version>
+                        <version>1.2022.14</version>
                     </dependency>
                     <dependency>
                         <groupId>org.asciidoctor</groupId>
