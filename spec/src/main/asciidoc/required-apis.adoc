@@ -62,12 +62,12 @@ MicroProfile 6.0 and above requires https://jakarta.ee/specifications/coreprofil
 pass:[**] Full CDI support is not required. CDI SE support is not required.
 
 [[mp-config]]
-=== MicroProfile Config 3.0
+=== MicroProfile Config 3.1
 
 MicroProfile Config provides applications and microservices means to obtain configuration properties through several environment-aware sources both internal and external to the application and made available through dependency injection or lookup.
 
 * https://microprofile.io/project/eclipse/microprofile-config
-* https://github.com/eclipse/microprofile-config/releases/tag/3.0.2
+* https://github.com/eclipse/microprofile-config/releases/tag/3.1-RC2
 
 [[mp-fault-tolerance]]
 === MicroProfile Fault Tolerance 4.0
@@ -96,13 +96,13 @@ MicroProfile JWT Authentication provides role based access control (RBAC) micros
 * https://github.com/eclipse/microprofile-jwt-auth/releases/tag/2.1
 
 [[mp-metrics]]
-=== MicroProfile Metrics 5.0
+=== MicroProfile Metrics 5.1
 
 MicroProfile Metrics provides a unified way for MicroProfile applications to export monitoring data to management agents.
 Metrics will also provide a common Java API for exposing their telemetry data.
 
 * https://microprofile.io/project/eclipse/microprofile-metrics
-* https://github.com/eclipse/microprofile-metrics/releases/tag/5.0.0
+* https://github.com/eclipse/microprofile-metrics/releases/tag/5.1.0-RC1
 
 [[mp-open-api]]
 === MicroProfile OpenAPI 3.1
@@ -124,7 +124,7 @@ With a lack of standardization, the net result is the lack of data portability a
 The https://opentelemetry.io[OpenTelemetry] project solves these problems by providing a single, vendor-agnostic solution.
 
 * https://microprofile.io/project/eclipse/microprofile-telemetry
-* https://github.com/eclipse/microprofile-telemetry/releases/tag/1.0
+* https://github.com/eclipse/microprofile-telemetry/releases/tag/1.1-RC2
 
 [[mp-rest-client]]
 === MicroProfile Rest Client 3.0
