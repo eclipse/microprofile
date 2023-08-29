@@ -36,12 +36,12 @@
     <name>MicroProfile Specification</name>
 
     <properties>
-        <asciidoctor.maven.plugin.version>2.2.3</asciidoctor.maven.plugin.version>
-        <!-- Required dependency overwrite versions for the AsciiDoctor Maven Plugin version -->
-        <asciidoctorj.version>2.5.7</asciidoctorj.version>
-        <asciidoctorj.diagram.version>2.2.4</asciidoctorj.diagram.version>
-        <asciidoctorj.pdf.version>2.3.4</asciidoctorj.pdf.version>
-        <jruby.version>9.3.10.0</jruby.version>
+        <asciidoctor.maven.plugin.version>2.2.4</asciidoctor.maven.plugin.version>
+        <!-- Required dependency overwrite versions for the Asciidoctor Maven Plugin version -->
+        <asciidoctorj.version>2.5.10</asciidoctorj.version>
+        <asciidoctorj.diagram.version>2.2.9</asciidoctorj.diagram.version>
+        <asciidoctorj.pdf.version>2.3.7</asciidoctorj.pdf.version>
+        <jruby.version>9.4.2.0</jruby.version>
 
         <build.helper.maven.plugin.version>3.3.0</build.helper.maven.plugin.version>
 
