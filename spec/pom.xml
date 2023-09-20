@@ -39,9 +39,9 @@
         <asciidoctor.maven.plugin.version>2.2.4</asciidoctor.maven.plugin.version>
         <!-- Required dependency overwrite versions for the Asciidoctor Maven Plugin version -->
         <asciidoctorj.version>2.5.10</asciidoctorj.version>
-        <asciidoctorj.diagram.version>2.2.9</asciidoctorj.diagram.version>
-        <asciidoctorj.pdf.version>2.3.7</asciidoctorj.pdf.version>
-        <jruby.version>9.4.2.0</jruby.version>
+        <asciidoctorj.diagram.version>2.2.11</asciidoctorj.diagram.version>
+        <asciidoctorj.pdf.version>2.3.9</asciidoctorj.pdf.version>
+        <jruby.version>9.4.3.0</jruby.version>
 
         <build.helper.maven.plugin.version>3.3.0</build.helper.maven.plugin.version>
 
@@ -83,7 +83,7 @@
                     <dependency>
                         <groupId>org.asciidoctor</groupId>
                         <artifactId>asciidoctorj-diagram-plantuml</artifactId>
-                        <version>1.2022.14</version>
+                        <version>1.2023.10</version>
                     </dependency>
                     <dependency>
                         <groupId>org.asciidoctor</groupId>
