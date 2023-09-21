@@ -66,8 +66,9 @@ The Maven coordinates for this Eclipse release are as follows:
 </dependency>
 ----
 
-Here is the link to https://github.com/eclipse/microprofile/releases/tag/6.1-RC1[the github repository] for this Eclipse-based project.
+Here is the link to https://github.com/eclipse/microprofile/releases/tag/6.1[the github repository] for this Eclipse-based project.
 
+[[microprofile6.0]]
 === MicroProfile 6.0
 
 MicroProfile 6.0 replaces required individual Jakarta specifications in prior releases like Jakarta Restful Web Services and JSON Binding with the Jakarta EE 10 Core Profile.

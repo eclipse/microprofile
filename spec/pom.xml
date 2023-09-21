@@ -37,7 +37,7 @@
 
     <properties>
         <asciidoctor.maven.plugin.version>2.2.4</asciidoctor.maven.plugin.version>
-        <!-- Required dependency overwrite versions for the Asciidoctor Maven Plugin version -->
+        <!-- Required dependency overwrite versions for the AsciiDoctor Maven Plugin version -->
         <asciidoctorj.version>2.5.10</asciidoctorj.version>
         <asciidoctorj.diagram.version>2.2.11</asciidoctorj.diagram.version>
         <asciidoctorj.pdf.version>2.3.9</asciidoctorj.pdf.version>
