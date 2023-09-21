@@ -28,7 +28,7 @@ Core Profile or the Cloud Native Computing Foundation (like OpenTelemetry),
 or they are component specifications of the MicroProfile project (such as Config).
 
 Since the MicroProfile repo is an "umbrella" project, no individual API or TCK is generated for this specification.
-This specification documents the component specification contents of each release. An implementation of this specification is free to pick up a later patch release of any component specifications.
+This specification documents the component specification contents of each release. Specification implementations can use a later patch releases and remain compatible.
 
 The specifications for each release are listed in reverse chronological order.
 
