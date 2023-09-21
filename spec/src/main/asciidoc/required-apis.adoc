@@ -67,7 +67,7 @@ pass:[**] Full CDI support is not required. CDI SE support is not required.
 MicroProfile Config provides applications and microservices means to obtain configuration properties through several environment-aware sources both internal and external to the application and made available through dependency injection or lookup.
 
 * https://microprofile.io/project/eclipse/microprofile-config
-* https://github.com/eclipse/microprofile-config/releases/tag/3.1-RC2
+* https://github.com/eclipse/microprofile-config/releases/tag/3.1
 
 [[mp-fault-tolerance]]
 === MicroProfile Fault Tolerance 4.0
@@ -102,7 +102,7 @@ MicroProfile Metrics provides a unified way for MicroProfile applications to exp
 Metrics will also provide a common Java API for exposing their telemetry data.
 
 * https://microprofile.io/project/eclipse/microprofile-metrics
-* https://github.com/eclipse/microprofile-metrics/releases/tag/5.1.0-RC1
+* https://github.com/eclipse/microprofile-metrics/releases/tag/5.1.0
 
 [[mp-open-api]]
 === MicroProfile OpenAPI 3.1
@@ -110,7 +110,7 @@ Metrics will also provide a common Java API for exposing their telemetry data.
 MicroProfile OpenAPI provides a unified Java API for the https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md[OpenAPI v3 specification] that all application developers can use to expose their API documentation.
 
 * https://microprofile.io/project/eclipse/microprofile-open-api
-* https://github.com/eclipse/microprofile-open-api/releases/tag/3.1
+* https://github.com/eclipse/microprofile-open-api/releases/tag/3.1.1
 
 [[mp-telemetry]]
 === MicroProfile Telemetry 1.0
@@ -124,7 +124,7 @@ With a lack of standardization, the net result is the lack of data portability a
 The https://opentelemetry.io[OpenTelemetry] project solves these problems by providing a single, vendor-agnostic solution.
 
 * https://microprofile.io/project/eclipse/microprofile-telemetry
-* https://github.com/eclipse/microprofile-telemetry/releases/tag/1.1-RC2
+* https://github.com/eclipse/microprofile-telemetry/releases/tag/1.1
 
 [[mp-rest-client]]
 === MicroProfile Rest Client 3.0
