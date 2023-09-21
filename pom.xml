@@ -107,14 +107,14 @@
         <jakarta-version>10.0.0</jakarta-version>
 
         <!-- MicroProfile specs  -->
-        <config-version>3.1-RC2</config-version>
+        <config-version>3.1</config-version>
         <ft-version>4.0.2</ft-version>
         <health-version>4.0.1</health-version>
-        <metrics-version>5.1.0-RC1</metrics-version> 
+        <metrics-version>5.1.0</metrics-version> 
         <jwt-version>2.1</jwt-version>
-        <openapi-version>3.1</openapi-version> 
+        <openapi-version>3.1.1</openapi-version> 
         <rest-client-version>3.0.1</rest-client-version>
-        <telemetry-version>1.1-RC2</telemetry-version> 
+        <telemetry-version>1.1</telemetry-version> 
 
         <!-- other props  -->
         <!-- whether autorelease maven central staging repositories - default false to allow review and manually release repositories -->
