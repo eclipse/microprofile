@@ -102,7 +102,7 @@ MicroProfile Metrics provides a unified way for MicroProfile applications to exp
 Metrics will also provide a common Java API for exposing their telemetry data.
 
 * https://microprofile.io/project/eclipse/microprofile-metrics
-* https://github.com/eclipse/microprofile-metrics/releases/tag/5.1.0-RC1
+* https://github.com/eclipse/microprofile-metrics/releases/tag/5.1.0
 
 [[mp-open-api]]
 === MicroProfile OpenAPI 3.1
