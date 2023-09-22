@@ -24,14 +24,14 @@
 MicroProfile implementations must include the following specifications:
 
 * <<jakartaee-core-profile, Jakarta EE Core Profile 10>>
-* <<mp-config, MicroProfile Config 3.0>>
+* <<mp-config, MicroProfile Config 3.1>>
 * <<mp-fault-tolerance, MicroProfile Fault Tolerance 4.0>>
 * <<mp-health-check, MicroProfile Health 4.0>>
 * <<mp-jwt-auth, MicroProfile JWT Authentication 2.1>>
-* <<mp-metrics, MicroProfile Metrics 5.0>>
+* <<mp-metrics, MicroProfile Metrics 5.1>>
 * <<mp-open-api, MicroProfile OpenAPI 3.1>>
 * <<mp-rest-client, MicroProfile Rest Client 3.0>>
-* <<mp-telemetry, MicroProfile Telemetry 1.0>>
+* <<mp-telemetry, MicroProfile Telemetry 1.1>>
 
 A MicroProfile compatible implementation must pass *all* required TCKs provided by each MicroProfile specification,
 including the Jakarta EE Core Profile 10 TCK.
