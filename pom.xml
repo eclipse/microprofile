@@ -138,7 +138,6 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <failOnError>false</failOnError> 
                     <additionalDependencies>
                         <additionalDependency>
                             <groupId>org.osgi</groupId>
