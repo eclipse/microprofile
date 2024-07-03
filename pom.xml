@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 /**********************************************************************
- * Copyright (c) 2017-2022 Contributors to the Eclipse Foundation
+ * Copyright (c) 2017 Contributors to the Eclipse Foundation
  *
  * See the NOTICES file(s) distributed with this work for additional
  * information regarding copyright ownership.
@@ -28,7 +28,7 @@
     <groupId>org.eclipse.microprofile</groupId>
     <artifactId>microprofile</artifactId>
     <packaging>pom</packaging>
-    <version>6.2-SNAPSHOT</version>
+    <version>7.0-SNAPSHOT</version>
 
     <name>MicroProfile</name>
     <description>The MicroProfile Specification and Information Repository</description>
@@ -108,13 +108,13 @@
 
         <!-- MicroProfile specs  -->
         <config-version>3.1</config-version>
-        <ft-version>4.0.2</ft-version>
+        <ft-version>4.1-RC1</ft-version>
         <health-version>4.0.1</health-version>
         <metrics-version>5.1.0</metrics-version> 
         <jwt-version>2.1</jwt-version>
-        <openapi-version>3.1.1</openapi-version> 
-        <rest-client-version>3.0.1</rest-client-version>
-        <telemetry-version>1.1</telemetry-version> 
+        <openapi-version>4.0-RC3</openapi-version> 
+        <rest-client-version>4.0-RC1</rest-client-version>
+        <telemetry-version>2.0-RC2</telemetry-version> 
 
         <!-- other props  -->
         <!-- whether autorelease maven central staging repositories - default false to allow review and manually release repositories -->
@@ -127,7 +127,7 @@
         <plugins>
             <plugin>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.0.1</version>
+                <version>3.7.0</version>
                 <executions>
                     <execution>
                         <id>aggregate-javadoc</id>
@@ -152,6 +152,7 @@
                     <dependencySourceIncludes>
                         <dependencySourceInclude>org.eclipse.microprofile.*:*</dependencySourceInclude>
                     </dependencySourceIncludes>
+                    <source>8</source>
                     <links>
                         <link>https://javaee.github.io/javaee-spec/javadocs/</link>
                     </links>
@@ -213,6 +214,12 @@
                 <artifactId>microprofile-rest-client-api</artifactId>
                 <version>${rest-client-version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.eclipse.microprofile.telemetry</groupId>
+                <artifactId>microprofile-telemetry-api</artifactId>
+                <type>pom</type>
+                <version>${telemetry-version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -248,6 +255,11 @@
         <dependency>
             <groupId>org.eclipse.microprofile.rest.client</groupId>
             <artifactId>microprofile-rest-client-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.microprofile.telemetry</groupId>
+            <artifactId>microprofile-telemetry-api</artifactId>
+            <type>pom</type>
         </dependency>
     </dependencies>
 
