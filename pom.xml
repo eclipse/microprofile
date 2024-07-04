@@ -108,7 +108,7 @@
 
         <!-- MicroProfile specs  -->
         <config-version>3.1</config-version>
-        <ft-version>4.1-RC1</ft-version>
+        <ft-version>4.1-RC2</ft-version>
         <health-version>4.0.1</health-version>
         <metrics-version>5.1.0</metrics-version> 
         <jwt-version>2.1</jwt-version>
