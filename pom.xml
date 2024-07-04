@@ -113,7 +113,7 @@
         <metrics-version>5.1.0</metrics-version> 
         <jwt-version>2.1</jwt-version>
         <openapi-version>4.0-RC3</openapi-version> 
-        <rest-client-version>4.0-RC1</rest-client-version>
+        <rest-client-version>4.0-RC2</rest-client-version>
         <telemetry-version>2.0-RC2</telemetry-version> 
 
         <!-- other props  -->
