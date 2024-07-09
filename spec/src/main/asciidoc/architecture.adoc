@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2017-2022 Contributors to the Eclipse Foundation
+// Copyright (c) 2017-2024 Contributors to the Eclipse Foundation
 //
 // See the NOTICE file(s) distributed with this work for additional
 // information regarding copyright ownership.
@@ -22,7 +22,7 @@
 == Architecture
 
 The MicroProfile pom will identify the contents of each MicroProfile release.
-The contents include those features and versions agreed to by the MicroProfile community.
+The contents include those features and versions agreed by the MicroProfile community.
 These features may be external to the MicroProfile community, like those provided by Jakarta EE
 Core Profile or the Cloud Native Computing Foundation (like OpenTelemetry),
 or they are component specifications of the MicroProfile project (such as Config).
@@ -31,6 +31,39 @@ Since the MicroProfile repo is an "umbrella" project, no individual API or TCK i
 This specification documents the component specification contents of each release. An implementation can use later patch releases of component specifications.
 
 The specifications for each release are listed in reverse chronological order.
+
+[[microprofile7.0]]
+=== MicroProfile 7.0
+Based on MicroProfile's time-boxed release process, this is a major release that does include backward incompatible changes. This release no longer packages Jakarta EE 10 Core Profile, instead it just specifies the dependency on Jakarta EE 10 Core Profile. This release does not include MicroProfile Metrics as MicroProfile Telemetry 2.0 offers the Metrics capabilities in addition to Logs and Tracing. Therefore, MicroProfile Metrics became a standalone specification.
+
+If you are still dependent on Jakarta EE 9.1, please consider using the https://github.com/eclipse/microprofile/releases/tag/5.0[5.0 release of MicroProfile].
+If you are still dependent on Jakarta EE 8, please consider using the https://github.com/eclipse/microprofile/releases/tag/4.1[4.1 release of MicroProfile].
+If you are still dependent on Java EE 8, please consider using the https://github.com/eclipse/microprofile/releases/tag/3.3[3.3 release of MicroProfile].
+If you are still dependent on Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
+
+The complete list of MicroProfile 7.0 specifications includes:
+
+* https://github.com/eclipse/microprofile-config/releases/tag/3.1[MicroProfile Config 3.1]
+* https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/4.1[MicroProfile Fault Tolerance 4.1]
+* https://github.com/eclipse/microprofile-health/releases/tag/4.0.1[MicroProfile Health 4.0]
+* https://github.com/eclipse/microprofile-telemetry/releases/tag/2.0[MicroProfile Telemetry 2.0]
+* https://github.com/eclipse/microprofile-open-api/releases/tag/4.0[MicroProfile OpenAPI 4.0]
+* https://github.com/eclipse/microprofile-jwt-auth/releases/tag/2.1[MicroProfile JWT Authentication 2.1]
+* https://github.com/eclipse/microprofile-rest-client/releases/tag/4.0[MicroProfile Rest Client 4.0]
+
+The Maven coordinates for this Eclipse release are as follows:
+[source,xml]
+----
+<dependency>
+    <groupId>org.eclipse.microprofile</groupId>
+    <artifactId>microprofile</artifactId>
+    <version>7.0</version>
+    <type>pom</type>
+    <scope>provided</scope>
+</dependency>
+----
+
+Here is the link to https://github.com/eclipse/microprofile/releases/tag/7.0[the github repository] for this Eclipse-based project.
 
 [[microprofile6.1]]
 === MicroProfile 6.1
