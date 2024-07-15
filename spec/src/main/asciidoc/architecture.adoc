@@ -22,7 +22,7 @@
 == Architecture
 
 The MicroProfile pom will identify the contents of each MicroProfile release.
-The contents include those features and versions agreedto by the MicroProfile community.
+The contents include those features and versions agreed to by the MicroProfile community.
 These features may be external to the MicroProfile community, like those provided by Jakarta EE
 Core Profile or the Cloud Native Computing Foundation (like OpenTelemetry),
 or they are component specifications of the MicroProfile project (such as Config).
