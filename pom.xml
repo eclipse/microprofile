@@ -108,14 +108,20 @@
 
         <!-- MicroProfile specs  -->
         <config-version>3.1</config-version>
-        <ft-version>4.1-RC2</ft-version>
+        <ft-version>4.1</ft-version>
         <health-version>4.0.1</health-version>
         <metrics-version>5.1.0</metrics-version> 
         <jwt-version>2.1</jwt-version>
-        <openapi-version>4.0-RC3</openapi-version> 
-        <rest-client-version>4.0-RC2</rest-client-version>
-        <telemetry-version>2.0-RC2</telemetry-version> 
+        <openapi-version>4.0</openapi-version> 
+        <rest-client-version>4.0</rest-client-version>
+        <telemetry-version>2.0</telemetry-version> 
 
+        <!-- other plugin versions-->
+
+        <version.plugin.javadoc>3.7.0</version.plugin.javadoc>
+        <version.plugin.gpg>3.2.4</version.plugin.gpg>
+        <version.plugin.release>3.0.1</version.plugin.release>
+        <version.plugin.staging>1.7.0</version.plugin.staging>
         <!-- other props  -->
         <!-- whether autorelease maven central staging repositories - default false to allow review and manually release repositories -->
         <autorelease>false</autorelease>
@@ -127,7 +133,7 @@
         <plugins>
             <plugin>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.7.0</version>
+                <version>${version.plugin.javadoc}</version>
                 <executions>
                     <execution>
                         <id>aggregate-javadoc</id>
@@ -161,7 +167,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.3</version>
+                <version>${version.plugin.release}</version>
                 <configuration>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <localCheckout>true</localCheckout>
@@ -271,7 +277,7 @@
                     <plugin>
                         <groupId>org.sonatype.plugins</groupId>
                         <artifactId>nexus-staging-maven-plugin</artifactId>
-                        <version>1.7.0</version>
+                        <version>${version.plugin.staging}</version>
                         <extensions>true</extensions>
                         <configuration>
                             <nexusUrl>https://oss.sonatype.org/</nexusUrl>
@@ -283,7 +289,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
-                        <version>1.6</version>
+                        <version>${version.plugin.gpg}</version>
                         <executions>
                             <execution>
                                 <id>sign-artifacts</id>
