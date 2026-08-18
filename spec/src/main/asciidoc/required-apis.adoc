@@ -28,9 +28,9 @@ MicroProfile implementations must include the following specifications:
 * <<mp-fault-tolerance, MicroProfile Fault Tolerance 4.1>>
 * <<mp-health-check, MicroProfile Health 4.0>>
 * <<mp-jwt-auth, MicroProfile JWT Authentication 2.1>>
-* <<mp-open-api, MicroProfile OpenAPI 4.0>>
+* <<mp-open-api, MicroProfile OpenAPI 4.1>>
 * <<mp-rest-client, MicroProfile Rest Client 4.0>>
-* <<mp-telemetry, MicroProfile Telemetry 2.0>>
+* <<mp-telemetry, MicroProfile Telemetry 2.1>>
 
 A MicroProfile compatible implementation must pass *all* required TCKs provided by each MicroProfile specification,
 including the Jakarta EE Core Profile 10 TCK.
@@ -75,7 +75,7 @@ MicroProfile Fault Tolerance provides the ability to separate execution logic fr
 Key aspects of the API include TimeOut, RetryPolicy, Fallback, Bulkhead, and Circuit Breaker processing.
 
 * https://github.com/eclipse/microprofile-fault-tolerance
-* https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/4.1
+* https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/4.1.2
 
 [[mp-health-check]]
 === MicroProfile Health 4.0
@@ -95,15 +95,15 @@ MicroProfile JWT Authentication provides role based access control (RBAC) micros
 * https://github.com/eclipse/microprofile-jwt-auth/releases/tag/2.1
 
 [[mp-open-api]]
-=== MicroProfile OpenAPI 4.0
+=== MicroProfile OpenAPI 4.1
 
 MicroProfile OpenAPI provides a unified Java API for the https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md[OpenAPI v3.1 specification] that all application developers can use to expose their API documentation.
 
 * https://github.com/eclipse/microprofile-open-api
-* https://github.com/eclipse/microprofile-open-api/releases/tag/4.0
+* https://github.com/eclipse/microprofile-open-api/releases/tag/4.1
 
 [[mp-telemetry]]
-=== MicroProfile Telemetry 2.0
+=== MicroProfile Telemetry 2.1
 
 MicroProfile Telemetry provides an adoption of the https://opentelemetry.io[OpenTelemetry] specification (currently for Distributed Tracing and Baggage in that context only).
 
@@ -114,7 +114,7 @@ With a lack of standardization, the net result is the lack of data portability a
 The https://opentelemetry.io[OpenTelemetry] project solves these problems by providing a single, vendor-agnostic solution.
 
 * https://github.com/eclipse/microprofile-telemetry
-* https://github.com/eclipse/microprofile-telemetry/releases/tag/2.0
+* https://github.com/eclipse/microprofile-telemetry/releases/tag/2.1
 
 [[mp-rest-client]]
 === MicroProfile Rest Client 4.0

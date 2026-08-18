@@ -28,7 +28,7 @@
     <groupId>org.eclipse.microprofile</groupId>
     <artifactId>microprofile</artifactId>
     <packaging>pom</packaging>
-    <version>7.1-SNAPSHOT</version>
+    <version>3.5-SNAPSHOT</version>
 
     <name>MicroProfile</name>
     <description>The MicroProfile Specification and Information Repository</description>
@@ -110,11 +110,11 @@
         <config-version>3.1</config-version>
         <ft-version>4.1</ft-version>
         <health-version>4.0.1</health-version>
-        <metrics-version>5.1.0</metrics-version> 
+        <metrics-version>5.1.0</metrics-version>
         <jwt-version>2.1</jwt-version>
-        <openapi-version>4.0</openapi-version> 
+        <openapi-version>4.1</openapi-version>
         <rest-client-version>4.0</rest-client-version>
-        <telemetry-version>2.0</telemetry-version> 
+        <telemetry-version>2.1</telemetry-version>
 
         <!-- other plugin versions-->
 
@@ -144,7 +144,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <failOnError>false</failOnError> 
+                    <failOnError>false</failOnError>
                     <additionalDependencies>
                         <additionalDependency>
                             <groupId>org.osgi</groupId>

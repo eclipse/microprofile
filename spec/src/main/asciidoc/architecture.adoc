@@ -32,6 +32,39 @@ This specification documents the component specification contents of each releas
 
 The specifications for each release are listed in reverse chronological order.
 
+[[microprofile7.1]]
+=== MicroProfile 7.1
+Based on MicroProfile's time-boxed release process, this is a minor release that does not include backward incompatible changes. This release includes minor updates to MicroProfile Telemetry and MicroProfile OpenAPI.
+
+If you are still dependent on the Jakarta EE specifications from Jakarta EE 9.1, please consider using the https://github.com/eclipse/microprofile/releases/tag/5.0[5.0 release of MicroProfile].
+If you are still dependent on the Jakarta EE specifications from Jakarta EE 8, please consider using the https://github.com/eclipse/microprofile/releases/tag/4.1[4.1 release of MicroProfile].
+If you are still dependent on the Java EE specifications from Java EE 8, please consider using the https://github.com/eclipse/microprofile/releases/tag/3.3[3.3 release of MicroProfile].
+If you are still dependent on the Java EE specifications from Java EE 7, please consider using the https://github.com/eclipse/microprofile/releases/tag/1.4[1.4 release of MicroProfile].
+
+The complete list of MicroProfile 7.1 specifications includes:
+
+* https://github.com/eclipse/microprofile-config/releases/tag/3.1[MicroProfile Config 3.1]
+* https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/4.1.2[MicroProfile Fault Tolerance 4.1]
+* https://github.com/eclipse/microprofile-health/releases/tag/4.0.1[MicroProfile Health 4.0]
+* https://github.com/eclipse/microprofile-telemetry/releases/tag/2.1[MicroProfile Telemetry 2.1]
+* https://github.com/eclipse/microprofile-open-api/releases/tag/4.1[MicroProfile OpenAPI 4.1]
+* https://github.com/eclipse/microprofile-jwt-auth/releases/tag/2.1[MicroProfile JWT Authentication 2.1]
+* https://github.com/eclipse/microprofile-rest-client/releases/tag/4.0[MicroProfile Rest Client 4.0]
+
+The Maven coordinates for this Eclipse release are as follows:
+[source,xml]
+----
+<dependency>
+    <groupId>org.eclipse.microprofile</groupId>
+    <artifactId>microprofile</artifactId>
+    <version>7.1</version>
+    <type>pom</type>
+    <scope>provided</scope>
+</dependency>
+----
+
+Here is the link to https://github.com/eclipse/microprofile/releases/tag/7.1[the github repository] for this Eclipse-based project.
+
 [[microprofile7.0]]
 === MicroProfile 7.0
 Based on MicroProfile's time-boxed release process, this is a major release that does include backward incompatible changes. This release no longer packages Jakarta EE 10 Core Profile. Instead, it specifies the dependency on Jakarta EE 10 Core Profile. This release replaces MicroProfile Metrics with MicroProfile Telemetry 2.0 which offers the Metrics capabilities in addition to Logs and Tracing.
@@ -47,7 +80,7 @@ The complete list of MicroProfile 7.0 specifications includes:
 * https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/4.1[MicroProfile Fault Tolerance 4.1]
 * https://github.com/eclipse/microprofile-health/releases/tag/4.0.1[MicroProfile Health 4.0]
 * https://github.com/eclipse/microprofile-telemetry/releases/tag/2.0[MicroProfile Telemetry 2.0]
-* https://github.com/eclipse/microprofile-open-api/releases/tag/4.0[MicroProfile OpenAPI 4.0]
+* https://github.com/eclipse/microprofile-open-api/releases/tag/4.0[MicroProfile OpenAPI 4.1]
 * https://github.com/eclipse/microprofile-jwt-auth/releases/tag/2.1[MicroProfile JWT Authentication 2.1]
 * https://github.com/eclipse/microprofile-rest-client/releases/tag/4.0[MicroProfile Rest Client 4.0]
 
@@ -63,7 +96,7 @@ The Maven coordinates for this Eclipse release are as follows:
 </dependency>
 ----
 
-Here is the link to https://github.com/eclipse/microprofile/releases/tag/7.0[the github repository] for this Eclipse-based project.
+Here is the link to https://github.com/eclipse/microprofile/releases/tag/7.0[the github repository] for this Eclipse-based project
 
 [[microprofile6.1]]
 === MicroProfile 6.1
