@@ -4,7 +4,6 @@ about: Start a request for a compatible certification
 title: 'MicroProfile [Version] Compatible Certification Request'
 labels: 'certification'
 assignees: ''
-
 ---
 
 - [ ] Organization Name ("Organization") and, if applicable, URL:<br/>
@@ -15,7 +14,7 @@ assignees: ''
    // Add here
 - [ ] (Optional) TCK Version, digital SHA-256 fingerprint and download URL:<br/>
   // Add here
-- [ ] Public URL of TCK Results Summary:<br/>
+- [ ] Public URL(s) of TCK Results Summary:<br/>
   // Add here
 - [ ] Any Additional Specification Certification Requirements:<br/>
   // Add here
